@@ -55,4 +55,4 @@ html_theme = 'sphinx_rtd_theme'
 #html_static_path = ['_static']
 
 # Assigning the 'master document' (which is referred to by Sphinx) to index.rst
-master_doc = 'index'
+master_doc = 'index' 
