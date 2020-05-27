@@ -25,8 +25,12 @@ This is an introductory course for programming to automate calculations with Exc
 
    Getting Started
    Contact 
-   
 
+.. raw:: html
+
+    <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/repls/ConventionalDopeyParallelprocessing?lite=true">
+   
+    </iframe>
 
 .. warning::
    
