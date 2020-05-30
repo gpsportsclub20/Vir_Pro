@@ -12,6 +12,14 @@ Foreword
 ^^^^^^^^
 This is an introductory course for programming to automate calculations with Excel VBA and Python.
 
+.. figure:: /_images/ATuring.png
+      :width: 543px
+      :height: 312px
+      :align: center 
+      
+      The Enigma Terminator - Alan Turing 
+
+      
 .. note:: 
     
    It is conventional for code blocks to be displayed in boxed section as below for ease of reference::
