@@ -12,12 +12,44 @@ Foreword
 ^^^^^^^^
 This is an introductory course for programming to automate calculations with Excel VBA and Python.
 
-.. figure:: /_images/ATuring.png
-      :width: 543px
-      :height: 312px
-      :align: center 
+.. panels::
+
+   .. figure:: /_images/Rocket.png
+         :align: center 
+         :height: 200 px
+         :width: 200 px
+         
+
+   **Let's Get Started**
       
-      The Enigma Terminator - Alan Turing 
+
+
+   ---
+      .. figure:: /_images/Printer.png
+         :align: center 
+         :width: 200 px
+         :height: 200 px
+         
+
+   **Excel Command**
+
+   ---
+      .. figure:: /_images/Keywords.png
+         :align: center 
+         :width: 200 px
+         :height: 200 px
+      
+
+   **Keywords**
+   ---
+      .. figure:: /_images/Map.png
+         :align: center 
+         :width: 200 px
+         :height: 200 px
+         
+
+   **Road Map**
+         
 
       
 .. note:: 
@@ -36,7 +68,7 @@ This is an introductory course for programming to automate calculations with Exc
 
 .. raw:: html
 
-    <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/repls/ConventionalDopeyParallelprocessing?lite=true">
+    <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/repls/ConventionalDopeyParallelprocessing?lite=true">
    
     </iframe>
 
