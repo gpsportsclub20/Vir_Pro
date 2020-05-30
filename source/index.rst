@@ -21,6 +21,7 @@ This is an introductory course for programming to automate calculations with Exc
          :target: ../html/GettingStarted.html
          
    **Let's Get Started**
+
    ---
    .. figure:: /_images/Printer.png
          :align: center 
@@ -36,6 +37,7 @@ This is an introductory course for programming to automate calculations with Exc
          :height: 200 px
       
    **Keywords**
+
    ---
    .. figure:: /_images/Map.png
          :align: center 
