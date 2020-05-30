@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -9,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Index &mdash; Virtual Programming Workshop 2020 0.0.1 documentation</title>
+  <title>Getting Started &mdash; Virtual Programming Workshop 2020 0.0.1 documentation</title>
   
 
   
@@ -36,7 +35,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="_static/sphinx-dropdown.css" type="text/css" />
   <link rel="stylesheet" href="_static/panels-bootstrap.min.css" type="text/css" />
-    <link rel="index" title="Index" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" /> 
 </head>
 
@@ -82,7 +81,6 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="GettingStarted.html">Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Contact.html">Contact</a></li>
 </ul>
 
@@ -129,12 +127,14 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Index</li>
+      <li>Getting Started</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
+            <a href="_sources/GettingStarted.rst.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
     
@@ -146,11 +146,39 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
+  <div class="section" id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<p>To get started, kindly refer to the workshop materials below:</p>
+<p>This is an introductory course for programming to automate calculations with VBA Excel and Python.
+It is conventional for code blocks to be displayed in boxed section as below for ease of reference:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Sub</span> <span class="n">List_All_The_Files_Within_Path</span><span class="p">()</span>
 
-<h1 id="index">Index</h1>
+<span class="n">Dim</span> <span class="n">Row_No</span> <span class="n">As</span> <span class="n">Interger</span>
+<span class="n">Dim</span> <span class="n">No_Of_Files</span> <span class="n">As</span> <span class="n">Interger</span>
+<span class="n">Row_No</span> <span class="o">=</span> <span class="mi">34</span>
 
-<div class="genindex-jumpbox">
- 
+<span class="n">MsgBox</span> <span class="p">(</span><span class="s2">&quot;The number of rows in this file is&quot;</span><span class="p">,</span> <span class="n">Row_No</span><span class="p">)</span>
+
+<span class="o">&gt;&gt;</span> <span class="n">The</span> <span class="n">number</span> <span class="n">of</span> <span class="n">rows</span> <span class="ow">is</span> <span class="mi">34</span>
+</pre></div>
+</div>
+<p>As for codes in Python, they shall typically be presented in the following form, where the imported modules precede the main code blocks:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">z</span> <span class="o">=</span> <span class="mi">2</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This function is not compatible with the Python interpreter</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Your computer has insufficient random access memory to run this application</p>
+</div>
 </div>
 
 

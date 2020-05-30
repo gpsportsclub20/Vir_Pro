@@ -18,39 +18,32 @@ This is an introductory course for programming to automate calculations with Exc
          :align: center 
          :height: 200 px
          :width: 200 px
+         :target: ../html/GettingStarted.html
          
-
    **Let's Get Started**
-      
-
-
    ---
-      .. figure:: /_images/Printer.png
+   .. figure:: /_images/Printer.png
          :align: center 
          :width: 200 px
          :height: 200 px
-         
 
    **Excel Command**
 
    ---
-      .. figure:: /_images/Keywords.png
+   .. figure:: /_images/Keywords.png
          :align: center 
          :width: 200 px
          :height: 200 px
       
-
    **Keywords**
    ---
-      .. figure:: /_images/Map.png
+   .. figure:: /_images/Map.png
          :align: center 
          :width: 200 px
          :height: 200 px
          
-
    **Road Map**
-         
-
+      
       
 .. note:: 
     
@@ -63,7 +56,7 @@ This is an introductory course for programming to automate calculations with Exc
 .. toctree::
    :maxdepth: 2
 
-   Getting Started
+   GettingStarted
    Contact 
 
 .. raw:: html
