@@ -56,7 +56,7 @@ This is an introductory course for programming to automate calculations with Exc
       >>> Hello world
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    GettingStarted
    Contact 

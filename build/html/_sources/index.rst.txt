@@ -22,7 +22,6 @@ This is an introductory course for programming to automate calculations with Exc
          
    **Let's Get Started**
 
-   * Your starter pack is one click away!
    ---
    .. figure:: /_images/Printer.png
          :align: center 
@@ -31,7 +30,6 @@ This is an introductory course for programming to automate calculations with Exc
 
    **Excel Command**
 
-   * Communicate with Excel   
    ---
    .. figure:: /_images/Keywords.png
          :align: center 
@@ -40,7 +38,6 @@ This is an introductory course for programming to automate calculations with Exc
       
    **Keywords**
 
-   * Your very own reference for key commands
    ---
    .. figure:: /_images/Map.png
          :align: center 
@@ -49,7 +46,6 @@ This is an introductory course for programming to automate calculations with Exc
          
    **Road Map**
       
-   * Navigate the site with this road map
       
 .. note:: 
     
@@ -60,7 +56,7 @@ This is an introductory course for programming to automate calculations with Exc
       >>> Hello world
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    GettingStarted
    Contact 
