@@ -14,7 +14,7 @@ This is an introductory course for programming to automate calculations with Exc
 
 .. panels::
 
-   .. figure:: /_images/Rocket.png
+   .. figure:: /_images/GIF/rocket/Rocket.gif
          :align: center 
          :height: 200 px
          :width: 200 px
@@ -23,7 +23,7 @@ This is an introductory course for programming to automate calculations with Exc
    **Let's Get Started**
 
    ---
-   .. figure:: /_images/Printer.png
+   .. figure:: /_images/GIF/responsive/Command.gif
          :align: center 
          :width: 200 px
          :height: 200 px
@@ -31,7 +31,7 @@ This is an introductory course for programming to automate calculations with Exc
    **Excel Command**
 
    ---
-   .. figure:: /_images/Keywords.png
+   .. figure:: /_images/GIF/pencil/Pencil.gif
          :align: center 
          :width: 200 px
          :height: 200 px
@@ -39,7 +39,7 @@ This is an introductory course for programming to automate calculations with Exc
    **Keywords**
 
    ---
-   .. figure:: /_images/Map.png
+   .. figure:: /_images/GIF/compass/Compass.gif
          :align: center 
          :width: 200 px
          :height: 200 px
