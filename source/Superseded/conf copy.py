@@ -51,7 +51,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 
-html_theme = 'press'
+html_theme = 'sphinx_rtd_theme'
 #html_theme = "rtcat_sphinx_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
