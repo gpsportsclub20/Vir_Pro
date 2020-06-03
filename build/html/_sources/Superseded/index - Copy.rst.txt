@@ -8,6 +8,10 @@ Welcome to Virtual Programming Workshop
 A 2019/2020 Sports Club Initative
 ---------------------------------
 
+Foreword
+^^^^^^^^
+This is an introductory course for programming to automate calculations with Excel VBA and Python.
+
 .. panels::
 
    .. figure:: /_images/GIF/rocket/Rocket.gif
@@ -19,22 +23,12 @@ A 2019/2020 Sports Club Initative
    **Let's Get Started**
 
    ---
-   .. figure:: /_images/GIF/compass/CompassColor.gif
-         :align: center 
-         :width: 200 px
-         :height: 200 px
-         :target: ../html/RoadMap.html
-         
-   **Road Map**
-   ---
-
    .. figure:: /_images/GIF/responsive/Command.gif
          :align: center 
          :width: 200 px
          :height: 200 px
-         :target: ../html/Repl.html
 
-   **Code Online!**
+   **Excel Command**
 
    ---
    .. figure:: /_images/GIF/pencil/Pencil.gif
@@ -44,12 +38,42 @@ A 2019/2020 Sports Club Initative
       
    **Keywords**
 
-Contents At a Glance
-^^^^^^^^^^^^^^^^^^^^^^^
+   ---
+   .. figure:: /_images/GIF/compass/Compass.gif
+         :align: center 
+         :width: 200 px
+         :height: 200 px
+         
+   **Road Map**
+      
+      
+.. note:: 
+    
+   It is conventional for code blocks to be displayed in boxed section as below for ease of reference::
+
+      print("Hello world")
+
+      >>> Hello world
+
 .. toctree::
    :maxdepth: 3
 
    GettingStarted
-   RoadMap
-   Repl
    Contact 
+
+.. raw:: html
+
+    <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/repls/ConventionalDopeyParallelprocessing?lite=true">
+   
+    </iframe>
+
+.. warning::
+   
+   Bad coding practices will be boxed in the 'Warning' section
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

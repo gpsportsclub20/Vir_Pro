@@ -25,7 +25,7 @@
     
   <link rel="index" title="Index" href="genindex.html" />
   <link rel="search" title="Search" href="search.html" />
-  <link rel="next" title="Contact" href="Contact.html" />
+  <link rel="next" title="Road Map" href="RoadMap.html" />
   <link rel="prev" title="Welcome to Virtual Programming Workshop" href="index.html" /> 
   </head>
 
@@ -73,7 +73,7 @@
   
     <div class="sidebar-group">
       <p class="caption">
-        <span class="caption-text"><a href="index.html#foreword">foreword</a></span>
+        <span class="caption-text"><a href="index.html#contents-at-a-glance">contents at a glance</a></span>
       </p>
       <ul class="current">
         
@@ -82,11 +82,23 @@
             
               <ul>
                 
-                  <li class="toctree-l2"><a href="#data-types" class="reference internal">Data Types</a></li>
+                  <li class="toctree-l2"><a href="#common-data-types" class="reference internal">Common Data Types</a></li>
                 
                   <li class="toctree-l2"><a href="#additional-data-types" class="reference internal">Additional Data Types</a></li>
                 
               </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="RoadMap.html" class="reference internal ">Road Map</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="Repl.html" class="reference internal ">Code Online!</a>
+
             
           </li>
 
@@ -119,8 +131,8 @@
        title="previous chapter">← Welcome to Virtual Programming Workshop</a>
   </li>
   <li class="next">
-    <a href="Contact.html"
-       title="next chapter">Contact →</a>
+    <a href="RoadMap.html"
+       title="next chapter">Road Map →</a>
   </li>
 </ul>
   
@@ -130,40 +142,8 @@
             
   <div class="section" id="getting-started">
 <h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
-<p>To get started, kindly refer to the workshop materials below:</p>
-<p>This is an introductory course for programming to automate calculations with VBA Excel and Python.
-It is conventional for code blocks to be displayed in boxed section as below for ease of reference:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Sub</span> <span class="n">List_All_The_Files_Within_Path</span><span class="p">()</span>
-
-<span class="n">Dim</span> <span class="n">Row_No</span> <span class="n">As</span> <span class="n">Interger</span>
-<span class="n">Dim</span> <span class="n">No_Of_Files</span> <span class="n">As</span> <span class="n">Interger</span>
-<span class="n">Row_No</span> <span class="o">=</span> <span class="mi">34</span>
-
-<span class="n">MsgBox</span> <span class="p">(</span><span class="s2">&quot;The number of rows in this file is&quot;</span><span class="p">,</span> <span class="n">Row_No</span><span class="p">)</span>
-
-<span class="o">&gt;&gt;</span> <span class="n">The</span> <span class="n">number</span> <span class="n">of</span> <span class="n">rows</span> <span class="ow">is</span> <span class="mi">34</span>
-</pre></div>
-</div>
-<p>As for codes in Python, they shall typically be presented in the following form, where the imported modules precede the main code blocks:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">z</span> <span class="o">=</span> <span class="mi">2</span>
-</pre></div>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This function is not compatible with the Python interpreter</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Your computer has insufficient random access memory to run this application</p>
-</div>
-<div class="section" id="data-types">
-<h2>Data Types<a class="headerlink" href="#data-types" title="Permalink to this headline">¶</a></h2>
-<p>Common data types that constitute a code block in Excel VBA are as follows:</p>
+<div class="section" id="common-data-types">
+<h2>Common Data Types<a class="headerlink" href="#common-data-types" title="Permalink to this headline">¶</a></h2>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 45%" />
@@ -194,7 +174,6 @@ It is conventional for code blocks to be displayed in boxed section as below for
 </div>
 <div class="section" id="additional-data-types">
 <h2>Additional Data Types<a class="headerlink" href="#additional-data-types" title="Permalink to this headline">¶</a></h2>
-<p>Some other data types that are also commonly used are as listed below:</p>
 <table class="colwidths-given docutils align-default">
 <colgroup>
 <col style="width: 17%" />
@@ -220,6 +199,35 @@ It is conventional for code blocks to be displayed in boxed section as below for
 </tr>
 </tbody>
 </table>
+<p>It is conventional for code blocks to be displayed in boxed section as below for ease of reference:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Sub</span> <span class="n">List_All_The_Files_Within_Path</span><span class="p">()</span>
+
+<span class="n">Dim</span> <span class="n">Row_No</span> <span class="n">As</span> <span class="n">Interger</span>
+<span class="n">Dim</span> <span class="n">No_Of_Files</span> <span class="n">As</span> <span class="n">Interger</span>
+<span class="n">Row_No</span> <span class="o">=</span> <span class="mi">34</span>
+
+<span class="n">MsgBox</span> <span class="p">(</span><span class="s2">&quot;The number of rows in this file is&quot;</span><span class="p">,</span> <span class="n">Row_No</span><span class="p">)</span>
+
+<span class="o">&gt;&gt;</span> <span class="n">The</span> <span class="n">number</span> <span class="n">of</span> <span class="n">rows</span> <span class="ow">is</span> <span class="mi">34</span>
+</pre></div>
+</div>
+<p>As for codes in Python, they shall typically be presented in the following form, where the imported modules precede the main code blocks:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">z</span> <span class="o">=</span> <span class="mi">2</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This function is not compatible with the Python interpreter</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Your computer has insufficient random access memory to run this application</p>
+</div>
 </div>
 </div>
 
@@ -232,8 +240,8 @@ It is conventional for code blocks to be displayed in boxed section as below for
        title="previous chapter">← Welcome to Virtual Programming Workshop</a>
   </li>
   <li class="next">
-    <a href="Contact.html"
-       title="next chapter">Contact →</a>
+    <a href="RoadMap.html"
+       title="next chapter">Road Map →</a>
   </li>
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Xiao Binn Neoh.
