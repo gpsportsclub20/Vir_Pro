@@ -8,13 +8,14 @@ Welcome to Virtual Programming Workshop
 A 2019/2020 Sports Club Initative
 ---------------------------------
 
+
 .. panels::
 
    .. figure:: /_images/GIF/rocket/Rocket.gif
          :align: center 
          :height: 200 px
          :width: 200 px
-         :target: ../html/GettingStarted.html
+         :target: ../html/00_GettingStarted/GettingStarted.html
          
    **Let's Get Started**
 
@@ -23,7 +24,7 @@ A 2019/2020 Sports Club Initative
          :align: center 
          :width: 200 px
          :height: 200 px
-         :target: ../html/RoadMap.html
+         :target: ../html/01_RoadMap/RoadMap.html
          
    **Road Map**
    ---
@@ -32,7 +33,7 @@ A 2019/2020 Sports Club Initative
          :align: center 
          :width: 200 px
          :height: 200 px
-         :target: ../html/Repl.html
+         :target: ../html/02_CodeOnline/Repl.html
 
    **Code Online!**
 
@@ -41,15 +42,17 @@ A 2019/2020 Sports Club Initative
          :align: center 
          :width: 200 px
          :height: 200 px
+         :target: ../html/03_Classwork/Classwork.html
       
-   **Keywords**
+   **Classwork**
 
 Contents At a Glance
 ^^^^^^^^^^^^^^^^^^^^^^^
 .. toctree::
    :maxdepth: 3
 
-   GettingStarted
-   RoadMap
-   Repl
-   Contact 
+   ../00_GettingStarted/GettingStarted
+   ../01_RoadMap/RoadMap
+   ../02_CodeOnline/Repl
+   ../03_Classwork/Classwork
+   ../04_Contacts/Contact
