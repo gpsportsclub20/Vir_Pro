@@ -15,7 +15,7 @@ A 2019/2020 Sports Club Initative
          :align: center 
          :height: 200 px
          :width: 200 px
-         :target: ../html/00_GettingStarted/GettingStarted.html
+         :target: ../html/00_GettingStarted/index.html
          
    **Let's Get Started**
 
@@ -51,7 +51,7 @@ Contents At a Glance
 .. toctree::
    :maxdepth: 3
 
-   ../00_GettingStarted/GettingStarted
+   ../00_GettingStarted/index
    ../01_RoadMap/RoadMap
    ../02_CodeOnline/Repl
    ../03_Classwork/Classwork
