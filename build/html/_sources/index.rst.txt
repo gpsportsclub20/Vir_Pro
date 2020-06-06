@@ -24,7 +24,7 @@ A 2019/2020 Sports Club Initative
          :align: center 
          :width: 200 px
          :height: 200 px
-         :target: ../html/01_RoadMap/RoadMap.html
+         :target: ../html/01_RoadMap/index.html
          
    **Road Map**
    ---
@@ -49,10 +49,10 @@ A 2019/2020 Sports Club Initative
 Contents At a Glance
 ^^^^^^^^^^^^^^^^^^^^^^^
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
 
    ../00_GettingStarted/index
-   ../01_RoadMap/RoadMap
+   ../01_RoadMap/index
    ../02_CodeOnline/Repl
    ../03_Classwork/Classwork
    ../04_Contacts/Contact
