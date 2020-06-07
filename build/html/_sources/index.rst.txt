@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+:tocdepth: 3
+
 Welcome to Virtual Programming Workshop
 ========================================
 A 2019/2020 Sports Club Initative
@@ -33,7 +35,7 @@ A 2019/2020 Sports Club Initative
          :align: center 
          :width: 200 px
          :height: 200 px
-         :target: ../html/02_CodeOnline/Repl.html
+         :target: ../html/02_CodeOnline/indexCO.html
 
    **Code Online!**
 
@@ -49,10 +51,10 @@ A 2019/2020 Sports Club Initative
 Contents At a Glance
 ^^^^^^^^^^^^^^^^^^^^^^^
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
 
    ../00_GettingStarted/index
    ../01_RoadMap/index
-   ../02_CodeOnline/Repl
+   ../02_CodeOnline/indexCO
    ../03_Classwork/Classwork
    ../04_Contacts/Contact

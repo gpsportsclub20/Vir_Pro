@@ -5,7 +5,7 @@ for Coding Trailblazers
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Just like the start of any journey, equipping yourself with the right maps and tools makes the road ahead less daunting.
 
-So pocket the road maps, sharpen the tools and march on!
+So pocket the road maps, sharpen your tools and march on!
 
 
 .. panels::
@@ -13,7 +13,7 @@ So pocket the road maps, sharpen the tools and march on!
    .. figure:: /_images/ManyPixels/Coding.png
          :align: center 
          :height: 200 px
-         :width:  200 px
+         :width:  250 px
          :target: ../01_RoadMap/Terminal.html
 
    ---
@@ -27,7 +27,7 @@ So pocket the road maps, sharpen the tools and march on!
    .. figure:: /_images/ManyPixels/ScrumBoard.png
          :align: center 
          :height: 200 px
-         :width:  200 px
+         :width:  250 px
          :target: ../01_RoadMap/Terminal.html
 
    ---
@@ -41,7 +41,7 @@ So pocket the road maps, sharpen the tools and march on!
    .. figure:: /_images/ManyPixels/Function.png
          :align: center 
          :height: 200 px
-         :width:  200 px
+         :width:  250 px
          :target: ../01_RoadMap/Terminal.html
    
    ---
@@ -55,7 +55,7 @@ So pocket the road maps, sharpen the tools and march on!
    .. figure:: /_images/ManyPixels/Decision.png
          :align: center 
          :height: 200 px
-         :width:  200 px
+         :width:  250 px
          :target: ../01_RoadMap/Terminal.html
    
    ---
