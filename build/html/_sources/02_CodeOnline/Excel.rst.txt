@@ -3,68 +3,193 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+##########
 VBA Excel
-============
+##########
 
 .. contents:: :local:
 
+*************
+VBA Terminal
+*************
+
 Conventions Used
-^^^^^^^^^^^^^^^^
-.. note:: 
+================
+It is conventional for code snippets to be displayed in boxed section as below for ease of reference.
+
+.. note::
+
+   .. code-block:: python
     
-   It is conventional for code blocks to be displayed in boxed section as below for ease of reference::
-
-      print("Hello world")
-
+      MsgBox "Hello world"
       >>> Hello world
 
-Data Types
-^^^^^^^^^^^^^^^^^^
-Numeric Data Types 
-------------------
+******************
+1. Inputs
+******************
+
+1.1 Numeric Data Type  
+======================
+The following data types have been ranked according to the size of computer memory required. ([#Input]_)
+
 .. list-table::  
-   :widths: 5 5 25 
+   :widths: 3 3 15 3
    :header-rows: 1
 
    * - Data Type
      - Number Type
      - Range of Values
+     - Memory Usage
 
-   * - Boolean
+
+   * - Byte
      - Integer
-     - True = -1, False = 0
+     - 0 through 255
+     - 1 byte
    
    * - Integer
      - Integer
      - -32,768 to 32,767
+     - 1 byte
+
+   * - Boolean
+     - Integer
+     - **True** or **False**
+     - 2 bytes
 
    * - Long
      - Integer
      - -2,147,483,648 through 2,147,483,647
+     - 2 bytes
 
    * - Single
      - Real
-     - Single-Precision Floating Point (with 4 Byte memory required)
+     - Single-Precision Floating-Point 
+     - 4 bytes
    
    * - Double
      - Real
-     - Double-Precision Floating Point (with 8 Byte memory required)
+     - Double-Precision Floating-Point 
+     - 8 bytes
 
-Variable Data Types 
---------------------
+1.2 Variable Data Type
+=======================
+You can also introduce data type with variable storage size to fit the purpose of your algorithm.
 
 .. list-table::  
-   :widths: 5 25 
+   :widths: 3 15 3
    :header-rows: 1
 
    * - Data Type
      - Range of Values
+     - Memory Usage
      
    * - String
      - 0 to approximately 2 billion Unicode characters
+     - Varies
 
-   * - Byte
-     - 0 through 255 (unsigned)
+   * - Variant 
+     - 0 through 65,535 
+     - Varies
 
-   * - Variant
-     - 0 through 65,535 (unsigned)
+*************
+2. Process
+*************
+
+2.1 Declaration of Variables 
+=============================
+Declaring an input or variable can be done in the VBA terminal as such:
+
+.. note::
+   .. code-block:: 
+    
+      Dim <Variable Name> as <Type>
+
+
+.. hint::
+
+   .. code-block:: 
+
+      Dim <Pile_Diameter> as <Integer>
+
+2.2 Functions
+=========================
+Formulating a user-defined VBA function follows steps as below:
+
+.. note::
+
+   .. code-block:: 
+    
+      [Public Function] <Function_Name> ([Argument 1], [Argument 2], ..) [As<Type>]
+
+         <Function_Name> = <Function_Results>
+
+      End Function
+
+.. hint::
+
+   .. code-block:: 
+
+      [Public Function] Sum(x, y) As Single
+
+         ' Expressing the summation operator
+         Sum = x + y
+      
+      End Function
+
+*************
+3. Decisions
+*************
+3.1 Conditional Statements
+===========================
+You can introduce nested 'if' statements as below to improve readibility of code ([#Ifs]_): 
+
+.. note::
+
+   .. code-block:: 
+    
+      If <Condition 1> Then
+
+         [Code Statements 1]
+
+      ElseIf <Condition 2> Then
+
+         [Code Statements 2]
+
+      Else 
+
+         [Code Statements 3]
+      
+      End If
+
+.. hint::
+
+   .. code-block:: 
+
+      If Pile_Diameter = 0.45 Then
+
+         ' Assigning the pile working load of 1,900 kN to pile of diameter 0.45 m
+         PWL = 1,900
+
+      ElseIf Pile_Diameter = 0.50 Then
+
+         ' Assigning the pile working load of 2,300 kN to pile of diameter 0.50 m      
+         PWL = 2,300
+
+      Else 
+
+         ' Assigning the pile working load of 3,000 kN to pile of diameter 0.50 m      
+         PWL = 3,000
+      
+      End If
+
+*************
+References
+*************
+.. [#Input] 
+
+`Microsoft Data Type Summary <https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary>`_ 
+
+.. [#Ifs]
+`Microsoft Using If...Then...Else Statements <https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/using-ifthenelse-statements>`_
+
