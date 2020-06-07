@@ -35,9 +35,9 @@ VBA Excel
    Excel 
 
 Subsections
-^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    ../02_CodeOnline/Repl
    ../02_CodeOnline/Excel

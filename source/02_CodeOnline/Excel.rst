@@ -110,7 +110,7 @@ Declaring an input or variable can be done in the VBA terminal as such:
 
    .. code-block:: 
 
-      Dim <Pile_Diameter> as <Integer>
+      Dim <Pile_Diameter> as <Integer>                   ' Declaring Pile_Diameter as an interger
 
 2.2 Functions
 =========================
@@ -150,15 +150,15 @@ You can introduce nested 'if' statements as below to improve readibility of code
     
       If <Condition 1> Then
 
-         [Code Statements 1]
+         [Statement 1]
 
       ElseIf <Condition 2> Then
 
-         [Code Statements 2]
+         [Statement 2]
 
       Else 
 
-         [Code Statements 3]
+         [Statement 3]
       
       End If
 
@@ -168,28 +168,66 @@ You can introduce nested 'if' statements as below to improve readibility of code
 
       If Pile_Diameter = 0.45 Then
 
-         ' Assigning the pile working load of 1,900 kN to pile of diameter 0.45 m
+         ' Assigning pile working load of 1,900 kN to pile of diameter 0.45 m
          PWL = 1,900
 
       ElseIf Pile_Diameter = 0.50 Then
 
-         ' Assigning the pile working load of 2,300 kN to pile of diameter 0.50 m      
+         ' Assigning pile working load of 2,300 kN to pile of diameter 0.50 m      
          PWL = 2,300
 
       Else 
 
-         ' Assigning the pile working load of 3,000 kN to pile of diameter 0.50 m      
+         ' Assigning pile working load of 3,000 kN to pile of diameter 0.60 m      
          PWL = 3,000
       
       End If
 
-*************
-References
-*************
+3.2 Looping Operations
+===========================
+
+Automate your code with 'For...Next' statements. ([#Fors]_)
+
+.. note::
+
+   .. code-block:: 
+    
+      For counter = start To end [Step step]
+      
+      [Statement 1]
+
+      [Exit for]
+
+      [Statement 2]
+
+      Next [counter]
+
+      
+.. hint::
+
+   .. code-block:: 
+
+      For counter = 1 To 100 [Step 1]                    'Setting up 100 repetitions
+      
+      Pile_Number = Pile_Number + 1                      ' Adding 1 to Pile_Number
+
+      [Exit for]
+
+      MsgBox "Total Number of Piles is" & Pile_Number    ' Displaying the total number of piles
+
+      Next [counter]
+
+**************
+4. References
+**************
 .. [#Input] 
 
 `Microsoft Data Type Summary <https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary>`_ 
 
 .. [#Ifs]
+
 `Microsoft Using If...Then...Else Statements <https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/using-ifthenelse-statements>`_
 
+.. [#Fors]
+
+`Microsoft For...Next Statement <https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/fornext-statement>`_

@@ -3,8 +3,6 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-:tocdepth: 3
-
 Welcome to Virtual Programming Workshop
 ========================================
 A 2019/2020 Sports Club Initative
@@ -51,7 +49,7 @@ A 2019/2020 Sports Club Initative
 Contents At a Glance
 ^^^^^^^^^^^^^^^^^^^^^^^
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    ../00_GettingStarted/index
    ../01_RoadMap/index
