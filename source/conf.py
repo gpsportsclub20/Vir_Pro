@@ -48,11 +48,12 @@ exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
 
+html_logo = "_static/aperture.svg"
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-
-html_theme = 'press'
+html_theme = 'pydata_sphinx_theme'
 
 
 # Add any paths that contain custom static files (such as style sheets) here,

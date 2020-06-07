@@ -83,7 +83,7 @@ Flow Chart
 ^^^^^^^^^^^
 .. figure:: /_images/Flow.png
       :align: center 
-      :height: 900 px
+      :height: 750 px
       :width:  300 px
 
       A common flow chart with looping operation to encapsulate the entire coding process.

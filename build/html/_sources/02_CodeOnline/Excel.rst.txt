@@ -109,8 +109,9 @@ Declaring an input or variable can be done in the VBA terminal as such:
 .. hint::
 
    .. code-block:: 
-
-      Dim <Pile_Diameter> as <Integer>                   ' Declaring Pile_Diameter as an interger
+   
+      ' Declaring Pile_Diameter as an interger
+      Dim <Pile_Diameter> as <Integer>                   
 
 2.2 Functions
 =========================
@@ -120,7 +121,7 @@ Formulating a user-defined VBA function follows steps as below:
 
    .. code-block:: 
     
-      [Public Function] <Function_Name> ([Argument 1], [Argument 2], ..) [As<Type>]
+      [Public Function] <Function_Name> ([Argument 1], [Argument 2],..) [As<Type>]
 
          <Function_Name> = <Function_Results>
 
@@ -207,15 +208,16 @@ Automate your code with 'For...Next' statements. ([#Fors]_)
 
    .. code-block:: 
 
-      For counter = 1 To 100 [Step 1]                    'Setting up 100 repetitions
+      'Setting up 100 repetitions
+      For Piling_Log = 1 To 100 [Step 1]                    
       
-      Pile_Number = Pile_Number + 1                      ' Adding 1 to Pile_Number
+      ' Adding 1 to Pile_Number
+      Pile_Number = Pile_Number + 1                      
 
-      [Exit for]
+      ' Displaying the total number of piles
+      MsgBox "Total Number of Piles is" & Pile_Number    
 
-      MsgBox "Total Number of Piles is" & Pile_Number    ' Displaying the total number of piles
-
-      Next [counter]
+      Next Piling_Log
 
 **************
 4. References

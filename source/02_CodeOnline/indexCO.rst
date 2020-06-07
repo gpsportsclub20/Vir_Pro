@@ -24,7 +24,7 @@ VBA Excel
    .. figure:: /_images/Logo/Excel.png
          :align: center 
          :height: 200 px
-         :width: 300 px
+         :width: 200 px
          :target: ../02_CodeOnline/Excel.html
 
   
