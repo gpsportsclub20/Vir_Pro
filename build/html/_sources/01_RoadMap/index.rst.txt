@@ -14,7 +14,7 @@ So pocket the road maps, sharpen your tools and march on!
          :align: center 
          :height: 200 px
          :width:  250 px
-         :target: ../01_RoadMap/Terminal.html
+         :class: no-scaled-link
 
    ---
    **Terminal**
@@ -28,7 +28,7 @@ So pocket the road maps, sharpen your tools and march on!
          :align: center 
          :height: 200 px
          :width:  250 px
-         :target: ../01_RoadMap/Terminal.html
+         :class: no-scaled-link
 
    ---
    **Input**
@@ -42,7 +42,7 @@ So pocket the road maps, sharpen your tools and march on!
          :align: center 
          :height: 200 px
          :width:  250 px
-         :target: ../01_RoadMap/Terminal.html
+         :class: no-scaled-link
    
    ---
    **Process**
@@ -56,7 +56,7 @@ So pocket the road maps, sharpen your tools and march on!
          :align: center 
          :height: 200 px
          :width:  250 px
-         :target: ../01_RoadMap/Terminal.html
+         :class: no-scaled-link
    
    ---
    **Decision**
@@ -70,7 +70,7 @@ So pocket the road maps, sharpen your tools and march on!
          :align: center 
          :height: 200 px
          :width:  200 px
-         :target: ../01_RoadMap/Terminal.html
+         :class: no-scaled-link
    
    ---
    **Output & Debugging**

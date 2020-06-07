@@ -10,10 +10,10 @@ Python
          :height: 200 px
          :width: 200 px
          :target: ../02_CodeOnline/Repl.html
-         
-   **Python**
+      
 
    ---
+   **Python**
    Python in all its wonders and glory!
          
 
@@ -27,9 +27,10 @@ VBA Excel
          :width: 300 px
          :target: ../02_CodeOnline/index.html
 
-   **VBA Excel**
+  
 
    ---
+   **VBA Excel**
    Excel 
 
       
@@ -37,7 +38,7 @@ VBA Excel
 Subsections
 ^^^^^^^^^^^^^^^^^^^^^^^
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
    ../02_CodeOnline/Repl
 
