@@ -14,8 +14,8 @@ Python
 
    ---
    **Python**
+
    Python in all its wonders and glory!
-         
 
 VBA Excel
 ---------------------------------
@@ -25,15 +25,14 @@ VBA Excel
          :align: center 
          :height: 200 px
          :width: 300 px
-         :target: ../02_CodeOnline/index.html
+         :target: ../02_CodeOnline/Excel.html
 
   
 
    ---
    **VBA Excel**
-   Excel 
 
-      
+   Excel 
 
 Subsections
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -41,4 +40,4 @@ Subsections
    :maxdepth: 3
 
    ../02_CodeOnline/Repl
-
+   ../02_CodeOnline/Excel
