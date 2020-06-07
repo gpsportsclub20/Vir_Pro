@@ -63,7 +63,7 @@ So pocket the road maps, sharpen your tools and march on!
    
    With an efficient code, you can sieve through data with ease and hone in on the desired outputs.
 
-   Conditional statements facilitate logical **decision-making** while looping operations automate data-crunching process.
+   Conditional statements facilitate logical **decision making** while looping operations automate data crunching process.
 
    ---
    .. figure:: /_images/ManyPixels/Debug.png
@@ -83,7 +83,7 @@ Flow Chart
 ^^^^^^^^^^^
 .. figure:: /_images/Flow.png
       :align: center 
-      :height: 750 px
+      :height: 900 px
       :width:  300 px
 
       A common flow chart with looping operation to encapsulate the entire coding process.

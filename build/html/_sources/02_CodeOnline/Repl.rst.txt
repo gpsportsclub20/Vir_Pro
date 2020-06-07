@@ -24,220 +24,184 @@ You may get your first hands-on coding experience with Python using the interpre
 
 Conventions Used
 ================
-It is conventional for code snippets to be displayed in boxed section as below for ease of reference.
+It is conventional for code snippets to be displayed in boxed section for ease of reference.
 
 .. note::
 
    .. code-block:: python
     
-      prtin("Hello world")
+      print("Hello world")
       >>> Hello world
 
 ******************
 1. Inputs
 ******************
 
-1.1 Numeric Data Type  
-======================
-The following data types have been ranked according to the size of computer memory required. ([#Input]_)
+1.1 Built-in Data Types
+==========================
+The following built-in data types illustrate the extent of data manipulation that Python can perform. [[#PyInput]_]
 
 .. list-table::  
-   :widths: 3 3 15 3
+   :widths: 5 5 10 
    :header-rows: 1
 
-   * - Data Type
-     - Number Type
-     - Range of Values
-     - Memory Usage
+   * - Built-in Types
+     - Examples
+     - Notes
 
-
-   * - Byte
-     - Integer
-     - 0 through 255
-     - 1 byte
+   * - Text Type
+     - str
+     - String
    
-   * - Integer
-     - Integer
-     - -32,768 to 32,767
-     - 1 byte
+   * - Numeric Types
+     - int, float, complex
+     - Integers, floating point numbers and complex numbers
 
-   * - Boolean
-     - Integer
-     - **True** or **False**
-     - 2 bytes
+   * - Sequence Types
+     - list, tuple, range
+     - List, tuples and range objects
 
-   * - Long
-     - Integer
-     - -2,147,483,648 through 2,147,483,647
-     - 2 bytes
-
-   * - Single
-     - Real
-     - Single-Precision Floating-Point 
-     - 4 bytes
-   
-   * - Double
-     - Real
-     - Double-Precision Floating-Point 
-     - 8 bytes
-
-1.2 Variable Data Type
-=======================
-You can also introduce data type with variable storage size to fit the purpose of your algorithm.
-
-.. list-table::  
-   :widths: 3 15 3
-   :header-rows: 1
-
-   * - Data Type
-     - Range of Values
-     - Memory Usage
-     
-   * - String
-     - 0 to approximately 2 billion Unicode characters
-     - Varies
-
-   * - Variant 
-     - 0 through 65,535 
-     - Varies
+   * - Mapping Types
+     - dict
+     - Dictionary that stores key-value pairs
 
 *************
 2. Process
 *************
 
-2.1 Declaration of Variables 
-=============================
-Declaring an input or variable can be done in the VBA terminal as such:
+2.1 Assignment Statements for Variables 
+=======================================
+Assigning a data type for a variable can be done in the Python terminal as such:
 
 .. note::
    .. code-block:: 
     
-      Dim <Variable Name> as <Type>
+      <Variable Name> = <Type>
 
 
 .. hint::
 
-   .. code-block:: 
+   .. code-block:: Python
 
-      Dim <Pile_Diameter> as <Integer>                   ' Declaring Pile_Diameter as an interger
+      ' Assigning an integer value of 0.5 m to the variable Pile_Diameter
+      Pile_Diameter =  0.5 
 
 2.2 Functions
 =========================
-Formulating a user-defined VBA function follows steps as below:
+Formulating a user-defined Python function follows steps as below:
 
 .. note::
 
-   .. code-block:: 
+   .. code-block:: Python
     
-      [Public Function] <Function_Name> ([Argument 1], [Argument 2], ..) [As<Type>]
+      def <Function_Name> ([Argument 1], [Argument 2], ..):
 
-         <Function_Name> = <Function_Results>
+         Function_Results = [Operation]
 
-      End Function
+      return Function_Results
 
 .. hint::
 
    .. code-block:: 
 
-      [Public Function] Sum(x, y) As Single
+      def Sum(x, y):
 
-         ' Expressing the summation operator
-         Sum = x + y
+         ' Expressing the summation operation
+         Summation_Results = x + y
       
-      End Function
+      return Summation_Results
 
 *************
 3. Decisions
 *************
 3.1 Conditional Statements
 ===========================
-You can introduce nested 'if' statements as below to improve readibility of code ([#Ifs]_): 
+You can introduce nested 'if' statements as below to improve readibility of code [[#PyIfs]_]:
 
 .. note::
 
    .. code-block:: 
     
-      If <Condition 1> Then
+      if <Condition 1>:
 
          [Statement 1]
 
-      ElseIf <Condition 2> Then
+      elif <Condition 2>:
 
          [Statement 2]
 
-      Else 
+      else:
 
          [Statement 3]
       
-      End If
-
 .. hint::
 
    .. code-block:: 
 
-      If Pile_Diameter = 0.45 Then
+      if Pile_Diameter == 0.45:
 
          ' Assigning pile working load of 1,900 kN to pile of diameter 0.45 m
          PWL = 1,900
 
-      ElseIf Pile_Diameter = 0.50 Then
+      elif Pile_Diameter = 0.50:
 
          ' Assigning pile working load of 2,300 kN to pile of diameter 0.50 m      
          PWL = 2,300
 
-      Else 
+      else:
 
          ' Assigning pile working load of 3,000 kN to pile of diameter 0.60 m      
          PWL = 3,000
       
-      End If
 
 3.2 Looping Operations
 ===========================
 
-Automate your code with 'For...Next' statements. ([#Fors]_)
+Automate your code with 'for' statements. [[#PyFors]_]
 
 .. note::
 
    .. code-block:: 
     
-      For counter = start To end [Step step]
+      for counter in list:
       
-      [Statement 1]
-
-      [Exit for]
-
-      [Statement 2]
-
-      Next [counter]
+          [Statement 1]
 
       
 .. hint::
 
    .. code-block:: 
 
-      For counter = 1 To 100 [Step 1]                    'Setting up 100 repetitions
+       'Setting up the 'for' statement
+      for counter in Pile_Log                   
       
-      Pile_Number = Pile_Number + 1                      ' Adding 1 to Pile_Number
+         ' Adding 1 to Pile_Number for every iteration
+         Pile_Number = Pile_Number + 1                      
 
-      [Exit for]
+******************
+4. Debugging Tips
+******************
+.. tip::
 
-      MsgBox "Total Number of Piles is" & Pile_Number    ' Displaying the total number of piles
+   You can introduce **Python breakpoints** to pause the execution of code
 
-      Next [counter]
+      Code execution by Python stops at the designated breakpoints.
+      
+      Therefore,you can examine your code if there is any obvious error such as syntactic mistakes.
+
 
 
 **************
-4. References
+5. References
 **************
-.. [#Input] 
+.. [#PyInput] 
 
-`Microsoft Data Type Summary <https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary>`_ 
+`Python Built-In Types <https://docs.python.org/3/library/stdtypes.html#>`_ 
 
-.. [#Ifs]
+.. [#PyIfs]
 
-`Microsoft Using If...Then...Else Statements <https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/using-ifthenelse-statements>`_
+`Python More Control Flow Tools <https://docs.python.org/3/tutorial/controlflow.html#>`_
 
-.. [#Fors]
+.. [#PyFors]
 
-`Microsoft For...Next Statement <https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/fornext-statement>`_
+`Python for Statements <https://docs.python.org/3/tutorial/controlflow.html#for-statements>`_

@@ -15,7 +15,7 @@ VBA Terminal
 
 Conventions Used
 ================
-It is conventional for code snippets to be displayed in boxed section as below for ease of reference.
+It is conventional for code snippets to be displayed in boxed section for ease of reference.
 
 .. note::
 
@@ -30,7 +30,7 @@ It is conventional for code snippets to be displayed in boxed section as below f
 
 1.1 Numeric Data Type  
 ======================
-The following data types have been ranked according to the size of computer memory required. ([#Input]_)
+The following data types have been ranked according to the size of computer memory required. [[#Input]_]
 
 .. list-table::  
    :widths: 3 3 15 3
@@ -109,7 +109,7 @@ Declaring an input or variable can be done in the VBA terminal as such:
 .. hint::
 
    .. code-block:: 
-   
+
       ' Declaring Pile_Diameter as an interger
       Dim <Pile_Diameter> as <Integer>                   
 
@@ -133,7 +133,7 @@ Formulating a user-defined VBA function follows steps as below:
 
       [Public Function] Sum(x, y) As Single
 
-         ' Expressing the summation operator
+         ' Expressing the summation operation
          Sum = x + y
       
       End Function
@@ -143,7 +143,7 @@ Formulating a user-defined VBA function follows steps as below:
 *************
 3.1 Conditional Statements
 ===========================
-You can introduce nested 'if' statements as below to improve readibility of code ([#Ifs]_): 
+You can introduce nested 'if' statements as below to improve readibility of code [[#Ifs]_]: 
 
 .. note::
 
@@ -187,7 +187,7 @@ You can introduce nested 'if' statements as below to improve readibility of code
 3.2 Looping Operations
 ===========================
 
-Automate your code with 'For...Next' statements. ([#Fors]_)
+Automate your code with 'For...Next' statements. [[#Fors]_]
 
 .. note::
 
@@ -208,8 +208,8 @@ Automate your code with 'For...Next' statements. ([#Fors]_)
 
    .. code-block:: 
 
-      'Setting up 100 repetitions
-      For Piling_Log = 1 To 100 [Step 1]                    
+      'Setting up 100 repetitions with step count of 1
+      For Piling_Log = 1 To 100 Step 1                    
       
       ' Adding 1 to Pile_Number
       Pile_Number = Pile_Number + 1                      
@@ -219,8 +219,50 @@ Automate your code with 'For...Next' statements. ([#Fors]_)
 
       Next Piling_Log
 
+******************
+4. Debugging Tips
+******************
+.. tip::
+
+   Introduce **VBA breakpoints** to pause the execution of code
+
+      Code execution by VBA stops at the designated breakpoints.
+      
+      Therefore, you can examine your code if there is any obvious error such as syntactic mistakes.
+
+.. important::
+
+   You can evaluate your function in the **VBA Intermediate Window**
+
+      VBA Intermediate Window allows you to preview and evaluate outputs generated from user-defined functions.
+
+      Previewing outputs allows you to debug before introducing functions into spreadsheets.
+      
+.. caution::
+
+   Avoid preventable bug such as **overflow** during variable declaration.
+      
+   Overflow occurs when the variables that are explicitly declared have greater value than that can be stored by the data type.
+
+      .. code-block:: 
+
+         Dim <Variable_Name> as Integer
+
+         <Variable_Name> = 50,000
+
+         >>> "Overflow"
+
+         ' Since the value of <Variable_Name> is greater than 32,767 
+         ' which is the maximum value that the Integer data type can hold, "overflow" occurs.
+         ' This error is preventable by assigning the <Variable_Name> to Long,
+         ' as Long data type has a range of 2,147,483,647 which is larger than 50,000
+
+         Dim <Variable_Name> as Long
+
+
+
 **************
-4. References
+5. References
 **************
 .. [#Input] 
 

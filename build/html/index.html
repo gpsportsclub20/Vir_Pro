@@ -1,148 +1,140 @@
-
-
 <!DOCTYPE html>
-
-<html>
+<html >
   <head>
-    <meta charset="utf-8" />
-    <title>Welcome to Virtual Programming Workshop &#8212; Virtual Programming Workshop 2020 0.0.1 documentation</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link href="_static/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-dropdown.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-bootstrap.min.css" />
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Let’s Get Started" href="00_GettingStarted/index.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="docsearch:language" content="en">
-  </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Welcome to Virtual Programming Workshop</title>
     
-    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main">
-<div class="container-xl">
+      <link rel="stylesheet" href="_static/pygments.css">
+      <link rel="stylesheet" href="_static/theme.css">
+      <link rel="stylesheet" href="_static/romnnn_sphinx_press_theme.css">
+          <link rel="stylesheet" href="_static/sphinx-dropdown.css" type="text/css" />
+          <link rel="stylesheet" href="_static/panels-bootstrap.min.css" type="text/css" />
+      
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
 
-    
-    <a class="navbar-brand" href="#">
-      <img src="_static/aperture.svg" class="logo" alt="logo">
-    </a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
-      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
-        
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="00_GettingStarted/index.html">Let’s Get Started</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="01_RoadMap/index.html">Road Map</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="02_CodeOnline/indexCO.html">Code Online!</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="03_Classwork/Classwork.html">Classwork</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="04_Contacts/Contact.html">Contact</a>
-        </li>
-        
-        
-      </ul>
-
+      <!-- sphinx script_files -->
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
 
       
+      <script src="_static/theme-vendors.js"></script>
+      <script src="_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="genindex.html" />
+  <link rel="search" title="Search" href="search.html" />
+  <link rel="next" title="Let’s Get Started" href="00_GettingStarted/index.html" /> 
+  </head>
 
-      <ul class="navbar-nav">
+  <body>
+    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <div class="home-link-container">
+      <router-link to="#" class="home-link">
+      
+        <img class="logo" src="_static/aperture.png" alt="logo"/>
+      
+        <span class="site-name">Virtual Programming Workshop 2020</span>
+    </router-link>
+  </div>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Search</span>
+    <div class="searchformwrapper">
+      <form autocomplete="off" class="search" action="search.html" method="get">
+        <input type="text" name="q" autocomplete="off" />
+        <input type="submit" value="Go" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="#contents-at-a-glance">contents at a glance</a></span>
+      </p>
+      <ul class="">
         
+          <li class="toctree-l1 "><a href="00_GettingStarted/index.html" class="reference internal ">Let’s Get Started</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="01_RoadMap/index.html" class="reference internal ">Road Map</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="02_CodeOnline/indexCO.html" class="reference internal ">Code Online!</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="03_Classwork/Classwork.html" class="reference internal ">Classwork</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="04_Contacts/Contact.html" class="reference internal ">Contact</a>
+
+            
+          </li>
+
         
       </ul>
     </div>
+  
 </div>
-    </nav>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
     
-
-    <div class="container-xl">
-      <div class="row">
-          
-          <div class="col-12 col-md-3 bd-sidebar">
-
-<form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
-</form>
-
-
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-
-  <div class="bd-toc-item active">
+    <li>Welcome to Virtual Programming Workshop</li>
+  </ul>
   
 
-  <ul class="nav bd-sidenav">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    </ul>
-
-</nav>
-          </div>
-          
-
-          
-          <div class="d-none d-xl-block col-xl-2 bd-toc">
-              
-<div class="tocsection onthispage pt-5 pb-3">
-    <i class="fas fa-list"></i> On this page
+  <ul class="page-nav">
+  <li class="next">
+    <a href="00_GettingStarted/index.html"
+       title="next chapter">Let’s Get Started →</a>
+  </li>
+</ul>
+  
 </div>
-
-<nav id="bd-toc-nav">
-    <ul class="nav section-nav flex-column">
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#a-2019-2020-sports-club-initative" class="nav-link">A 2019/2020 Sports Club Initative</a><ul class="nav section-nav flex-column">
-                
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#contents-at-a-glance" class="nav-link">Contents At a Glance</a>
-        </li>
-    
-            </ul>
-        </li>
-    
-    </ul>
-</nav>
-
-
-              
-          </div>
-          
-
-          
-          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
-              
-              <div>
-                
+<hr>
+          <div class="content" role="main">
+            
   <div class="section" id="welcome-to-virtual-programming-workshop">
 <h1>Welcome to Virtual Programming Workshop<a class="headerlink" href="#welcome-to-virtual-programming-workshop" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="a-2019-2020-sports-club-initative">
@@ -225,29 +217,23 @@
 </div>
 
 
-              </div>
-              
-              
-              <div class='prev-next-bottom'>
-                
-    <a class='right-next' id="next-link" href="00_GettingStarted/index.html" title="next page">Let’s Get Started</a>
-
-              </div>
-              
-          </main>
-          
-
-      </div>
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="next">
+    <a href="00_GettingStarted/index.html"
+       title="next chapter">Let’s Get Started →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2020, Xiao Binn Neoh.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3 with <a href="https://github.com/romnnn/sphinx_press_theme">Press Theme</a>.
+</div>
+            </div>
+          </div>
+      </page>
     </div>
-
-    <script src="_static/js/index.js"></script>
-    <footer class="footer mt-5 mt-md-0">
-  <div class="container">
-    <p>
-          &copy; Copyright 2020, Xiao Binn Neoh.<br/>
-        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3.<br/>
-    </p>
-  </div>
-</footer>
+    
+    
   </body>
 </html>
