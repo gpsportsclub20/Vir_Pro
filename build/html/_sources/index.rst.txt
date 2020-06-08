@@ -15,7 +15,7 @@ A 2019/2020 Sports Club Initative
          :align: center 
          :height: 200 px
          :width: 200 px
-         :target: ../html/00_GettingStarted/index.html
+         :target: ../html/00_GettingStarted/indexGS.html
          
    **Let's Get Started**
 
@@ -38,21 +38,21 @@ A 2019/2020 Sports Club Initative
    **Code Online!**
 
    ---
-   .. figure:: /_images/GIF/pencil/Pencil.gif
+   .. figure:: /_images/GIF/image/Gallery.gif
          :align: center 
          :width: 200 px
          :height: 200 px
-         :target: ../html/03_Classwork/Classwork.html
+         :target: ../html/03_Gallery/Gallery.html
       
-   **Classwork**
+   **Project Gallery**
 
 Contents At a Glance
 ^^^^^^^^^^^^^^^^^^^^^^^
 .. toctree::
    :maxdepth: 2
 
-   ../00_GettingStarted/index
+   ../00_GettingStarted/indexGS
    ../01_RoadMap/index
    ../02_CodeOnline/indexCO
-   ../03_Classwork/Classwork
+   ../03_Gallery/Gallery
    ../04_Contacts/Contact

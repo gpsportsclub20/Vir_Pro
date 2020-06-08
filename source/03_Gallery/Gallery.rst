@@ -1,7 +1,7 @@
-Classwork
-=========
+Project Gallery
+===============
 
-Assignments
+Past Projects
 ^^^^^^^^^^^^^^^
 The following tasks have been designed to allow you to consolidate knowledge learned from the workshop.
 

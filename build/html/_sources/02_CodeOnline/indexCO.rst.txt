@@ -41,4 +41,3 @@ Subsections
 
    ../02_CodeOnline/Repl
    ../02_CodeOnline/Excel
-   ../02_CodeOnline/Panels

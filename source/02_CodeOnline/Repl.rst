@@ -78,7 +78,7 @@ Assigning a data type for a variable can be done in the Python terminal as such:
     
       <Variable Name> = <Type>
 
-.. dropdown:: Click Me for Example!
+.. dropdown:: Click Me for an Example!
    :title: bg-light text-center text-secondary
    :animate: fade-in-slide-down
 
@@ -104,7 +104,7 @@ Formulating a user-defined Python function follows steps as below:
 
       return Function_Results
 
-.. dropdown:: Click Me for Example!
+.. dropdown:: Click Me for an Example!
    :title: bg-light text-center text-secondary
    :animate: fade-in-slide-down
 
@@ -114,7 +114,7 @@ Formulating a user-defined Python function follows steps as below:
 
          def R_Pile(Q_Base, Q_Shaft):
 
-            ' Expressing the pile resistance as a function of
+            ' Expressing pile resistance as a function of
             ' Base resistance, Q_Base
             ' Shaft resistance, Q_Shaft
 
@@ -145,7 +145,7 @@ You can introduce nested 'if' statements as below to improve readibility of code
 
          [Statement 3]
 
-.. dropdown:: Click Me for Example!
+.. dropdown:: Click Me for an Example!
    :title: bg-light text-center text-secondary
    :animate: fade-in-slide-down
 
@@ -181,7 +181,7 @@ Automate your code with 'for' statements. [[#PyFors]_]
       
           [Statement 1]
 
-.. dropdown:: Click Me for Example!
+.. dropdown:: Click Me for an Example!
    :title: bg-light text-center text-secondary
    :animate: fade-in-slide-down  
 

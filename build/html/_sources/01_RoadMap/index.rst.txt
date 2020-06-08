@@ -21,7 +21,8 @@ So pocket the road maps, sharpen your tools and march on!
    
    For a start, acquaint yourself with the coding terminal of your choice. 
 
-   While VBA Excel has its own built-in **terminal**, you can choose from a plethora of software to code in Python. 
+   A **terminal** is analogous to a canvas on which you craft your coding masterpiece.
+
 
    ---
    .. figure:: /_images/ManyPixels/ScrumBoard.png
@@ -47,9 +48,9 @@ So pocket the road maps, sharpen your tools and march on!
    ---
    **Process**
 
-   With VBA Excel and Python, you may perform a wide variety of computations.
+   With VBA Excel and Python, you may perform a wide variety of **processes** which include creating functions to automate algorithms.
 
-   Common **processes** include creating user-defined functions to automate algorithms.
+   So, traverse your journey like a travelling salesman!
 
    ---
    .. figure:: /_images/ManyPixels/Decision.png
@@ -61,7 +62,7 @@ So pocket the road maps, sharpen your tools and march on!
    ---
    **Decision**
    
-   With an efficient code, you can sieve through data with ease and hone in on the desired outputs.
+   With an efficient code, you can sieve through data with ease and hone in on your desired endpoint.
 
    Conditional statements facilitate logical **decision making** while looping operations automate data crunching process.
 

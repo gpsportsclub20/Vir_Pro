@@ -100,18 +100,22 @@ You can also introduce data type with variable storage size to fit the purpose o
 =============================
 Declaring an input or variable can be done in the VBA terminal as such:
 
+
 .. note::
    .. code-block:: 
     
       Dim <Variable Name> as <Type>
 
+.. dropdown:: Click Me for an Example!
+   :title: bg-light text-center text-secondary
+   :animate: fade-in-slide-down
 
-.. hint::
+   .. hint::
 
-   .. code-block:: 
+      .. code-block:: 
 
-      ' Declaring Pile_Diameter as an interger
-      Dim Pile_Diameter as Integer                   
+         ' Declaring Pile_Diameter as an interger
+         Dim Pile_Diameter as Integer                   
 
 2.2 Functions
 =========================
@@ -127,19 +131,23 @@ Formulating a user-defined VBA function follows steps as below:
 
       End Function
 
-.. hint::
+.. dropdown:: Click Me for an Example!
+   :title: bg-light text-center text-secondary
+   :animate: fade-in-slide-down
 
-   .. code-block:: 
+   .. hint::
 
-      [Public Function] R_Pile(Q_Base, Q_Shaft) As Single
+      .. code-block:: 
 
-         ' Expressing the pile resistance, R_Pile as a function of 
-         ' Base resistance, Q_Base
-         ' Shaft resistance, Q_Shaft
+         [Public Function] R_Pile(Q_Base, Q_Shaft) As Single
+
+            ' Expressing pile resistance, R_Pile as a function of 
+            ' Base resistance, Q_Base
+            ' Shaft resistance, Q_Shaft
+            
+            R_Pile = Q_Base + Q_Shaft
          
-         R_Pile = Q_Base + Q_Shaft
-      
-      End Function
+         End Function
 
 *************
 3. Decisions
@@ -166,26 +174,30 @@ You can introduce nested 'if' statements as below to improve readibility of code
       
       End If
 
-.. hint::
+.. dropdown:: Click Me for an Example!
+   :title: bg-light text-center text-secondary
+   :animate: fade-in-slide-down
 
-   .. code-block:: 
+   .. hint::
 
-      If Pile_Diameter = 0.45 Then
+      .. code-block:: 
 
-         ' Assigning pile working load of 1,900 kN to pile of diameter 0.45 m
-         PWL = 1,900
+         If Pile_Diameter = 0.45 Then
 
-      ElseIf Pile_Diameter = 0.50 Then
+            ' Assigning pile working load of 1,900 kN to pile of diameter 0.45 m
+            PWL = 1,900
 
-         ' Assigning pile working load of 2,300 kN to pile of diameter 0.50 m      
-         PWL = 2,300
+         ElseIf Pile_Diameter = 0.50 Then
 
-      Else 
+            ' Assigning pile working load of 2,300 kN to pile of diameter 0.50 m      
+            PWL = 2,300
 
-         ' Assigning pile working load of 3,000 kN to pile of diameter 0.60 m      
-         PWL = 3,000
-      
-      End If
+         Else 
+
+            ' Assigning pile working load of 3,000 kN to pile of diameter 0.60 m      
+            PWL = 3,000
+         
+         End If
 
 3.2 Looping Operations
 ===========================
@@ -206,21 +218,24 @@ Automate your code with 'For...Next' statements. [[#Fors]_]
 
       Next [counter]
 
-      
-.. hint::
+.. dropdown:: Click Me for an Example!
+   :title: bg-light text-center text-secondary
+   :animate: fade-in-slide-down     
 
-   .. code-block:: 
+   .. hint::
 
-      'Setting up 100 repetitions with step count of 1
-      For Piling_Log = 1 To 100 Step 1                    
-      
-      ' Adding 1 to Pile_Number
-      Pile_Number = Pile_Number + 1                      
+      .. code-block:: 
 
-      ' Displaying the total number of piles
-      MsgBox "Total Number of Piles is" & Pile_Number    
+         'Setting up 100 repetitions with step count of 1
+         For Piling_Log = 1 To 100 Step 1                    
+         
+         ' Adding 1 to Pile_Number
+         Pile_Number = Pile_Number + 1                      
 
-      Next Piling_Log
+         ' Displaying the total number of piles
+         MsgBox "Total Number of Piles is" & Pile_Number    
+
+         Next Piling_Log
 
 ******************
 4. Debugging Tips
