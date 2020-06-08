@@ -21,7 +21,7 @@ So pocket the road maps, sharpen your tools and march on!
    
    For a start, acquaint yourself with the coding terminal of your choice. 
 
-   A **terminal** is analogous to a canvas on which you craft your coding masterpiece.
+   A **terminal** is analogous to a white canvas on which you craft your coding masterpiece.
 
 
    ---
@@ -50,7 +50,7 @@ So pocket the road maps, sharpen your tools and march on!
 
    With VBA Excel and Python, you may perform a wide variety of **processes** which include creating functions to automate algorithms.
 
-   So, traverse your journey like a travelling salesman!
+   So, traverse your algorithmic pathway on the shortest route like a travelling salesman!
 
    ---
    .. figure:: /_images/ManyPixels/Decision.png

@@ -26,15 +26,17 @@ Starter Pack
 
          Workshop Materials and Registration
 
+   .. link-button:: https://forms.gle/UTAbBS4G7wZRFGU97
+         :type: url
+         :text: Register for the Workshop
+         :classes: btn-outline-dark btn-block
+
    .. link-button:: https://classroom.google.com/u/4/h
          :type: url
          :text: Learn on Google Classroom!
          :classes: btn-outline-dark btn-block
 
-   .. link-button:: https://forms.gle/UTAbBS4G7wZRFGU97
-         :type: url
-         :text: Register for the Workshop!
-         :classes: btn-outline-dark btn-block
+
 
 
    ---
