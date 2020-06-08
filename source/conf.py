@@ -17,6 +17,7 @@ sys.path.insert(0, os.path.abspath('.'))
 extensions = [
 
     'sphinx_panels',
+    'sphinx.ext.githubpages'
     #'sphinxcontrib.fulltoc'
 
 ]
