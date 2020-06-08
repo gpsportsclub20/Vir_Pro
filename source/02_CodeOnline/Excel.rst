@@ -111,7 +111,7 @@ Declaring an input or variable can be done in the VBA terminal as such:
    .. code-block:: 
 
       ' Declaring Pile_Diameter as an interger
-      Dim <Pile_Diameter> as <Integer>                   
+      Dim Pile_Diameter as Integer                   
 
 2.2 Functions
 =========================
@@ -131,10 +131,13 @@ Formulating a user-defined VBA function follows steps as below:
 
    .. code-block:: 
 
-      [Public Function] Sum(x, y) As Single
+      [Public Function] R_Pile(Q_Base, Q_Shaft) As Single
 
-         ' Expressing the summation operation
-         Sum = x + y
+         ' Expressing the pile resistance, R_Pile as a function of 
+         ' Base resistance, Q_Base
+         ' Shaft resistance, Q_Shaft
+         
+         R_Pile = Q_Base + Q_Shaft
       
       End Function
 
@@ -254,8 +257,10 @@ Automate your code with 'For...Next' statements. [[#Fors]_]
 
          ' Since the value of <Variable_Name> is greater than 32,767 
          ' which is the maximum value that the Integer data type can hold, "overflow" occurs.
-         ' This error is preventable by assigning the <Variable_Name> to Long,
-         ' as Long data type has a range of 2,147,483,647 which is larger than 50,000
+         
+         ' This error is preventable by assigning the <Variable_Name> to Long data type,
+         ' as Long data type has a range of 2,147,483,647 
+         ' that it can store (which is greater than 50,000).
 
          Dim <Variable_Name> as Long
 

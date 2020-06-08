@@ -6,7 +6,6 @@
 ##########
 Python
 ##########
-
 .. contents:: :local:
 
 ****************
@@ -41,8 +40,9 @@ It is conventional for code snippets to be displayed in boxed section for ease o
 ==========================
 The following built-in data types illustrate the extent of data manipulation that Python can perform. [[#PyInput]_]
 
+
 .. list-table::  
-   :widths: 5 5 10 
+   :widths: 4 5 12 
    :header-rows: 1
 
    * - Built-in Types
@@ -52,7 +52,7 @@ The following built-in data types illustrate the extent of data manipulation tha
    * - Text Type
      - str
      - String
-   
+         
    * - Numeric Types
      - int, float, complex
      - Integers, floating point numbers and complex numbers
@@ -78,13 +78,17 @@ Assigning a data type for a variable can be done in the Python terminal as such:
     
       <Variable Name> = <Type>
 
+.. dropdown:: Click Me for Example!
+   :title: bg-light text-center text-secondary
+   :animate: fade-in-slide-down
 
-.. hint::
+   .. hint::
 
-   .. code-block:: Python
+      .. code-block:: Python
 
-      ' Assigning an integer value of 0.5 m to the variable Pile_Diameter
-      Pile_Diameter =  0.5 
+         ' Assigning an integer value of 0.5 m to the variable Pile_Diameter
+         Pile_Diameter =  0.5 
+
 
 2.2 Functions
 =========================
@@ -100,16 +104,23 @@ Formulating a user-defined Python function follows steps as below:
 
       return Function_Results
 
-.. hint::
+.. dropdown:: Click Me for Example!
+   :title: bg-light text-center text-secondary
+   :animate: fade-in-slide-down
 
-   .. code-block:: 
+   .. hint::
 
-      def Sum(x, y):
+      .. code-block:: 
 
-         ' Expressing the summation operation
-         Summation_Results = x + y
-      
-      return Summation_Results
+         def R_Pile(Q_Base, Q_Shaft):
+
+            ' Expressing the pile resistance as a function of
+            ' Base resistance, Q_Base
+            ' Shaft resistance, Q_Shaft
+
+            Pile_Resistance = Q_Base + Q_Shaft
+         
+         return Pile_Resistance
 
 *************
 3. Decisions
@@ -133,27 +144,30 @@ You can introduce nested 'if' statements as below to improve readibility of code
       else:
 
          [Statement 3]
+
+.. dropdown:: Click Me for Example!
+   :title: bg-light text-center text-secondary
+   :animate: fade-in-slide-down
+
+   .. hint::
+
+      .. code-block:: 
+
+         if Pile_Diameter == 0.45:
+
+            ' Assigning pile working load of 1,900 kN to pile of diameter 0.45 m
+            PWL = 1,900
+
+         elif Pile_Diameter = 0.50:
+
+            ' Assigning pile working load of 2,300 kN to pile of diameter 0.50 m      
+            PWL = 2,300
+
+         else:
+
+            ' Assigning pile working load of 3,000 kN to pile of diameter 0.60 m      
+            PWL = 3,000
       
-.. hint::
-
-   .. code-block:: 
-
-      if Pile_Diameter == 0.45:
-
-         ' Assigning pile working load of 1,900 kN to pile of diameter 0.45 m
-         PWL = 1,900
-
-      elif Pile_Diameter = 0.50:
-
-         ' Assigning pile working load of 2,300 kN to pile of diameter 0.50 m      
-         PWL = 2,300
-
-      else:
-
-         ' Assigning pile working load of 3,000 kN to pile of diameter 0.60 m      
-         PWL = 3,000
-      
-
 3.2 Looping Operations
 ===========================
 
@@ -167,16 +181,19 @@ Automate your code with 'for' statements. [[#PyFors]_]
       
           [Statement 1]
 
-      
-.. hint::
+.. dropdown:: Click Me for Example!
+   :title: bg-light text-center text-secondary
+   :animate: fade-in-slide-down  
 
-   .. code-block:: 
+   .. hint::
 
-       'Setting up the 'for' statement
-      for counter in Pile_Log                   
-      
-         ' Adding 1 to Pile_Number for every iteration
-         Pile_Number = Pile_Number + 1                      
+      .. code-block:: 
+
+         'Setting up the 'for' statement
+         for counter in Pile_Log                   
+         
+            ' Adding 1 to Pile_Number for every iteration
+            Pile_Number = Pile_Number + 1                      
 
 ******************
 4. Debugging Tips

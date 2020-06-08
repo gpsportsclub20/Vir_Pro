@@ -15,7 +15,7 @@ Python
    ---
    **Python**
 
-   Python in all its wonders and glory!
+   Explore Python in all its wonder and glory!
 
 VBA Excel
 ---------------------------------
@@ -24,7 +24,7 @@ VBA Excel
    .. figure:: /_images/Logo/Excel.png
          :align: center 
          :height: 200 px
-         :width: 200 px
+         :width: 300 px
          :target: ../02_CodeOnline/Excel.html
 
   
@@ -32,7 +32,7 @@ VBA Excel
    ---
    **VBA Excel**
 
-   Excel 
+   Explore Excel in all its wonder and glory! 
 
 Subsections
 ---------------------------------
@@ -41,3 +41,4 @@ Subsections
 
    ../02_CodeOnline/Repl
    ../02_CodeOnline/Excel
+   ../02_CodeOnline/Panels

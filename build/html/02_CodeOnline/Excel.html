@@ -25,7 +25,7 @@
     
   <link rel="index" title="Index" href="../genindex.html" />
   <link rel="search" title="Search" href="../search.html" />
-  <link rel="next" title="Classwork" href="../03_Classwork/Classwork.html" />
+  <link rel="next" title="Panels" href="Panels.html" />
   <link rel="prev" title="Python" href="Repl.html" /> 
   </head>
 
@@ -133,8 +133,8 @@
        title="previous chapter">← Python</a>
   </li>
   <li class="next">
-    <a href="../03_Classwork/Classwork.html"
-       title="next chapter">Classwork →</a>
+    <a href="Panels.html"
+       title="next chapter">Panels →</a>
   </li>
 </ul>
   
@@ -282,7 +282,7 @@
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39; Declaring Pile_Diameter as an interger</span>
-<span class="n">Dim</span> <span class="o">&lt;</span><span class="n">Pile_Diameter</span><span class="o">&gt;</span> <span class="k">as</span> <span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span>
+<span class="n">Dim</span> <span class="n">Pile_Diameter</span> <span class="k">as</span> <span class="n">Integer</span>
 </pre></div>
 </div>
 </div>
@@ -302,10 +302,13 @@
 </div>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">Public</span> <span class="n">Function</span><span class="p">]</span> <span class="n">Sum</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="n">As</span> <span class="n">Single</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">Public</span> <span class="n">Function</span><span class="p">]</span> <span class="n">R_Pile</span><span class="p">(</span><span class="n">Q_Base</span><span class="p">,</span> <span class="n">Q_Shaft</span><span class="p">)</span> <span class="n">As</span> <span class="n">Single</span>
 
-   <span class="s1">&#39; Expressing the summation operation</span>
-   <span class="n">Sum</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+   <span class="s1">&#39; Expressing the pile resistance, R_Pile as a function of</span>
+   <span class="s1">&#39; Base resistance, Q_Base</span>
+   <span class="s1">&#39; Shaft resistance, Q_Shaft</span>
+
+   <span class="n">R_Pile</span> <span class="o">=</span> <span class="n">Q_Base</span> <span class="o">+</span> <span class="n">Q_Shaft</span>
 
 <span class="n">End</span> <span class="n">Function</span>
 </pre></div>
@@ -423,8 +426,10 @@
 
 <span class="s1">&#39; Since the value of &lt;Variable_Name&gt; is greater than 32,767</span>
 <span class="s1">&#39; which is the maximum value that the Integer data type can hold, &quot;overflow&quot; occurs.</span>
-<span class="s1">&#39; This error is preventable by assigning the &lt;Variable_Name&gt; to Long,</span>
-<span class="s1">&#39; as Long data type has a range of 2,147,483,647 which is larger than 50,000</span>
+
+<span class="s1">&#39; This error is preventable by assigning the &lt;Variable_Name&gt; to Long data type,</span>
+<span class="s1">&#39; as Long data type has a range of 2,147,483,647</span>
+<span class="s1">&#39; that it can store (which is greater than 50,000).</span>
 
 <span class="n">Dim</span> <span class="o">&lt;</span><span class="n">Variable_Name</span><span class="o">&gt;</span> <span class="k">as</span> <span class="n">Long</span>
 </pre></div>
@@ -461,8 +466,8 @@
        title="previous chapter">← Python</a>
   </li>
   <li class="next">
-    <a href="../03_Classwork/Classwork.html"
-       title="next chapter">Classwork →</a>
+    <a href="Panels.html"
+       title="next chapter">Panels →</a>
   </li>
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Xiao Binn Neoh.

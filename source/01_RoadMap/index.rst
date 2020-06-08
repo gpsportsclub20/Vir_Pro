@@ -77,7 +77,7 @@ So pocket the road maps, sharpen your tools and march on!
    
    Braving the entire coding process is no small feat, so you deserve to bask in the full glory of your algorithm at this stage.
 
-   However, do not get disheartened if your code does not yield the desired results. Trace the tracks you blaze and **debug**!
+   However, do not get disheartened if your code does not yield the desired results. Trace the tracks you blazed and **debug**!
 
 Flow Chart
 ^^^^^^^^^^^
