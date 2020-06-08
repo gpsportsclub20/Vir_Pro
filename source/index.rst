@@ -24,7 +24,7 @@ A 2019/2020 Sports Club Initative
          :align: center 
          :width: 200 px
          :height: 200 px
-         :target: ../01_RoadMap/index.html
+         :target: /latest/01_RoadMap/index.html
          
    **Road Map**
    ---
@@ -33,7 +33,7 @@ A 2019/2020 Sports Club Initative
          :align: center 
          :width: 200 px
          :height: 200 px
-         :target: ../latest/02_CodeOnline/indexCO.html
+         :target: ..en/latest/02_CodeOnline/indexCO.html
 
    **Code Online!**
 
@@ -42,7 +42,7 @@ A 2019/2020 Sports Club Initative
          :align: center 
          :width: 200 px
          :height: 200 px
-         :target: en/latest/03_Gallery/Gallery.html
+         :target: ../en/latest/03_Gallery/Gallery.html
       
    **Project Gallery**
 
