@@ -24,7 +24,7 @@ extensions = [
 
 # -- Project information -----------------------------------------------------
 
-project = 'Virtual Programming Workshop 2020'
+project = 'Workshop 2020'
 copyright = '2020, Xiao Binn Neoh'
 author = 'Xiao Binn Neoh'
 

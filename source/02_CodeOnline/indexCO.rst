@@ -9,7 +9,11 @@ Python
          :align: center 
          :height: 200 px
          :width: 200 px
-         :target: ../02_CodeOnline/Repl.html
+
+   .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Repl.html
+       :type: url
+       :text: Explore Python!
+       :classes: btn-outline-dark btn-block
       
 
    ---
@@ -25,10 +29,13 @@ VBA Excel
          :align: center 
          :height: 200 px
          :width: 300 px
-         :target: ../02_CodeOnline/Excel.html
+
+   .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Excel.html
+       :type: url
+       :text: Explore VBA Excel!
+       :classes: btn-outline-dark btn-block
 
   
-
    ---
    **VBA Excel**
 
