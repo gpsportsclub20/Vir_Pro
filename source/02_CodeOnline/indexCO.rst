@@ -9,6 +9,7 @@ Python
          :align: center 
          :height: 200 px
          :width: 200 px
+         :class: no-scaled-link
 
    .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Repl.html
        :type: url
@@ -29,6 +30,7 @@ VBA Excel
          :align: center 
          :height: 200 px
          :width: 300 px
+         :class: no-scaled-link
 
    .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Excel.html
        :type: url
