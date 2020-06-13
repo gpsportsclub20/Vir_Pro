@@ -364,20 +364,20 @@ Click Me for an Example!<div class="summary-down docutils">
 </summary><div class="summary-content card-body docutils">
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">If</span> <span class="n">Pile_Diameter</span> <span class="o">=</span> <span class="mf">0.45</span> <span class="n">Then</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">If</span> <span class="n">Pile_Diameter</span> <span class="o">==</span> <span class="mf">0.45</span> <span class="n">Then</span>
 
-   <span class="s1">&#39; Assigning pile working load of 1,900 kN to pile of diameter 0.45 m</span>
-   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span><span class="mi">900</span>
+   <span class="s1">&#39; If pile diameter is 0.45 m, then define pile working load as 1,900 kN</span>
+   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">1900</span>
 
-<span class="n">ElseIf</span> <span class="n">Pile_Diameter</span> <span class="o">=</span> <span class="mf">0.50</span> <span class="n">Then</span>
+<span class="n">ElseIf</span> <span class="n">Pile_Diameter</span> <span class="o">==</span> <span class="mf">0.50</span> <span class="n">Then</span>
 
-   <span class="s1">&#39; Assigning pile working load of 2,300 kN to pile of diameter 0.50 m</span>
-   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span><span class="mi">300</span>
+   <span class="s1">&#39; Else if pile diameter is 0.50 m, then define pile working load as 2,300 kN</span>
+   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">2300</span>
 
 <span class="n">Else</span>
 
-   <span class="s1">&#39; Assigning pile working load of 3,000 kN to pile of diameter 0.60 m</span>
-   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span><span class="mi">000</span>
+   <span class="s1">&#39; Else, define pile working load as 3,000 kN</span>
+   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">3000</span>
 
 <span class="n">End</span> <span class="n">If</span>
 </pre></div>
@@ -411,13 +411,13 @@ Click Me for an Example!<div class="summary-down docutils">
 </summary><div class="summary-content card-body docutils">
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;Setting up 100 repetitions with step count of 1</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;Setting up a `For` statement with 100 iteration and step count of 1</span>
 <span class="n">For</span> <span class="n">Piling_Log</span> <span class="o">=</span> <span class="mi">1</span> <span class="n">To</span> <span class="mi">100</span> <span class="n">Step</span> <span class="mi">1</span>
 
-<span class="s1">&#39; Adding 1 to Pile_Number</span>
+<span class="s1">&#39; Adding 1 to Pile_Number for every iteration</span>
 <span class="n">Pile_Number</span> <span class="o">=</span> <span class="n">Pile_Number</span> <span class="o">+</span> <span class="mi">1</span>
 
-<span class="s1">&#39; Displaying the total number of piles</span>
+<span class="s1">&#39; Displaying the total number of piles in the piling log</span>
 <span class="n">MsgBox</span> <span class="s2">&quot;Total Number of Piles is&quot;</span> <span class="o">&amp;</span> <span class="n">Pile_Number</span>
 
 <span class="n">Next</span> <span class="n">Piling_Log</span>

@@ -27,7 +27,7 @@ Starter Pack
 
          **Getting Started**
 
-         Workshop Materials and Registration
+         Workshop Material and Registration*
 
    .. link-button:: https://forms.gle/UTAbBS4G7wZRFGU97
          :type: url
@@ -38,9 +38,6 @@ Starter Pack
          :type: url
          :text: Learn on Google Classroom!
          :classes: btn-outline-dark btn-block
-
-
-
 
    ---
 
@@ -63,4 +60,4 @@ Starter Pack
          :text: Microsoft Excel VBA
          :classes: btn-outline-dark btn-block
          
-
+``*`` Kindly register to access Google Classroom with the **class code**.

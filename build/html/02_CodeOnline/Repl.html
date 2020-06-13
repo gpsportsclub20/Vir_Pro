@@ -197,7 +197,7 @@
 <h2><a class="toc-backref" href="#id7">1. Inputs</a><a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="built-in-data-types">
 <h3><a class="toc-backref" href="#id8">1.1 Built-in Data Types</a><a class="headerlink" href="#built-in-data-types" title="Permalink to this headline">¶</a></h3>
-<p>The following built-in data types illustrate the extent of data manipulation that Python can perform. [<a class="footnote-reference brackets" href="#pyinput" id="id1">1</a>]</p>
+<p>The following built-in data types illustrate the extent of data manipulation that Python can execute. [<a class="footnote-reference brackets" href="#pyinput" id="id1">1</a>]</p>
 <table class="colwidths-given docutils align-default">
 <colgroup>
 <col style="width: 19%" />
@@ -251,8 +251,8 @@ Click Me for an Example!<div class="summary-down docutils">
 </summary><div class="summary-content card-body docutils">
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39; Assigning an integer value of 0.5 m to the variable Pile_Diameter</span>
-<span class="n">Pile_Diameter</span> <span class="o">=</span>  <span class="mf">0.5</span>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39; Assigning an integer value of 1.0 m to the variable Pile_Diameter</span>
+<span class="n">Pile_Diameter</span> <span class="o">=</span>  <span class="mf">1.0</span>
 </pre></div>
 </div>
 </div>
@@ -327,18 +327,18 @@ Click Me for an Example!<div class="summary-down docutils">
 <p class="admonition-title">Hint</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">Pile_Diameter</span> <span class="o">==</span> <span class="mf">0.45</span><span class="p">:</span>
 
-   <span class="s1">&#39; Assigning pile working load of 1,900 kN to pile of diameter 0.45 m</span>
-   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span><span class="mi">900</span>
+   <span class="s1">&#39; If pile diameter is 0.45 m, then define pile working load as 1,900 kN</span>
+   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">1900</span>
 
-<span class="k">elif</span> <span class="n">Pile_Diameter</span> <span class="o">=</span> <span class="mf">0.50</span><span class="p">:</span>
+<span class="k">elif</span> <span class="n">Pile_Diameter</span> <span class="o">==</span> <span class="mf">0.50</span><span class="p">:</span>
 
-   <span class="s1">&#39; Assigning pile working load of 2,300 kN to pile of diameter 0.50 m</span>
+   <span class="s1">&#39; Else if pile diameter is 0.50 m, then define pile working load as 2,300 kN</span>
    <span class="n">PWL</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span><span class="mi">300</span>
 
 <span class="k">else</span><span class="p">:</span>
 
-   <span class="s1">&#39; Assigning pile working load of 3,000 kN to pile of diameter 0.60 m</span>
-   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span><span class="mi">000</span>
+   <span class="s1">&#39; Else, define pile working load as 3,000 kN</span>
+   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">3000</span>
 </pre></div>
 </div>
 </div>
@@ -364,7 +364,8 @@ Click Me for an Example!<div class="summary-down docutils">
 </summary><div class="summary-content card-body docutils">
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;Setting up the &#39;</span><span class="k">for</span><span class="s1">&#39; statement</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;Setting up a `for` statement to count the number of piles</span>
+<span class="s1">&#39;in a piling log</span>
 <span class="k">for</span> <span class="n">counter</span> <span class="ow">in</span> <span class="n">Pile_Log</span>
 
    <span class="s1">&#39; Adding 1 to Pile_Number for every iteration</span>
