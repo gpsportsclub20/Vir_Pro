@@ -38,7 +38,7 @@ It is conventional for code snippets to be displayed in boxed section for ease o
 
 1.1 Built-in Data Types
 ==========================
-The following built-in data types illustrate the extent of data manipulation that Python can perform. [[#PyInput]_]
+The following built-in data types illustrate the extent of data manipulation that Python can execute. [[#PyInput]_]
 
 
 .. list-table::  
@@ -86,8 +86,8 @@ Assigning a data type for a variable can be done in the Python terminal as such:
 
       .. code-block:: Python
 
-         ' Assigning an integer value of 0.5 m to the variable Pile_Diameter
-         Pile_Diameter =  0.5 
+         ' Assigning an integer value of 1.0 m to the variable Pile_Diameter
+         Pile_Diameter =  1.0 
 
 
 2.2 Functions
@@ -155,18 +155,18 @@ You can introduce nested 'if' statements as below to improve readibility of code
 
          if Pile_Diameter == 0.45:
 
-            ' Assigning pile working load of 1,900 kN to pile of diameter 0.45 m
-            PWL = 1,900
+            ' If pile diameter is 0.45 m, then define pile working load as 1,900 kN
+            PWL = 1900
 
-         elif Pile_Diameter = 0.50:
+         elif Pile_Diameter == 0.50:
 
-            ' Assigning pile working load of 2,300 kN to pile of diameter 0.50 m      
+            ' Else if pile diameter is 0.50 m, then define pile working load as 2,300 kN     
             PWL = 2,300
 
          else:
 
-            ' Assigning pile working load of 3,000 kN to pile of diameter 0.60 m      
-            PWL = 3,000
+            ' Else, define pile working load as 3,000 kN
+            PWL = 3000
       
 3.2 Looping Operations
 ===========================
@@ -189,7 +189,8 @@ Automate your code with 'for' statements. [[#PyFors]_]
 
       .. code-block:: 
 
-         'Setting up the 'for' statement
+         'Setting up a `for` statement to count the number of piles
+         'in a piling log
          for counter in Pile_Log                   
          
             ' Adding 1 to Pile_Number for every iteration

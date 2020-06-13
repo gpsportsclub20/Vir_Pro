@@ -182,20 +182,20 @@ You can introduce nested 'if' statements as below to improve readibility of code
 
       .. code-block:: 
 
-         If Pile_Diameter = 0.45 Then
+         If Pile_Diameter == 0.45 Then
 
-            ' Assigning pile working load of 1,900 kN to pile of diameter 0.45 m
-            PWL = 1,900
+            ' If pile diameter is 0.45 m, then define pile working load as 1,900 kN
+            PWL = 1900
 
-         ElseIf Pile_Diameter = 0.50 Then
+         ElseIf Pile_Diameter == 0.50 Then
 
-            ' Assigning pile working load of 2,300 kN to pile of diameter 0.50 m      
-            PWL = 2,300
+            ' Else if pile diameter is 0.50 m, then define pile working load as 2,300 kN     
+            PWL = 2300
 
          Else 
 
-            ' Assigning pile working load of 3,000 kN to pile of diameter 0.60 m      
-            PWL = 3,000
+            ' Else, define pile working load as 3,000 kN
+            PWL = 3000
          
          End If
 
@@ -226,13 +226,13 @@ Automate your code with 'For...Next' statements. [[#Fors]_]
 
       .. code-block:: 
 
-         'Setting up 100 repetitions with step count of 1
+         'Setting up a `For` statement with 100 iteration and step count of 1
          For Piling_Log = 1 To 100 Step 1                    
          
-         ' Adding 1 to Pile_Number
+         ' Adding 1 to Pile_Number for every iteration
          Pile_Number = Pile_Number + 1                      
 
-         ' Displaying the total number of piles
+         ' Displaying the total number of piles in the piling log
          MsgBox "Total Number of Piles is" & Pile_Number    
 
          Next Piling_Log

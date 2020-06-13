@@ -9,7 +9,7 @@ Foreword
 It is our strong belief that **meaningful engagements spark great ideas** and, thus, this platform was designed with a clear aim in mind - 
 to foster a community with shared passion for technology.
 
-As such, apart from outlining main concepts to incorporate technology into our everyday work assignments, this platform also serves to **build connection** and **bridge communication**.
+As such, apart from outlining main concepts to incorporate technology into our daily work assignments, this platform also serves to **build connection** and **bridge communication**.
 
 Workshop material is accessible through **Google Classroom** and references to external readings are also provided, where possible, to supplement each section.
 
@@ -27,7 +27,7 @@ Starter Pack
 
          **Getting Started**
 
-         Workshop Materials and Registration
+         Workshop Material and Registration*
 
    .. link-button:: https://forms.gle/UTAbBS4G7wZRFGU97
          :type: url
@@ -38,9 +38,6 @@ Starter Pack
          :type: url
          :text: Learn on Google Classroom!
          :classes: btn-outline-dark btn-block
-
-
-
 
    ---
 
@@ -63,4 +60,4 @@ Starter Pack
          :text: Microsoft Excel VBA
          :classes: btn-outline-dark btn-block
          
-
+``*`` Kindly register **before** accessing Google Classroom with the **class code**.
