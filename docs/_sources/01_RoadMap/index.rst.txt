@@ -5,9 +5,9 @@ for Coding Trailblazers
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Just like the start of any journey, having the right maps make the road ahead less daunting.
 
-There are a few unmissable milestones in the realm of programming.
+There are a few important milestones in the realm of programming.
 
-They are **terminal** familiarisation, **process** design and **decision** control. 
+They are **terminal** familiarisation, first attempts on **process** design and dabbling in **decision** controls. 
 
 While some of them might appear insurmountable on first encounter;
 
