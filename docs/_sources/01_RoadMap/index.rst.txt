@@ -7,7 +7,7 @@ Just like the start of any journey, having the right maps make the road ahead le
 
 There are a few important milestones in the realm of programming.
 
-They are **terminal** familiarisation, first attempts on **process** design and dabbling in **decision** controls. 
+For instance, **terminal** familiarisation, first attempts on **process** design and devising **decision** controls. 
 
 While some of them might appear insurmountable on first encounter;
 
