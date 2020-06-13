@@ -161,7 +161,7 @@ You can introduce nested 'if' statements as below to improve readibility of code
          elif Pile_Diameter == 0.50:
 
             ' Else if pile diameter is 0.50 m, then define pile working load as 2,300 kN     
-            PWL = 2,300
+            PWL = 2300
 
          else:
 

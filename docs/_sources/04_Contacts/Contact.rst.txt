@@ -5,13 +5,13 @@ Contact
 ****************
 Feedback to Us!
 ****************
-If you have any other querries or would like to provide feedback on this programming module,
+If you have any other queries or would like to provide feedback on this programming workshop,
 please feel free to contact xbneoh@gnpgroup.com.my
 
 ***********************
 Open Source Initiative
 ***********************
-As part of the open source initiative, please refer to the license applied for this platform:
+As part of the open source initiative, please refer to the license applied for the underlying source code deployed to display all the contents on this platform:
 
 MIT License
 =========================
