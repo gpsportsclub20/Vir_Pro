@@ -3,7 +3,7 @@ Road Map
 
 for Coding Trailblazers
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Just like the start of any journey, having the right maps makes the road ahead less daunting.
+Just like the start of any journey, having the right maps make the road ahead less daunting.
 
 There are a few unmissable milestones in the realm of programming.
 

@@ -60,4 +60,4 @@ Starter Pack
          :text: Microsoft Excel VBA
          :classes: btn-outline-dark btn-block
          
-``*`` Kindly register **before** accessing Google Classroom with the **class code**.
+``*`` Kindly register **before** accessing Google Classroom with the **class code** provided.
