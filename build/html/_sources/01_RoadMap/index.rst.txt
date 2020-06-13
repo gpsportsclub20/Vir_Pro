@@ -3,9 +3,18 @@ Road Map
 
 for Coding Trailblazers
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Just like the start of any journey, equipping yourself with the right maps and tools makes the road ahead less daunting.
+Just like the start of any journey, having the right maps makes the road ahead less daunting.
 
-So pocket the road maps, sharpen your tools and march on!
+There are a few unmissable milestones in the realm of programming. 
+
+They are **terminal** familiarisation, **variable** definition, **process** design and **decision** control. 
+
+While some of them might appear insurmountable on first encounter;
+
+Take them all in your stride with patience and an inquisitive mind!
+
+So to the coding trailblazers out there: **Pocket the road maps, sharpen your tools and march on!**
+
 
 
 .. panels::
@@ -17,6 +26,7 @@ So pocket the road maps, sharpen your tools and march on!
          :class: no-scaled-link
 
    ---
+
    **Terminal**
    
    For a start, acquaint yourself with the coding terminal of your choice. 
@@ -34,7 +44,7 @@ So pocket the road maps, sharpen your tools and march on!
    ---
    **Input**
    
-   In the terminal, jumpstart your code by introducing **inputs and variables**.
+   In the terminal, jumpstart your code by introducing **inputs** and **variables**.
 
    Inputs oftentimes define the scope of the program. Therefore, it is wise to map out your program with a flow chart.
    
@@ -62,9 +72,9 @@ So pocket the road maps, sharpen your tools and march on!
    ---
    **Decision**
    
-   With an efficient code, you can sieve through data with ease and hone in on your desired endpoint.
+   With an efficient code, you can weave through data with ease and hone in on your desired endpoint.
 
-   Conditional statements facilitate logical **decision making** while looping operations automate data crunching process.
+   Conditional statements facilitate logical **decision making** while looping operations automate data crunching process.
 
    ---
    .. figure:: /_images/ManyPixels/Debug.png
@@ -82,9 +92,11 @@ So pocket the road maps, sharpen your tools and march on!
 
 Flow Chart
 ^^^^^^^^^^^
+A common flow chart to encapsulate the coding process.
+
 .. figure:: /_images/Flow.png
       :align: center 
       :height: 900 px
       :width:  300 px
 
-      A common flow chart with looping operation to encapsulate the entire coding process.
+      
