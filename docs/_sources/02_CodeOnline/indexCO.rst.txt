@@ -15,10 +15,20 @@ Python
    ---
    Explore Python in all its wonder and glory!
 
-   .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Repl.html
+   .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Repl.html#python-terminal
       :type: url
-      :text: Explore Python!
-      :classes: btn-outline-dark btn-block
+      :text: Python Terminal
+      :classes: btn-outline-primary btn-block
+
+   .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Repl.html#inputs
+      :type: url
+      :text: Python Inputs
+      :classes: btn-outline-warning btn-block
+
+   .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Repl.html#process
+      :type: url
+      :text: Python Processes
+      :classes: btn-outline-secondary btn-block
 
 VBA Excel
 ---------------------------------
@@ -33,10 +43,20 @@ VBA Excel
    ---
    Explore Excel VBA in all its wonder and glory! 
 
-   .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Excel.html
+   .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Excel.html#vba-terminal
       :type: url
-      :text: Explore VBA!
-      :classes: btn-outline-dark btn-block
+      :text: VBA Terminal
+      :classes: btn-outline-secondary btn-block
+
+   .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Excel.html#inputs
+      :type: url
+      :text: VBA Inputs
+      :classes: btn-outline-secondary btn-block
+
+   .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/02_CodeOnline/Excel.html#process
+      :type: url
+      :text: VBA Processes
+      :classes: btn-outline-secondary btn-block
 
 Subsections
 ---------------------------------
