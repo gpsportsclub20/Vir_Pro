@@ -139,7 +139,7 @@ Formulating a user-defined VBA function follows steps as below:
 
       .. code-block:: 
 
-         [Public Function] R_Pile(Q_Base, Q_Shaft) As Single
+         Public Function R_Pile(Q_Base, Q_Shaft) As Single
 
             ' Expressing pile resistance, R_Pile as a function of 
             ' Base resistance, Q_Base

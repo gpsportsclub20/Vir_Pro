@@ -3,19 +3,17 @@ Road Map
 
 for Coding Trailblazers
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Just like the start of any journey, having the right maps make the road ahead less daunting.
+Just like the start of any journey, having the right map makes the road ahead less daunting.
 
 There are a few important milestones in the realm of programming.
 
-For instance, **terminal** familiarisation, first attempts on **process** design and devising **decision** controls. 
+For instance, **terminal** familiarisation, devising **decision** controls and attempting on **process** design.
 
-While some of them might appear insurmountable on first encounter;
+While some of them might appear insurmountable at first sight;
 
 Take them all in your stride with patience and an inquisitive mind!
 
-So to the coding trailblazers out there: **Pocket the road maps, sharpen your tools and march on!**
-
-
+So to the coding trailblazers: **Pocket the road map, sharpen your tools and march on!**
 
 .. panels::
 
