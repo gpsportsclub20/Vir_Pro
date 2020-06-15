@@ -53,7 +53,7 @@ A 2019/2020 Sports Club Initative
          :height: 200 px
          :class: no-scaled-link
 
-   .. link-button:: https://gpsportsclub20.github.io/Vir_Pro/03_Gallery/Gallery.html
+   .. link-button:: https://www.ice.org.uk/
          :type: url
          :text: Project Gallery
          :classes: btn-outline-dark btn-block
