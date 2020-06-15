@@ -8,6 +8,8 @@ Feedback to Us!
 If you have any other queries or would like to provide feedback on this programming workshop,
 please feel free to contact xbneoh@gnpgroup.com.my
 
+You may also provide an anonymous feedback to us via the `Google Form <https://forms.gle/DLLFLmCc33NKChWu6>`_. 
+
 ***********************
 Open Source Initiative
 ***********************
