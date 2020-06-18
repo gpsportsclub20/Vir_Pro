@@ -18,7 +18,7 @@ extensions = [
 
     'sphinx_panels',
     'sphinx.ext.githubpages'
-    #'sphinxcontrib.fulltoc'
+    #'sphinxcontrib.googleanalytics'
 
 ]
 
@@ -65,18 +65,5 @@ html_theme = 'press'
 # Assigning the 'master document' (which is referred to by Sphinx) to index.rst
 master_doc = 'index' 
 
-
-# Configuring the options for the specified theme
-"""
-html_theme_options = {
-    # Configuring the search bar option
-    "search_bar_position": "sidebar",
-    "search_bar_text": "Search the docs..."
-    # Toc options for html_theme_options
-    'collapse_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': True,
-    #'titles_only': False
-}
-""" 
-
+# -- Options for Sphinx extension -------------------------------------------------
+#googleanalytics_id = 'UA-169628776-1'
