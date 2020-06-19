@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-169628776-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+      <title>VBA Excel</title>
+    
+      <link rel="stylesheet" href="../_static/pygments.css">
+      <link rel="stylesheet" href="../_static/theme.css">
+      <link rel="stylesheet" href="../_static/romnnn_sphinx_press_theme.css">
+          <link rel="stylesheet" href="../_static/sphinx-dropdown.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/panels-bootstrap.min.css" type="text/css" />
+      
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+
+      <!-- sphinx script_files -->
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+
+      
+      <script src="../_static/theme-vendors.js"></script>
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="next" title="Project Gallery" href="../03_Gallery/Gallery.html" />
+  <link rel="prev" title="Python" href="Repl.html" /> 
+  </head>
+
+  <body>
+    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <div class="home-link-container">
+      <router-link to="../index.html" class="home-link">
+      
+        <img class="logo" src="../_static/Home.svg" alt="logo"/>
+      
+        <span class="site-name">Workshop 2020</span>
+    </router-link>
+  </div>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Search</span>
+    <div class="searchformwrapper">
+      <form autocomplete="off" class="search" action="../search.html" method="get">
+        <input type="text" name="q" autocomplete="off" />
+        <input type="submit" value="Go" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#contents-at-a-glance">contents at a glance</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="../00_GettingStarted/indexGS.html" class="reference internal ">Let’s Get Started!</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="../01_RoadMap/index.html" class="reference internal ">Road Map</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="indexCO.html" class="reference internal ">Code Online!</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="../03_Gallery/Gallery.html" class="reference internal ">Project Gallery</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="../04_Contacts/Contact.html" class="reference internal ">Contact</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      <li><a href="indexCO.html">Code Online!</a> &raquo;</li>
+    
+    <li>VBA Excel</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="Repl.html"
+       title="previous chapter">← Python</a>
+  </li>
+  <li class="next">
+    <a href="../03_Gallery/Gallery.html"
+       title="next chapter">Project Gallery →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main">
+            
+  <div class="section" id="vba-excel">
+<h1>VBA Excel<a class="headerlink" href="#vba-excel" title="Permalink to this headline">¶</a></h1>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#vba-terminal" id="id4">VBA Terminal</a></p>
+<ul>
+<li><p><a class="reference internal" href="#conventions-used" id="id5">Conventions Used</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#inputs" id="id6">1. Inputs</a></p>
+<ul>
+<li><p><a class="reference internal" href="#numeric-data-type" id="id7">1.1 Numeric Data Type</a></p></li>
+<li><p><a class="reference internal" href="#variable-data-type" id="id8">1.2 Variable Data Type</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#process" id="id9">2. Process</a></p>
+<ul>
+<li><p><a class="reference internal" href="#declaration-of-variables" id="id10">2.1 Declaration of Variables</a></p></li>
+<li><p><a class="reference internal" href="#functions" id="id11">2.2 Functions</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#decisions" id="id12">3. Decisions</a></p>
+<ul>
+<li><p><a class="reference internal" href="#conditional-statements" id="id13">3.1 Conditional Statements</a></p></li>
+<li><p><a class="reference internal" href="#looping-operations" id="id14">3.2 Looping Operations</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#debugging-tips" id="id15">4. Debugging Tips</a></p></li>
+<li><p><a class="reference internal" href="#references" id="id16">5. References</a></p></li>
+</ul>
+</div>
+<div class="section" id="vba-terminal">
+<h2><a class="toc-backref" href="#id4">VBA Terminal</a><a class="headerlink" href="#vba-terminal" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="conventions-used">
+<h3><a class="toc-backref" href="#id5">Conventions Used</a><a class="headerlink" href="#conventions-used" title="Permalink to this headline">¶</a></h3>
+<p>It is conventional for code snippets to be displayed in boxed section for ease of reference.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">MsgBox</span> <span class="s2">&quot;Hello world&quot;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">Hello</span> <span class="n">world</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="inputs">
+<h2><a class="toc-backref" href="#id6">1. Inputs</a><a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="numeric-data-type">
+<h3><a class="toc-backref" href="#id7">1.1 Numeric Data Type</a><a class="headerlink" href="#numeric-data-type" title="Permalink to this headline">¶</a></h3>
+<p>The following data types have been ranked according to the size of computer memory required. [<a class="footnote-reference brackets" href="#input" id="id1">1</a>]</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 63%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Data Type</p></th>
+<th class="head"><p>Number Type</p></th>
+<th class="head"><p>Range of Values</p></th>
+<th class="head"><p>Memory Usage</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Byte</p></td>
+<td><p>Integer</p></td>
+<td><p>0 through 255</p></td>
+<td><p>1 byte</p></td>
+</tr>
+<tr class="row-odd"><td><p>Integer</p></td>
+<td><p>Integer</p></td>
+<td><p>-32,768 to 32,767</p></td>
+<td><p>1 byte</p></td>
+</tr>
+<tr class="row-even"><td><p>Boolean</p></td>
+<td><p>Integer</p></td>
+<td><p><strong>True</strong> or <strong>False</strong></p></td>
+<td><p>2 bytes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Long</p></td>
+<td><p>Integer</p></td>
+<td><p>-2,147,483,648 through 2,147,483,647</p></td>
+<td><p>2 bytes</p></td>
+</tr>
+<tr class="row-even"><td><p>Single</p></td>
+<td><p>Real</p></td>
+<td><p>Single-Precision Floating-Point</p></td>
+<td><p>4 bytes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Double</p></td>
+<td><p>Real</p></td>
+<td><p>Double-Precision Floating-Point</p></td>
+<td><p>8 bytes</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="variable-data-type">
+<h3><a class="toc-backref" href="#id8">1.2 Variable Data Type</a><a class="headerlink" href="#variable-data-type" title="Permalink to this headline">¶</a></h3>
+<p>You can also introduce data type with variable storage size to fit the purpose of your algorithm.</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 71%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Data Type</p></th>
+<th class="head"><p>Range of Values</p></th>
+<th class="head"><p>Memory Usage</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>String</p></td>
+<td><p>0 to approximately 2 billion Unicode characters</p></td>
+<td><p>Varies</p></td>
+</tr>
+<tr class="row-odd"><td><p>Variant</p></td>
+<td><p>0 through 65,535</p></td>
+<td><p>Varies</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="process">
+<h2><a class="toc-backref" href="#id9">2. Process</a><a class="headerlink" href="#process" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="declaration-of-variables">
+<h3><a class="toc-backref" href="#id10">2.1 Declaration of Variables</a><a class="headerlink" href="#declaration-of-variables" title="Permalink to this headline">¶</a></h3>
+<p>Declaring an input or variable can be done in the VBA terminal as such:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Dim</span> <span class="o">&lt;</span><span class="n">Variable</span> <span class="n">Name</span><span class="o">&gt;</span> <span class="k">as</span> <span class="o">&lt;</span><span class="n">Type</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+<details class="sphinx-bs dropdown card mb-3 fade-in-slide-down">
+<summary class="summary-title card-header bg-light text-center text-secondary">
+Click Me for an Example!<div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39; Declaring Pile_Diameter as an interger</span>
+<span class="n">Dim</span> <span class="n">Pile_Diameter</span> <span class="k">as</span> <span class="n">Integer</span>
+</pre></div>
+</div>
+</div>
+</div>
+</details></div>
+<div class="section" id="functions">
+<h3><a class="toc-backref" href="#id11">2.2 Functions</a><a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h3>
+<p>Formulating a user-defined VBA function follows steps as below:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">Public</span> <span class="n">Function</span><span class="p">]</span> <span class="o">&lt;</span><span class="n">Function_Name</span><span class="o">&gt;</span> <span class="p">([</span><span class="n">Argument</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="n">Argument</span> <span class="mi">2</span><span class="p">],</span><span class="o">..</span><span class="p">)</span> <span class="p">[</span><span class="n">As</span><span class="o">&lt;</span><span class="n">Type</span><span class="o">&gt;</span><span class="p">]</span>
+
+   <span class="o">&lt;</span><span class="n">Function_Name</span><span class="o">&gt;</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">Function_Results</span><span class="o">&gt;</span>
+
+<span class="n">End</span> <span class="n">Function</span>
+</pre></div>
+</div>
+</div>
+<details class="sphinx-bs dropdown card mb-3 fade-in-slide-down">
+<summary class="summary-title card-header bg-light text-center text-secondary">
+Click Me for an Example!<div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Public</span> <span class="n">Function</span> <span class="n">R_Pile</span><span class="p">(</span><span class="n">Q_Base</span><span class="p">,</span> <span class="n">Q_Shaft</span><span class="p">)</span> <span class="n">As</span> <span class="n">Single</span>
+
+   <span class="s1">&#39; Expressing pile resistance, R_Pile as a function of</span>
+   <span class="s1">&#39; Base resistance, Q_Base</span>
+   <span class="s1">&#39; Shaft resistance, Q_Shaft</span>
+
+   <span class="n">R_Pile</span> <span class="o">=</span> <span class="n">Q_Base</span> <span class="o">+</span> <span class="n">Q_Shaft</span>
+
+<span class="n">End</span> <span class="n">Function</span>
+</pre></div>
+</div>
+</div>
+</div>
+</details></div>
+</div>
+<div class="section" id="decisions">
+<h2><a class="toc-backref" href="#id12">3. Decisions</a><a class="headerlink" href="#decisions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="conditional-statements">
+<h3><a class="toc-backref" href="#id13">3.1 Conditional Statements</a><a class="headerlink" href="#conditional-statements" title="Permalink to this headline">¶</a></h3>
+<p>You can introduce nested ‘if’ statements as below to improve readibility of code [<a class="footnote-reference brackets" href="#ifs" id="id2">2</a>]:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">If</span> <span class="o">&lt;</span><span class="n">Condition</span> <span class="mi">1</span><span class="o">&gt;</span> <span class="n">Then</span>
+
+   <span class="p">[</span><span class="n">Statement</span> <span class="mi">1</span><span class="p">]</span>
+
+<span class="n">ElseIf</span> <span class="o">&lt;</span><span class="n">Condition</span> <span class="mi">2</span><span class="o">&gt;</span> <span class="n">Then</span>
+
+   <span class="p">[</span><span class="n">Statement</span> <span class="mi">2</span><span class="p">]</span>
+
+<span class="n">Else</span>
+
+   <span class="p">[</span><span class="n">Statement</span> <span class="mi">3</span><span class="p">]</span>
+
+<span class="n">End</span> <span class="n">If</span>
+</pre></div>
+</div>
+</div>
+<details class="sphinx-bs dropdown card mb-3 fade-in-slide-down">
+<summary class="summary-title card-header bg-light text-center text-secondary">
+Click Me for an Example!<div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">If</span> <span class="n">Pile_Diameter</span> <span class="o">==</span> <span class="mf">0.45</span> <span class="n">Then</span>
+
+   <span class="s1">&#39; If pile diameter is 0.45 m, then define pile working load as 1,900 kN</span>
+   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">1900</span>
+
+<span class="n">ElseIf</span> <span class="n">Pile_Diameter</span> <span class="o">==</span> <span class="mf">0.50</span> <span class="n">Then</span>
+
+   <span class="s1">&#39; Else if pile diameter is 0.50 m, then define pile working load as 2,300 kN</span>
+   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">2300</span>
+
+<span class="n">Else</span>
+
+   <span class="s1">&#39; Else, define pile working load as 3,000 kN</span>
+   <span class="n">PWL</span> <span class="o">=</span> <span class="mi">3000</span>
+
+<span class="n">End</span> <span class="n">If</span>
+</pre></div>
+</div>
+</div>
+</div>
+</details></div>
+<div class="section" id="looping-operations">
+<h3><a class="toc-backref" href="#id14">3.2 Looping Operations</a><a class="headerlink" href="#looping-operations" title="Permalink to this headline">¶</a></h3>
+<p>Automate your code with ‘For…Next’ statements. [<a class="footnote-reference brackets" href="#fors" id="id3">3</a>]</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">For</span> <span class="n">counter</span> <span class="o">=</span> <span class="n">start</span> <span class="n">To</span> <span class="n">end</span> <span class="p">[</span><span class="n">Step</span> <span class="n">step</span><span class="p">]</span>
+
+<span class="p">[</span><span class="n">Statement</span> <span class="mi">1</span><span class="p">]</span>
+
+<span class="p">[</span><span class="n">Exit</span> <span class="k">for</span><span class="p">]</span>
+
+<span class="p">[</span><span class="n">Statement</span> <span class="mi">2</span><span class="p">]</span>
+
+<span class="n">Next</span> <span class="p">[</span><span class="n">counter</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<details class="sphinx-bs dropdown card mb-3 fade-in-slide-down">
+<summary class="summary-title card-header bg-light text-center text-secondary">
+Click Me for an Example!<div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;Setting up a `For` statement with 100 iteration and step count of 1</span>
+<span class="n">For</span> <span class="n">Piling_Log</span> <span class="o">=</span> <span class="mi">1</span> <span class="n">To</span> <span class="mi">100</span> <span class="n">Step</span> <span class="mi">1</span>
+
+<span class="s1">&#39; Adding 1 to Pile_Number for every iteration</span>
+<span class="n">Pile_Number</span> <span class="o">=</span> <span class="n">Pile_Number</span> <span class="o">+</span> <span class="mi">1</span>
+
+<span class="s1">&#39; Displaying the total number of piles in the piling log</span>
+<span class="n">MsgBox</span> <span class="s2">&quot;Total Number of Piles is&quot;</span> <span class="o">&amp;</span> <span class="n">Pile_Number</span>
+
+<span class="n">Next</span> <span class="n">Piling_Log</span>
+</pre></div>
+</div>
+</div>
+</div>
+</details></div>
+</div>
+<div class="section" id="debugging-tips">
+<h2><a class="toc-backref" href="#id15">4. Debugging Tips</a><a class="headerlink" href="#debugging-tips" title="Permalink to this headline">¶</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Introduce <strong>VBA breakpoints</strong> to pause the execution of code</p>
+<blockquote>
+<div><p>Code execution by VBA stops at the designated breakpoints.</p>
+<p>Therefore, you can examine your code if there is any obvious error such as syntactic mistakes.</p>
+</div></blockquote>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>You can evaluate your function in the <strong>VBA Intermediate Window</strong></p>
+<blockquote>
+<div><p>VBA Intermediate Window allows you to preview and evaluate outputs generated from user-defined functions.</p>
+<p>Previewing outputs allows you to debug before introducing functions into spreadsheets.</p>
+</div></blockquote>
+</div>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Avoid preventable bug such as <strong>overflow</strong> during variable declaration.</p>
+<p>Overflow occurs when the variables that are explicitly declared have greater value than that can be stored by the data type.</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Dim</span> <span class="o">&lt;</span><span class="n">Variable_Name</span><span class="o">&gt;</span> <span class="k">as</span> <span class="n">Integer</span>
+
+<span class="o">&lt;</span><span class="n">Variable_Name</span><span class="o">&gt;</span> <span class="o">=</span> <span class="mi">50</span><span class="p">,</span><span class="mi">000</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="s2">&quot;Overflow&quot;</span>
+
+<span class="s1">&#39; Since the value of &lt;Variable_Name&gt; is greater than 32,767</span>
+<span class="s1">&#39; which is the maximum value that the Integer data type can hold, &quot;overflow&quot; occurs.</span>
+
+<span class="s1">&#39; This error is preventable by assigning the &lt;Variable_Name&gt; to Long data type,</span>
+<span class="s1">&#39; as Long data type has a range of 2,147,483,647</span>
+<span class="s1">&#39; that it can store (which is greater than 50,000).</span>
+
+<span class="n">Dim</span> <span class="o">&lt;</span><span class="n">Variable_Name</span><span class="o">&gt;</span> <span class="k">as</span> <span class="n">Long</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="references">
+<h2><a class="toc-backref" href="#id16">5. References</a><a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<dl class="footnote brackets">
+<dt class="label" id="input"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd></dd>
+</dl>
+<p><a class="reference external" href="https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary">Microsoft Data Type Summary</a></p>
+<dl class="footnote brackets">
+<dt class="label" id="ifs"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd></dd>
+</dl>
+<p><a class="reference external" href="https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/using-ifthenelse-statements">Microsoft Using If…Then…Else Statements</a></p>
+<dl class="footnote brackets">
+<dt class="label" id="fors"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
+<dd></dd>
+</dl>
+<p><a class="reference external" href="https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/fornext-statement">Microsoft For…Next Statement</a></p>
+</div>
+</div>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="Repl.html"
+       title="previous chapter">← Python</a>
+  </li>
+  <li class="next">
+    <a href="../03_Gallery/Gallery.html"
+       title="next chapter">Project Gallery →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2020, Xiao Binn Neoh.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3 with <a href="https://github.com/romnnn/sphinx_press_theme">Press Theme</a>.
+</div>
+            </div>
+          </div>
+      </page>
+    </div>
+    
+    
+  </body>
+</html>
