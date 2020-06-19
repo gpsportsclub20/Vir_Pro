@@ -17,8 +17,8 @@ sys.path.insert(0, os.path.abspath('.'))
 extensions = [
 
     'sphinx_panels',
-    'sphinx.ext.githubpages'
-    #'sphinxcontrib.googleanalytics'
+    'sphinx.ext.githubpages',
+    'sphinxcontrib.googleanalytics'
 
 ]
 
@@ -39,7 +39,7 @@ release = '0.0.1'
 # ones.
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates/layout.html']
+#templates_path = ['_templates/Layout.html']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -66,4 +66,4 @@ html_theme = 'press'
 master_doc = 'index' 
 
 # -- Options for Sphinx extension -------------------------------------------------
-#googleanalytics_id = 'UA-169628776-1'
+googleanalytics_id = 'UA-169628776-1'
