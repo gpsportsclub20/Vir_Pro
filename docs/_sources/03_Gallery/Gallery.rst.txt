@@ -49,9 +49,9 @@ Project Summary
             * From the fluviatile deposits in the main river valleys
 
    * - **Project Challenges**
-     - Massive Data Analysis on and Intepretation of
+     - Massive data analysis and intepretation
             * Pilelogs from 6,248 jack-in RC pilepoints
-            * Pile Test Reports (PIT, HSDPLT, MLT)
+            * Pile Test Reports for more than 300 pilepoints (PIT, HSDPLT, MLT)
 
    * - **Programming Tools Used**
      - Python was predominantly used in
@@ -77,7 +77,7 @@ Leveraging on Python's exceptional data processing and visualisation capabilitie
       * understanding the mechanisms that contributed to excessive pile movements.
 
 First As-built Pile Survey by CUC (Taken from Jan to March 2019)
-------------------------------------------------------------------
+==========================================================================================
 
 .. figure:: CUC.png
       :align: center 
@@ -86,7 +86,7 @@ First As-built Pile Survey by CUC (Taken from Jan to March 2019)
       :class: no-scaled-link
 
 Second Joint As-built Pile Survey (Taken in June 2019)
-------------------------------------------------------------------------
+==========================================================================================
 
 .. figure:: Joint.png
       :align: center 
@@ -94,7 +94,9 @@ Second Joint As-built Pile Survey (Taken in June 2019)
       :height: 500 px
       :class: no-scaled-link
 
-From the figures above, the following observations can be summarised:
+Inferences
+==========================================================================================
+From the figures above, the following observations can be summarised as below:
 
       * Significant outward pile deviation for large clusters of column group piles relative to smaller clusters of column group piles.
       * Internal column group piles were observed to have less deviation in Joint Survey.
