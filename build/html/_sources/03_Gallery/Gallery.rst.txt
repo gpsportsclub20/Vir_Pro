@@ -1,8 +1,15 @@
+################
 Project Gallery
-===============
+################
+.. contents:: :local:
 
-Past Projects
-^^^^^^^^^^^^^^^
-The following tasks have been designed to allow you to consolidate knowledge learned from the workshop.
+****************
+Past Project
+****************
+Batu Kawan
+=========================
+.. raw:: html
 
-These tasks are ordered in an increasing difficulty. Therefore, you may wish to attempt them one at a time.
+    <iframe frameborder="0" width="100%" height="600px" src="03_Gallery/Batu_Kawan.html">
+   
+    </iframe>
