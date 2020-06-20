@@ -9,7 +9,7 @@ Site_Coord = [5.216570, 100.435071]
 m_folium = folium.Map(location = Site_Coord,
                       zoom_start = 16)
 
-m_tooltip_label = "Site Location"
+m_tooltip_label = "Site Location: Warehouse of Jabil Circuit Sdn. Bhd."
 m_tooltip = folium.Marker(Site_Coord, 
                           tooltip = m_tooltip_label).add_to(m_folium)
 
