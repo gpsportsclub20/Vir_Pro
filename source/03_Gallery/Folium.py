@@ -1,3 +1,4 @@
+import os
 import folium
 # Importing explicitly the module from 'folium' - 'folium.plugins'
 import folium.plugins as plugins
@@ -14,14 +15,19 @@ m_tooltip = folium.Marker(Site_Coord,
 
 # Activating the 'folium.plugins' to include a minimap at the bottomright of the main map
 m_minimap_Batu_Kawan = plugins.MiniMap(toggle_display = True, 
-                                       zoom_level_offset = -1, 
                                        width=200, 
                                        height=200, 
-                                       zoom_level_fixed=12,)
+                                       zoom_level_fixed=None)
+
 m_folium.add_child(m_minimap_Batu_Kawan)
 
+# Importing the polyline coordinates for the site boundary from Geojason.io
+local_CPath ="source/03_Gallery/"
+overlay = os.path.join(local_CPath,'GeoJason.json')
+folium.GeoJson(overlay, name='Site Boundary').add_to(m_folium)
+
 # Outputting the 'm_folium' object on Jupyter Notebook
-m_folium
+#m_folium
 
 # Saving the 'Leaflet' map generated in html format
 m_folium.save('Batu_Kawan.html')
