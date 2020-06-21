@@ -24,10 +24,20 @@ m_folium.add_child(m_minimap_Batu_Kawan)
 # Importing the polyline coordinates for the site boundary from Geojason.io
 local_CPath ="source/03_Gallery/"
 overlay = os.path.join(local_CPath,'GeoJason.json')
-folium.GeoJson(overlay, name='Site Boundary').add_to(m_folium)
 
-# Outputting the 'm_folium' object on Jupyter Notebook
-#m_folium
+# Defining a function to style the 'GeoJson' overlay for site boundary
+def style_function_GeoJson(feature):
+    
+    return { 'fillColor': '#black'
+    }
+
+folium.GeoJson(
+    overlay, 
+    name='Site Boundary',
+    style_function = style_function_GeoJson
+).add_to(m_folium)
+
+folium.LayerControl().add_to(m_folium)
 
 # Saving the 'Leaflet' map generated in html format
 m_folium.save('Batu_Kawan.html')

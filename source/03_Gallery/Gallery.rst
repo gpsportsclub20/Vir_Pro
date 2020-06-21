@@ -107,11 +107,12 @@ Inferences from Python Data Visualisation
 The observations were crucial to illustrate that the discrepancies in as-built pile deviation surveys were influenced by:
       
 **Spatial Factors**
-      * Spatial distribution of piles (pile density for the pilegroups)
-      * Radial soil displacement from pile jacking in clay
+      * Distribution of piles per unit area (*pile density*)
+      * Radial soil displacement from pile jacking in clay 
+            * As a function of *pile density*
 **Temporal Factor**
       * Timing of as-built pile deviation survey taken 
-      * At least 3 months apart between the first and second surveys
+            * At least 3 months apart between the first and second surveys
 
 ***************************************
 Theoretical Analysis with Python
@@ -119,8 +120,8 @@ Theoretical Analysis with Python
 
 Radial Soil Displacement from Pile Driving or Jacking in Clay
 ===================================================================
-| The phenomenon of radial soil displacement was further studied using Python 
-| with reference to Sagaseta & Whittle (2001) [[#SSPM]_].
+| The phenomenon of radial soil displacement was further studied using Python with reference to 
+| Sagaseta & Whittle (2001) [[#SSPM]_].
 
 This theoretical study provided the project team insights into 
       * The expected displacement of clay due to hydraulic jacking circular piles.

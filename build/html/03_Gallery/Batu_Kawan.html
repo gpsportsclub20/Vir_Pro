@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e77a96b6a0f24c1f8ebb96b4a822cf36 {
+                #map_5406a7b25f8c47299dcc8ac3ca3e2036 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -37,13 +37,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_e77a96b6a0f24c1f8ebb96b4a822cf36" ></div>
+            <div class="folium-map" id="map_5406a7b25f8c47299dcc8ac3ca3e2036" ></div>
         
 </body>
 <script>    
     
-            var map_e77a96b6a0f24c1f8ebb96b4a822cf36 = L.map(
-                "map_e77a96b6a0f24c1f8ebb96b4a822cf36",
+            var map_5406a7b25f8c47299dcc8ac3ca3e2036 = L.map(
+                "map_5406a7b25f8c47299dcc8ac3ca3e2036",
                 {
                     center: [5.21657, 100.435071],
                     crs: L.CRS.EPSG3857,
@@ -57,19 +57,19 @@
 
         
     
-            var tile_layer_9ea141a843b34cb5b1885c360d4cc25e = L.tileLayer(
+            var tile_layer_17d13971b9cb4cf9840bffc25bd0a690 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_e77a96b6a0f24c1f8ebb96b4a822cf36);
+            ).addTo(map_5406a7b25f8c47299dcc8ac3ca3e2036);
         
     
-            var marker_7afac902a85242e381d54acd511e79a5 = L.marker(
+            var marker_c5c3d39afec94d9a961444c42c082abe = L.marker(
                 [5.21657, 100.435071],
                 {}
-            ).addTo(map_e77a96b6a0f24c1f8ebb96b4a822cf36);
+            ).addTo(map_5406a7b25f8c47299dcc8ac3ca3e2036);
         
     
-            marker_7afac902a85242e381d54acd511e79a5.bindTooltip(
+            marker_c5c3d39afec94d9a961444c42c082abe.bindTooltip(
                 `<div>
                      Site Location: Warehouse of Jabil Circuit Sdn. Bhd.
                  </div>`,
@@ -77,32 +77,54 @@
             );
         
     
-            var tile_layer_cebdf737b16a47988627508033ad78e7 = L.tileLayer(
+            var tile_layer_b39f5dfb8c72496c8f2a38d2344af811 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
-            var mini_map_bb4b1e8750a340808023461a3c10e443 = new L.Control.MiniMap(
-                tile_layer_cebdf737b16a47988627508033ad78e7,
+            var mini_map_cfa46fdcabdb4eeba4ff9a47c8e5972b = new L.Control.MiniMap(
+                tile_layer_b39f5dfb8c72496c8f2a38d2344af811,
                 {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 200, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 200, "zoomAnimation": false, "zoomLevelOffset": -5}
             );
-            map_e77a96b6a0f24c1f8ebb96b4a822cf36.addControl(mini_map_bb4b1e8750a340808023461a3c10e443);
+            map_5406a7b25f8c47299dcc8ac3ca3e2036.addControl(mini_map_cfa46fdcabdb4eeba4ff9a47c8e5972b);
         
     
-        function geo_json_157af9c037fc4ceca59df2f9e815254e_onEachFeature(feature, layer) {
+        function geo_json_2e1479fb9cd8478a9204ee9f54c155bb_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "#black"};
+            }
+        }
+        function geo_json_2e1479fb9cd8478a9204ee9f54c155bb_onEachFeature(feature, layer) {
             layer.on({
                 click: function(e) {
-                    map_e77a96b6a0f24c1f8ebb96b4a822cf36.fitBounds(e.target.getBounds());
+                    map_5406a7b25f8c47299dcc8ac3ca3e2036.fitBounds(e.target.getBounds());
                 }
             });
         };
-        var geo_json_157af9c037fc4ceca59df2f9e815254e = L.geoJson(null, {
-                onEachFeature: geo_json_157af9c037fc4ceca59df2f9e815254e_onEachFeature,
+        var geo_json_2e1479fb9cd8478a9204ee9f54c155bb = L.geoJson(null, {
+                onEachFeature: geo_json_2e1479fb9cd8478a9204ee9f54c155bb_onEachFeature,
             
-        }).addTo(map_e77a96b6a0f24c1f8ebb96b4a822cf36);
+                style: geo_json_2e1479fb9cd8478a9204ee9f54c155bb_styler,
+        }).addTo(map_5406a7b25f8c47299dcc8ac3ca3e2036);
 
-        function geo_json_157af9c037fc4ceca59df2f9e815254e_add (data) {
-            geo_json_157af9c037fc4ceca59df2f9e815254e.addData(data);
+        function geo_json_2e1479fb9cd8478a9204ee9f54c155bb_add (data) {
+            geo_json_2e1479fb9cd8478a9204ee9f54c155bb.addData(data);
         }
-            geo_json_157af9c037fc4ceca59df2f9e815254e_add({"features": [{"geometry": {"coordinates": [[100.43372869491577, 5.217657588688551], [100.43581008911133, 5.218106332499332], [100.43600857257843, 5.218031541886489], [100.43639481067657, 5.2173691103550155], [100.43677031993866, 5.2167066781241775], [100.43707072734831, 5.216268617716447], [100.43705463409424, 5.216124378247005], [100.43627142906189, 5.215579473285447], [100.43444752693176, 5.215194834204251], [100.43372869491577, 5.217636219927669]], "type": "LineString"}, "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+            geo_json_2e1479fb9cd8478a9204ee9f54c155bb_add({"features": [{"geometry": {"coordinates": [[100.43372869491577, 5.217657588688551], [100.43581008911133, 5.218106332499332], [100.43600857257843, 5.218031541886489], [100.43639481067657, 5.2173691103550155], [100.43677031993866, 5.2167066781241775], [100.43707072734831, 5.216268617716447], [100.43705463409424, 5.216124378247005], [100.43627142906189, 5.215579473285447], [100.43444752693176, 5.215194834204251], [100.43372869491577, 5.217636219927669]], "type": "LineString"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+            var layer_control_29e0bd44501c4f32830f078885c2d828 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_17d13971b9cb4cf9840bffc25bd0a690,
+                },
+                overlays :  {
+                    "Site Boundary" : geo_json_2e1479fb9cd8478a9204ee9f54c155bb,
+                },
+            };
+            L.control.layers(
+                layer_control_29e0bd44501c4f32830f078885c2d828.base_layers,
+                layer_control_29e0bd44501c4f32830f078885c2d828.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_5406a7b25f8c47299dcc8ac3ca3e2036);
         
 </script>
