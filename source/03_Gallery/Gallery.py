@@ -13,6 +13,25 @@ m_tooltip_label = "Site Location: Warehouse of Jabil Circuit Sdn. Bhd."
 m_tooltip = folium.Marker(Site_Coord, 
                           tooltip = m_tooltip_label).add_to(m_folium)
 
+# Calling the class folium.map.FeatureGroup to group the places of interest in the LayerControl panel
+feature_group = folium.FeatureGroup("Coding Trailblazers")
+# Collecting in Python tuples the coordinates of places with historical significance to the development of computer science
+# Blethchley Park (51.997779, -0.740697)
+
+lat_CS = [51.997779, 28.606028, 60.185062, 33.321936, 32.064053]
+long_CS = [-0.740697, -80.653095, 24.932134, 44.347653, 118.792634]
+m_tooltip_label = ["Alan Turing: Bletchley Park", "Margaret H. Hamilton: Kennedy Space Centre", "Linus Torvalds: Helsinki", "Muhammad ibn Musa al-Khwarizmi: Baghdad", "Zu Chongzhi: Nanjing"]
+
+
+for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_CS, long_CS, m_tooltip_label):
+    
+    tooltip_Coord = [lat_tooltip, long_tooltip]
+    feature_group.add_child(folium.Marker(location = tooltip_Coord,
+                                          icon = folium.Icon(color='red',icon='info-sign'),
+                                          popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
+
+m_folium.add_child(feature_group)
+
 # Activating the 'folium.plugins' to include a minimap at the bottomright of the main map
 m_minimap_Batu_Kawan = plugins.MiniMap(toggle_display = True, 
                                        width=200, 
