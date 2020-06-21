@@ -98,7 +98,7 @@ to Trailblazers
 
 While coding can be quite an arduous journey to embark on, draw strength and inspiration from those who have walked the untrodden paths and blazed the trails.
 
-As the saying goes: stand on the shoulders of giants to see further!
+As the saying goes: **Stand on the shoulders of giants to see further!**
 
 
 
@@ -116,10 +116,11 @@ As the saying goes: stand on the shoulders of giants to see further!
 
    .. figure:: ATr.png
          :align: center 
-         :height: 220 px
-         :width:  180 px
+         :height: 250 px
+         :width:  200 px
          :class: no-scaled-link
 
+   
    ---
 
    **Alan Turing**
@@ -134,16 +135,18 @@ As the saying goes: stand on the shoulders of giants to see further!
          :type: url
          :text: Learn More about Alan Turing
          :classes: btn-outline-dark btn-block   
+   
+   ``*`` Source: The New York Times [[#AT]_]
 
    ---
    .. figure:: MHH1.png
          :align: center 
-         :height: 220 px
-         :width:  180 px
+         :height: 250 px
+         :width:  200 px
          :class: no-scaled-link
 
    ---
-   **Margaret H. Hamilton**
+   **Margaret Hamilton**
 
    Celebrated American systems engineer at NASA with instrumental contributions to the Apollo 11 mission.
 
@@ -153,13 +156,16 @@ As the saying goes: stand on the shoulders of giants to see further!
 
    .. link-button:: http://news.mit.edu/2016/scene-at-mit-margaret-hamilton-apollo-code-0817
          :type: url
-         :text: Learn More about Margaret H. Hamilton
+         :text: Learn More about Margaret Hamilton
          :classes: btn-outline-dark btn-block  
+
+   ``*`` Source: MIT News [[#MHH]_]
+       
    ---
    .. figure:: LT.png
          :align: center 
          :height: 250 px
-         :width:  180 px
+         :width:  200 px
          :class: no-scaled-link
    
    ---
@@ -176,17 +182,19 @@ As the saying goes: stand on the shoulders of giants to see further!
          :text: Learn More about Linus Torvalds
          :classes: btn-outline-dark btn-block  
 
+   ``*`` Source: TED [[#LT]_]
+
    ---
    .. figure:: XPS1.png
          :align: center 
-         :height: 220 px
-         :width:  180 px
+         :height: 270 px
+         :width:  200 px
          :class: no-scaled-link
    
    ---
    **Xia Peisu**
    
-   Esteemed Chinese computer scientist that advanced multiple technological fronts in China during the Cold War era.
+   Esteemed Chinese computer scientist who advanced multiple technological fronts in China during the Cold War era.
 
    **Known for:** 
 
@@ -197,6 +205,8 @@ As the saying goes: stand on the shoulders of giants to see further!
          :text: Learn More about Xia Peisu
          :classes: btn-outline-dark btn-block  
 
+   ``*`` Source: BBC [[#XPS]_]
+
 *****************
 Flow Chart
 *****************
@@ -206,3 +216,22 @@ For a close, see a common flow chart to encapsulate the coding process.
       :align: center 
       :height: 900 px
       :width:  300 px
+
+**************
+References
+**************
+.. [#AT]
+
+| `The New York Times: Britain’s £50 Note Will Honor Computing Pioneer Alan Turing <https://www.nytimes.com/2019/07/15/business/alan-turing-50-pound-note.html>`_
+
+.. [#MHH]
+
+| `MIT News: Margaret Hamilton’s Apollo code <http://news.mit.edu/2016/scene-at-mit-margaret-hamilton-apollo-code-0817>`_
+
+.. [#LT]
+
+| `TED: Linus Torvalds <https://www.ted.com/speakers/linus_torvalds>`_
+
+.. [#XPS]
+
+| `BBC: The computer pioneer who built modern China <https://www.bbc.com/future/article/20200219-xia-peisu-the-computer-pioneer-who-built-modern-china>`_
