@@ -1,8 +1,11 @@
+################
 Road Map
-========
+################
 
+********************************************************************************
 for Coding Trailblazers
-^^^^^^^^^^^^^^^^^^^^^^^^
+********************************************************************************
+
 Just like the start of any journey, having the right map makes the road ahead less daunting.
 
 There are a few important milestones in the realm of programming.
@@ -88,13 +91,118 @@ So to the coding trailblazers: **Pocket the road map, sharpen your tools and mar
 
    However, do not get disheartened if your code does not yield the desired results. Trace the tracks you blazed and **debug**!
 
+
+*****************
+to Trailblazers
+*****************
+
+While coding can be quite an arduous journey to embark on, draw strength and inspiration from those who have walked the untrodden paths and blazed the trails.
+
+As the saying goes: stand on the shoulders of giants to see further!
+
+
+
+.. raw:: html
+
+    <iframe frameborder="0" width="100%" height="400px" src="CS.html">
+   
+    </iframe>
+
+|
+| This section pays homage to some of the legendary figures in programming.
+|
+
+.. panels::
+
+   .. figure:: ATr.png
+         :align: center 
+         :height: 220 px
+         :width:  180 px
+         :class: no-scaled-link
+
+   ---
+
+   **Alan Turing**
+   
+   Distinguished English mathematician and cryptanalyst during the Second World War.
+
+   **Known for:** 
+     
+   Decoding the Nazi Germany's Enigma Machine
+   
+   .. link-button:: https://www.nytimes.com/2019/07/15/business/alan-turing-50-pound-note.html
+         :type: url
+         :text: Learn More about Alan Turing
+         :classes: btn-outline-dark btn-block   
+
+   ---
+   .. figure:: MHH1.png
+         :align: center 
+         :height: 220 px
+         :width:  180 px
+         :class: no-scaled-link
+
+   ---
+   **Margaret H. Hamilton**
+
+   Celebrated American systems engineer at NASA with instrumental contributions to the Apollo 11 mission.
+
+   **Known for:** 
+
+   Developing the Apollo Guidance Computer at MIT
+
+   .. link-button:: http://news.mit.edu/2016/scene-at-mit-margaret-hamilton-apollo-code-0817
+         :type: url
+         :text: Learn More about Margaret H. Hamilton
+         :classes: btn-outline-dark btn-block  
+   ---
+   .. figure:: LT.png
+         :align: center 
+         :height: 250 px
+         :width:  180 px
+         :class: no-scaled-link
+   
+   ---
+   **Linus Torvalds**
+
+   Eminent Finnish-American software engineer and creator of Linux.
+
+   **Known for:** 
+
+   Creating the Linux Operating System and Git distributed version control system
+
+   .. link-button:: https://www.ted.com/speakers/linus_torvalds
+         :type: url
+         :text: Learn More about Linus Torvalds
+         :classes: btn-outline-dark btn-block  
+
+   ---
+   .. figure:: XPS1.png
+         :align: center 
+         :height: 220 px
+         :width:  180 px
+         :class: no-scaled-link
+   
+   ---
+   **Xia Peisu**
+   
+   Esteemed Chinese computer scientist that advanced multiple technological fronts in China during the Cold War era.
+
+   **Known for:** 
+
+   Developing China's first home-grown computer for general purpose
+
+   .. link-button:: https://www.bbc.com/future/article/20200219-xia-peisu-the-computer-pioneer-who-built-modern-china
+         :type: url
+         :text: Learn More about Xia Peisu
+         :classes: btn-outline-dark btn-block  
+
+*****************
 Flow Chart
-^^^^^^^^^^^
-A common flow chart to encapsulate the coding process.
+*****************
+For a close, see a common flow chart to encapsulate the coding process.
 
 .. figure:: /_images/Flow.png
       :align: center 
       :height: 900 px
       :width:  300 px
-
-      

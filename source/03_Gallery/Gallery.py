@@ -14,13 +14,13 @@ m_tooltip = folium.Marker(Site_Coord,
                           tooltip = m_tooltip_label).add_to(m_folium)
 
 # Calling the class folium.map.FeatureGroup to group the places of interest in the LayerControl panel
-feature_group = folium.FeatureGroup("Coding Trailblazers")
+feature_group = folium.FeatureGroup("Trailblazers")
 # Collecting in Python tuples the coordinates of places with historical significance to the development of computer science
 # Blethchley Park (51.997779, -0.740697)
 
-lat_CS = [51.997779, 28.606028, 60.185062, 33.321936, 32.064053]
-long_CS = [-0.740697, -80.653095, 24.932134, 44.347653, 118.792634]
-m_tooltip_label = ["Alan Turing: Bletchley Park", "Margaret H. Hamilton: Kennedy Space Centre", "Linus Torvalds: Helsinki", "Muhammad ibn Musa al-Khwarizmi: Baghdad", "Zu Chongzhi: Nanjing"]
+lat_CS = [51.997779, 28.606028, 60.185062, 33.321936, 32.064053,29.433293, 59.857012]
+long_CS = [-0.740697, -80.653095, 24.932134, 44.347653, 118.792634,  106.915184, 30.254356]
+m_tooltip_label = ["Alan Turing: Bletchley Park, England", "Margaret H. Hamilton: Kennedy Space Centre, USA", "Linus Torvalds: Helsinki, Finland", "Muhammad ibn Musa al-Khwarizmi: Baghdad, Iraq", "Zu Chongzhi: Nanjing, China","Xia Peisu: Chongqing, China", "Grigori Perelman: Leningrad, Russia"]
 
 
 for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_CS, long_CS, m_tooltip_label):
