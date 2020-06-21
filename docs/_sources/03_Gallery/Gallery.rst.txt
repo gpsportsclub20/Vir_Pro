@@ -6,7 +6,6 @@ Project Gallery
 Investigative Project at Batu Kawan, Pulau Pinang, Malaysia
 ********************************************************************************
 
-
 .. raw:: html
 
     <iframe frameborder="0" width="100%" height="600px" src="Batu_Kawan.html">
@@ -32,31 +31,31 @@ Project Summary
    * - **Scope of Investigation**
      - On the probable causes of pile deviations observed from jack-in RC square piles
             * | Installed for the warehouse of Jabil Circuit Sdn. Bhd. 
-              | (as depicted in the Map)
+              | (as depicted in the map)
 
    * - **Problem Statement**
-     - Discrepency in pile deviations (up to 300 mm and more) were identified between:
+     - Discrepencies in pile deviations (up to 300 mm and more) were identified between:
             * First as-built survey by CUC 
                   * Taken from Jan 2019 to March 2019
                   * Simultaneously conducted with ongoing piling and earthworks on-site 
-            * Second joint survey by CUC and Building Main Contractor 
+            * Second joint-survey by CUC and Building Main Contractor 
                   * Taken in June 2019 
                   * Conducted after the end of piling and earthworks
 
    * - **General Site Geology** [[#GMPP]_]
      - The site is underlain by alluvium of Quaternary age which consists of
             * Inter-layered sands, silts and clays
-            * From the fluviatile deposits in the main river valleys
+            * With origins from the fluviatile deposits in the main river valleys
 
-   * - **Project Challenges**
-     - Massive data analysis and intepretation
-            * Pilelogs from 6,248 jack-in RC pilepoints
-            * Pile Test Reports for more than 300 pilepoints (PIT, HSDPLT, MLT)
+   * - **Challenges to Investigation**
+     - Root cause analysis with intepretation of massive datasets under a stringent 3-week timeline
+            * Piling logs from 6,248 jack-in RC pilepoints
+            * Pile test reports for more than 300 pilepoints (PIT, HSDPLT, MLT)
 
-   * - **Programming Tools Used**
-     - Python was predominantly used in
-            * Pile deviation data visualisation 
-            * | Analysis on theoretical radial soil displacement from pile driving
+   * - **Programming Solutions**
+     - Python was used predominantly in
+            * Pile deviation data processing and visualisation 
+            * | Analysis on theoretical radial soil displacement from pile driving in clay
               | (Sagaseta & Whittle, 2001) [[#SSPM]_]
    
    * - **Project Team Members**
@@ -72,9 +71,8 @@ Data Visualisation with Python
 **********************************
 As-built Pile Deviation Data
 ==============================
-Leveraging on Python's exceptional data processing and visualisation capabilities, the as-built pile deviations were    
-      * visualised in a spatial manner to assist the project team in
-      * understanding the mechanisms that contributed to excessive pile movements.
+Leveraging on Python's extensive data processing and visualisation capabilities,     
+      * the as-built pile deviations were visualised in a spatial manner 
 
 First As-built Pile Survey by CUC (Taken from Jan to March 2019)
 ==========================================================================================
@@ -94,36 +92,41 @@ Second Joint As-built Pile Survey (Taken in June 2019)
       :height: 500 px
       :class: no-scaled-link
 
-Inferences
+Key Observations from Python Data Visualisation
 ==========================================================================================
-From the figures above, the following observations can be summarised as below:
+* Large pile clusters have greater pile deviations after installation. 
+      * Relative to smaller pile clusters (pilegroups of 3 and below). 
+* Internal pile clusters have lesser cummulative movements in the second joint-survey taken in June 2019.
+      * Compared to the first survey taken 3 months prior.
+* External pile clusters tend to have greater pile movements towards site boundary.
+      * While the pile movements for internal pile clusters are more restrained.
 
-      * Significant outward pile deviation for large clusters of column group piles relative to smaller clusters of column group piles.
-      * Internal column group piles were observed to have less deviation in Joint Survey.
-      * External clusters of column group piles tend to have more outwards pile movements.
 
-These observations were crucial to illustrate that the discrepancies in as-built pile deviation surveys were influenced by:
+Inferences from Python Data Visualisation
+==========================================================================================
+The observations were crucial to illustrate that the discrepancies in as-built pile deviation surveys were influenced by:
       
-      **Spatial Factor**
-            * Radial soil displacement from pile driving
-      **Temporal Factor**
-            * Timing of as-built pile deviation survey taken (at least 3 months apart)
+**Spatial Factors**
+      * Spatial distribution of piles (pile density for the pilegroups)
+      * Radial soil displacement from pile jacking in clay
+**Temporal Factor**
+      * Timing of as-built pile deviation survey taken 
+      * At least 3 months apart between the first and second surveys
 
 ***************************************
 Theoretical Analysis with Python
 ***************************************
 
-Radial Soil Displacement from Pile Driving
-============================================================
-The phenomenon of radial soil displacement was further studied using Python with reference to
-      * Sagaseta & Whittle (2001) [[#SSPM]_].
+Radial Soil Displacement from Pile Driving or Jacking in Clay
+===================================================================
+| The phenomenon of radial soil displacement was further studied using Python 
+| with reference to Sagaseta & Whittle (2001) [[#SSPM]_].
 
 This theoretical study provided the project team insights into 
-      * the expected soil displacement due to the pile driving process for circular piles.
+      * The expected displacement of clay due to hydraulic jacking circular piles.
 
 The radial soil displacement of a 350mm circular pile that is driven 30m into ground can be determined from the 
       * Small Strain Path Method 
-      * Pioneered by the authors cited.
 
 .. figure:: Radial.png
       :align: center 
@@ -131,18 +134,24 @@ The radial soil displacement of a 350mm circular pile that is driven 30m into gr
       :height: 700 px
       :class: no-scaled-link
 
+.. figure:: Python.png
+      :align: center 
+      :width: 200 px
+      :height: 80 px
+      :class: no-scaled-link
+
 ****************
 Recommendations
 ****************
 Facing an avalanche of piling data from over 6,000 piles, the use of Python assisted the project team greatly in 
-      * accelerating engineering analysis
-      * automating data visualisation.
+      * Accelerating engineering analysis
+      * Automating data visualisation.
 
-However, it is should be stressed that Python and any programming languages should only be used as a 
-      * **complementary tool** to automate repetive work flows.
+However, it is should be stressed that Python and any other programming languages should only be used as a 
+      * **Complementary tool** to automate repetive work flows.
 
 Manual review of automated coding results **must be carried out** to ensure 
-      * sound and sensible engineering outputs.
+      * Sound and sensible engineering outputs.
 
 
 **************
@@ -155,5 +164,5 @@ References
 
 .. [#SSPM]
 
-| Sagaseta, C. & Whittle, A. J. (2001), Prediction of Ground Movement due to Pile Driving in Clay,
-| J. Geotech. Geoenviron. Eng., 127 (1), pp 55-66.
+| Sagaseta, C. & Whittle, A. J. (2001), Prediction of Ground Movement due to Pile Driving in Clay
+| `American Society of Civil Engineers, Journal of Geotechnical and Geoenvironmental Engineering, Vol 127 (1) <https://ascelibrary.org/doi/10.1061/%28ASCE%291090-0241%282001%29127%3A1%2855%29>`_

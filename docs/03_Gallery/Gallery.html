@@ -200,7 +200,7 @@
 <dt>On the probable causes of pile deviations observed from jack-in RC square piles</dt><dd><ul>
 <li><div class="line-block">
 <div class="line">Installed for the warehouse of Jabil Circuit Sdn. Bhd.</div>
-<div class="line">(as depicted in the Map)</div>
+<div class="line">(as depicted in the map)</div>
 </div>
 </li>
 </ul>
@@ -210,7 +210,7 @@
 </tr>
 <tr class="row-even"><td><p><strong>Problem Statement</strong></p></td>
 <td><dl class="simple">
-<dt>Discrepency in pile deviations (up to 300 mm and more) were identified between:</dt><dd><ul class="simple">
+<dt>Discrepencies in pile deviations (up to 300 mm and more) were identified between:</dt><dd><ul class="simple">
 <li><dl class="simple">
 <dt>First as-built survey by CUC</dt><dd><ul>
 <li><p>Taken from Jan 2019 to March 2019</p></li>
@@ -220,7 +220,7 @@
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Second joint survey by CUC and Building Main Contractor</dt><dd><ul>
+<dt>Second joint-survey by CUC and Building Main Contractor</dt><dd><ul>
 <li><p>Taken in June 2019</p></li>
 <li><p>Conducted after the end of piling and earthworks</p></li>
 </ul>
@@ -236,28 +236,28 @@
 <td><dl class="simple">
 <dt>The site is underlain by alluvium of Quaternary age which consists of</dt><dd><ul class="simple">
 <li><p>Inter-layered sands, silts and clays</p></li>
-<li><p>From the fluviatile deposits in the main river valleys</p></li>
+<li><p>With origins from the fluviatile deposits in the main river valleys</p></li>
 </ul>
 </dd>
 </dl>
 </td>
 </tr>
-<tr class="row-even"><td><p><strong>Project Challenges</strong></p></td>
+<tr class="row-even"><td><p><strong>Challenges to Investigation</strong></p></td>
 <td><dl class="simple">
-<dt>Massive data analysis and intepretation</dt><dd><ul class="simple">
-<li><p>Pilelogs from 6,248 jack-in RC pilepoints</p></li>
-<li><p>Pile Test Reports for more than 300 pilepoints (PIT, HSDPLT, MLT)</p></li>
+<dt>Root cause analysis with intepretation of massive datasets under a stringent 3-week timeline</dt><dd><ul class="simple">
+<li><p>Piling logs from 6,248 jack-in RC pilepoints</p></li>
+<li><p>Pile test reports for more than 300 pilepoints (PIT, HSDPLT, MLT)</p></li>
 </ul>
 </dd>
 </dl>
 </td>
 </tr>
-<tr class="row-odd"><td><p><strong>Programming Tools Used</strong></p></td>
+<tr class="row-odd"><td><p><strong>Programming Solutions</strong></p></td>
 <td><dl>
-<dt>Python was predominantly used in</dt><dd><ul>
-<li><p>Pile deviation data visualisation</p></li>
+<dt>Python was used predominantly in</dt><dd><ul>
+<li><p>Pile deviation data processing and visualisation</p></li>
 <li><div class="line-block">
-<div class="line">Analysis on theoretical radial soil displacement from pile driving</div>
+<div class="line">Analysis on theoretical radial soil displacement from pile driving in clay</div>
 <div class="line">(Sagaseta &amp; Whittle, 2001) [<a class="footnote-reference brackets" href="#sspm" id="id2">2</a>]</div>
 </div>
 </li>
@@ -287,9 +287,8 @@
 <div class="section" id="as-built-pile-deviation-data">
 <h3>As-built Pile Deviation Data<a class="headerlink" href="#as-built-pile-deviation-data" title="Permalink to this headline">¶</a></h3>
 <dl class="simple">
-<dt>Leveraging on Python’s exceptional data processing and visualisation capabilities, the as-built pile deviations were</dt><dd><ul class="simple">
-<li><p>visualised in a spatial manner to assist the project team in</p></li>
-<li><p>understanding the mechanisms that contributed to excessive pile movements.</p></li>
+<dt>Leveraging on Python’s extensive data processing and visualisation capabilities,</dt><dd><ul class="simple">
+<li><p>the as-built pile deviations were visualised in a spatial manner</p></li>
 </ul>
 </dd>
 </dl>
@@ -306,52 +305,72 @@
 <img alt="../_images/Joint.png" class="no-scaled-link" src="../_images/Joint.png" style="width: 1000px; height: 500px;" />
 </div>
 </div>
-<div class="section" id="inferences">
-<h3>Inferences<a class="headerlink" href="#inferences" title="Permalink to this headline">¶</a></h3>
-<p>From the figures above, the following observations can be summarised as below:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>Significant outward pile deviation for large clusters of column group piles relative to smaller clusters of column group piles.</p></li>
-<li><p>Internal column group piles were observed to have less deviation in Joint Survey.</p></li>
-<li><p>External clusters of column group piles tend to have more outwards pile movements.</p></li>
-</ul>
-</div></blockquote>
-<p>These observations were crucial to illustrate that the discrepancies in as-built pile deviation surveys were influenced by:</p>
-<blockquote>
-<div><dl class="simple">
-<dt><strong>Spatial Factor</strong></dt><dd><ul class="simple">
-<li><p>Radial soil displacement from pile driving</p></li>
-</ul>
-</dd>
-<dt><strong>Temporal Factor</strong></dt><dd><ul class="simple">
-<li><p>Timing of as-built pile deviation survey taken (at least 3 months apart)</p></li>
+<div class="section" id="key-observations-from-python-data-visualisation">
+<h3>Key Observations from Python Data Visualisation<a class="headerlink" href="#key-observations-from-python-data-visualisation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Large pile clusters have greater pile deviations after installation.</dt><dd><ul>
+<li><p>Relative to smaller pile clusters (pilegroups of 3 and below).</p></li>
 </ul>
 </dd>
 </dl>
-</div></blockquote>
+</li>
+<li><dl class="simple">
+<dt>Internal pile clusters have lesser cummulative movements in the second joint-survey taken in June 2019.</dt><dd><ul>
+<li><p>Compared to the first survey taken 3 months prior.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>External pile clusters tend to have greater pile movements towards site boundary.</dt><dd><ul>
+<li><p>While the pile movements for internal pile clusters are more restrained.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="inferences-from-python-data-visualisation">
+<h3>Inferences from Python Data Visualisation<a class="headerlink" href="#inferences-from-python-data-visualisation" title="Permalink to this headline">¶</a></h3>
+<p>The observations were crucial to illustrate that the discrepancies in as-built pile deviation surveys were influenced by:</p>
+<dl class="simple">
+<dt><strong>Spatial Factors</strong></dt><dd><ul class="simple">
+<li><p>Spatial distribution of piles (pile density for the pilegroups)</p></li>
+<li><p>Radial soil displacement from pile jacking in clay</p></li>
+</ul>
+</dd>
+<dt><strong>Temporal Factor</strong></dt><dd><ul class="simple">
+<li><p>Timing of as-built pile deviation survey taken</p></li>
+<li><p>At least 3 months apart between the first and second surveys</p></li>
+</ul>
+</dd>
+</dl>
 </div>
 </div>
 <div class="section" id="theoretical-analysis-with-python">
 <h2>Theoretical Analysis with Python<a class="headerlink" href="#theoretical-analysis-with-python" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="radial-soil-displacement-from-pile-driving">
-<h3>Radial Soil Displacement from Pile Driving<a class="headerlink" href="#radial-soil-displacement-from-pile-driving" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="radial-soil-displacement-from-pile-driving-or-jacking-in-clay">
+<h3>Radial Soil Displacement from Pile Driving or Jacking in Clay<a class="headerlink" href="#radial-soil-displacement-from-pile-driving-or-jacking-in-clay" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line">The phenomenon of radial soil displacement was further studied using Python</div>
+<div class="line">with reference to Sagaseta &amp; Whittle (2001) [<a class="footnote-reference brackets" href="#sspm" id="id3">2</a>].</div>
+</div>
 <dl class="simple">
-<dt>The phenomenon of radial soil displacement was further studied using Python with reference to</dt><dd><ul class="simple">
-<li><p>Sagaseta &amp; Whittle (2001) [<a class="footnote-reference brackets" href="#sspm" id="id3">2</a>].</p></li>
-</ul>
-</dd>
 <dt>This theoretical study provided the project team insights into</dt><dd><ul class="simple">
-<li><p>the expected soil displacement due to the pile driving process for circular piles.</p></li>
+<li><p>The expected displacement of clay due to hydraulic jacking circular piles.</p></li>
 </ul>
 </dd>
 <dt>The radial soil displacement of a 350mm circular pile that is driven 30m into ground can be determined from the</dt><dd><ul class="simple">
 <li><p>Small Strain Path Method</p></li>
-<li><p>Pioneered by the authors cited.</p></li>
 </ul>
 </dd>
 </dl>
 <div class="figure align-center">
 <img alt="../_images/Radial.png" class="no-scaled-link" src="../_images/Radial.png" style="width: 700px; height: 700px;" />
+</div>
+<div class="figure align-center">
+<img alt="../_images/Python1.png" class="no-scaled-link" src="../_images/Python1.png" style="width: 200px; height: 80px;" />
 </div>
 </div>
 </div>
@@ -359,16 +378,16 @@
 <h2>Recommendations<a class="headerlink" href="#recommendations" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
 <dt>Facing an avalanche of piling data from over 6,000 piles, the use of Python assisted the project team greatly in</dt><dd><ul class="simple">
-<li><p>accelerating engineering analysis</p></li>
-<li><p>automating data visualisation.</p></li>
+<li><p>Accelerating engineering analysis</p></li>
+<li><p>Automating data visualisation.</p></li>
 </ul>
 </dd>
-<dt>However, it is should be stressed that Python and any programming languages should only be used as a</dt><dd><ul class="simple">
-<li><p><strong>complementary tool</strong> to automate repetive work flows.</p></li>
+<dt>However, it is should be stressed that Python and any other programming languages should only be used as a</dt><dd><ul class="simple">
+<li><p><strong>Complementary tool</strong> to automate repetive work flows.</p></li>
 </ul>
 </dd>
 <dt>Manual review of automated coding results <strong>must be carried out</strong> to ensure</dt><dd><ul class="simple">
-<li><p>sound and sensible engineering outputs.</p></li>
+<li><p>Sound and sensible engineering outputs.</p></li>
 </ul>
 </dd>
 </dl>
@@ -388,8 +407,8 @@
 <dd></dd>
 </dl>
 <div class="line-block">
-<div class="line">Sagaseta, C. &amp; Whittle, A. J. (2001), Prediction of Ground Movement due to Pile Driving in Clay,</div>
-<div class="line">J. Geotech. Geoenviron. Eng., 127 (1), pp 55-66.</div>
+<div class="line">Sagaseta, C. &amp; Whittle, A. J. (2001), Prediction of Ground Movement due to Pile Driving in Clay</div>
+<div class="line"><a class="reference external" href="https://ascelibrary.org/doi/10.1061/%28ASCE%291090-0241%282001%29127%3A1%2855%29">American Society of Civil Engineers, Journal of Geotechnical and Geoenvironmental Engineering, Vol 127 (1)</a></div>
 </div>
 </div>
 </div>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e77a96b6a0f24c1f8ebb96b4a822cf36 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e77a96b6a0f24c1f8ebb96b4a822cf36" ></div>
+        
+</body>
+<script>    
+    
+            var map_e77a96b6a0f24c1f8ebb96b4a822cf36 = L.map(
+                "map_e77a96b6a0f24c1f8ebb96b4a822cf36",
+                {
+                    center: [5.21657, 100.435071],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9ea141a843b34cb5b1885c360d4cc25e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e77a96b6a0f24c1f8ebb96b4a822cf36);
+        
+    
+            var marker_7afac902a85242e381d54acd511e79a5 = L.marker(
+                [5.21657, 100.435071],
+                {}
+            ).addTo(map_e77a96b6a0f24c1f8ebb96b4a822cf36);
+        
+    
+            marker_7afac902a85242e381d54acd511e79a5.bindTooltip(
+                `<div>
+                     Site Location: Warehouse of Jabil Circuit Sdn. Bhd.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var tile_layer_cebdf737b16a47988627508033ad78e7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+            var mini_map_bb4b1e8750a340808023461a3c10e443 = new L.Control.MiniMap(
+                tile_layer_cebdf737b16a47988627508033ad78e7,
+                {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 200, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 200, "zoomAnimation": false, "zoomLevelOffset": -5}
+            );
+            map_e77a96b6a0f24c1f8ebb96b4a822cf36.addControl(mini_map_bb4b1e8750a340808023461a3c10e443);
+        
+    
+        function geo_json_157af9c037fc4ceca59df2f9e815254e_onEachFeature(feature, layer) {
+            layer.on({
+                click: function(e) {
+                    map_e77a96b6a0f24c1f8ebb96b4a822cf36.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_157af9c037fc4ceca59df2f9e815254e = L.geoJson(null, {
+                onEachFeature: geo_json_157af9c037fc4ceca59df2f9e815254e_onEachFeature,
+            
+        }).addTo(map_e77a96b6a0f24c1f8ebb96b4a822cf36);
+
+        function geo_json_157af9c037fc4ceca59df2f9e815254e_add (data) {
+            geo_json_157af9c037fc4ceca59df2f9e815254e.addData(data);
+        }
+            geo_json_157af9c037fc4ceca59df2f9e815254e_add({"features": [{"geometry": {"coordinates": [[100.43372869491577, 5.217657588688551], [100.43581008911133, 5.218106332499332], [100.43600857257843, 5.218031541886489], [100.43639481067657, 5.2173691103550155], [100.43677031993866, 5.2167066781241775], [100.43707072734831, 5.216268617716447], [100.43705463409424, 5.216124378247005], [100.43627142906189, 5.215579473285447], [100.43444752693176, 5.215194834204251], [100.43372869491577, 5.217636219927669]], "type": "LineString"}, "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+        
+</script>
