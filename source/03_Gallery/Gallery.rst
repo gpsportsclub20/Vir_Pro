@@ -132,14 +132,14 @@ Radial Soil Displacement from Pile Driving or Jacking in Clay
 This theoretical study provided the project team insights into 
       * The expected displacement of clay due to hydraulic jacking circular piles.
 
-| The radial soil displacement, at r > 3R \ :sub:`pile`\  of a 350mm circular pile that is driven 30m into stress-free clay surface can be determined from the **Small Strain Path Method**
+| The radial soil displacement, at r > 3R \ :sub:`pile`\  of a 350mm diameter circular pile that is driven 30m into stress-free clay surface can be determined from the **Small Strain Path Method**
 
-.. figure:: Surf3R.png
+.. figure:: Surf3R2.png
       :align: center
       :width: 850 px
       :height: 700 px
       :class: no-scaled-link
-.. figure:: Radial3R.png
+.. figure:: Radial3R2.png
       :align: center
       :width: 800 px
       :height: 700 px
