@@ -94,24 +94,30 @@ Second Joint As-built Pile Survey (Taken in June 2019)
 
 Key Observations from Python Data Visualisation
 ==========================================================================================
-* Large pile clusters have greater pile deviations after installation. 
+
+* Large pile clusters have greater pile deviations after installation.
       * Relative to smaller pile clusters (pilegroups of 3 and below). 
+
 * Internal pile clusters have lesser cummulative movements in the second joint-survey taken in June 2019.
-      * Compared to the first survey taken 3 months prior.
+      * Compared to the first survey taken 3 months prior. 
+
 * External pile clusters tend to have greater pile movements towards site boundary.
       * While the pile movements for internal pile clusters are more restrained.
-
 
 Inferences from Python Data Visualisation
 ==========================================================================================
 The observations were crucial to illustrate that the discrepancies in as-built pile deviation surveys were influenced by:
-      
-**Spatial Factors**
-      * Distribution of piles per unit area (*pile density*)
-      * Radial soil displacement from pile jacking in clay 
-            * As a function of *pile density*
-**Temporal Factor**
-      * Timing of as-built pile deviation survey taken 
+
+.. list-table::  
+   :widths: 6 30
+   :header-rows: 0
+
+   * - **Spatial Factors**
+     - Distribution of piles per unit area (*pile density*)
+            * Radial soil displacement from pile jacking in clay as a function of *pile density*
+
+   * - **Temporal Factor**
+     - Timing of as-built pile deviation survey taken 
             * At least 3 months apart between the first and second surveys
 
 ***************************************
@@ -126,12 +132,16 @@ Radial Soil Displacement from Pile Driving or Jacking in Clay
 This theoretical study provided the project team insights into 
       * The expected displacement of clay due to hydraulic jacking circular piles.
 
-The radial soil displacement of a 350mm circular pile that is driven 30m into ground can be determined from the 
-      * Small Strain Path Method 
+| The radial soil displacement, at r > 3R \ :sub:`pile`\  of a 350mm circular pile that is driven 30m into stress-free clay surface can be determined from the **Small Strain Path Method**
 
-.. figure:: Radial.png
-      :align: center 
-      :width: 700 px
+.. figure:: Surf3R.png
+      :align: center
+      :width: 850 px
+      :height: 700 px
+      :class: no-scaled-link
+.. figure:: Radial3R.png
+      :align: center
+      :width: 800 px
       :height: 700 px
       :class: no-scaled-link
 

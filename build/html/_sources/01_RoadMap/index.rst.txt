@@ -119,12 +119,15 @@ As the saying goes: **Stand on the shoulders of giants to see further!**
          :height: 250 px
          :width:  200 px
          :class: no-scaled-link
+         :alt: alternate text
+         :figclass: align-center
+
+         **Alan Turing**
 
    
    ---
+   **Biography:** 
 
-   **Alan Turing**
-   
    Distinguished English mathematician and cryptanalyst during the Second World War.
 
    **Known for:** 
@@ -144,9 +147,14 @@ As the saying goes: **Stand on the shoulders of giants to see further!**
          :height: 250 px
          :width:  200 px
          :class: no-scaled-link
+         :alt: alternate text
+         :figclass: align-center
+
+         **Margaret Hamilton**
 
    ---
-   **Margaret Hamilton**
+ 
+   **Biography:** 
 
    Celebrated American systems engineer at NASA with instrumental contributions to the Apollo 11 mission.
 
@@ -167,9 +175,13 @@ As the saying goes: **Stand on the shoulders of giants to see further!**
          :height: 250 px
          :width:  200 px
          :class: no-scaled-link
-   
+         :alt: alternate text
+         :figclass: align-center
+
+         **Linus Torvalds** 
    ---
-   **Linus Torvalds**
+   
+   **Biography:** 
 
    Eminent Finnish-American software engineer and creator of Linux.
 
@@ -182,6 +194,7 @@ As the saying goes: **Stand on the shoulders of giants to see further!**
          :text: Learn More about Linus Torvalds
          :classes: btn-outline-dark btn-block  
 
+
    ``*`` Source: TED [[#LT]_]
 
    ---
@@ -190,9 +203,14 @@ As the saying goes: **Stand on the shoulders of giants to see further!**
          :height: 270 px
          :width:  200 px
          :class: no-scaled-link
+         :alt: alternate text
+         :figclass: align-center
+
+         **Xia Peisu** 
    
    ---
-   **Xia Peisu**
+
+   **Biography:**    
    
    Esteemed Chinese computer scientist who advanced multiple technological fronts in China during the Cold War era.
 
