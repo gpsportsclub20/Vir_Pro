@@ -34,7 +34,7 @@ Project Summary
               | (as depicted in the map)
 
    * - **Problem Statement**
-     - Discrepencies in pile deviations (up to 300 mm and more) were identified between:
+     - Discrepancies in pile deviations (up to 300 mm and more) were identified between:
             * First as-built survey by CUC 
                   * Taken from Jan 2019 to March 2019
                   * Simultaneously conducted with ongoing piling and earthworks on-site 
@@ -48,7 +48,7 @@ Project Summary
             * With origins from the fluviatile deposits in the main river valleys
 
    * - **Challenges to Investigation**
-     - Root cause analysis with intepretation of massive datasets under a stringent 3-week timeline
+     - Root cause analysis with interpretation of massive datasets under a stringent 3-week timeline
             * Piling logs from 6,248 jack-in RC pilepoints
             * Pile test reports for more than 300 pilepoints (PIT, HSDPLT, MLT)
 
@@ -98,7 +98,7 @@ Key Observations from Python Data Visualisation
 * Large pile clusters have greater pile deviations after installation.
       * Relative to smaller pile clusters (pilegroups of 3 and below). 
 
-* Internal pile clusters have lesser cummulative movements in the second joint-survey taken in June 2019.
+* Internal pile clusters have lesser cumulative movements in the second joint-survey taken in June 2019.
       * Compared to the first survey taken 3 months prior. 
 
 * External pile clusters tend to have greater pile movements towards site boundary.
@@ -109,7 +109,7 @@ Inferences from Python Data Visualisation
 The observations were crucial to illustrate that the discrepancies in as-built pile deviation surveys were influenced by:
 
 .. list-table::  
-   :widths: 6 30
+   :widths: 5 18
    :header-rows: 0
 
    * - **Spatial Factors**
@@ -130,7 +130,7 @@ Radial Soil Displacement from Pile Driving or Jacking in Clay
 | Sagaseta & Whittle (2001) [[#SSPM]_].
 
 This theoretical study provided the project team insights into 
-      * The expected displacement of clay due to hydraulic jacking circular piles.
+      * The expected displacement of clay due to hydraulic jacking of circular piles.
 
 | The radial soil displacement, at r > 3R \ :sub:`pile`\  , of a 350mm diameter circular pile that is driven 30m into stress-free clay surface can be determined from the **Small Strain Path Method**
 
@@ -158,8 +158,8 @@ Facing an avalanche of piling data from over 6,000 piles, the use of Python assi
       * Accelerating engineering analysis
       * Automating data visualisation.
 
-However, it is should be stressed that Python and any other programming languages should only be used as a 
-      * **Complementary tool** to automate repetive work flows.
+However, it should be stressed that Python and any other programming languages should only be used as a 
+      * **Complementary tool** to automate repetitive work flows.
 
 Manual review of automated coding results **must be carried out** to ensure 
       * Sound and sensible engineering outputs.

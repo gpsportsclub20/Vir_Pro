@@ -23,7 +23,7 @@ You may get your first hands-on coding experience with Python using the interpre
 
 Conventions Used
 ================
-It is conventional for code snippets to be displayed in boxed section for ease of reference.
+It is conventional for code snippets to be displayed in boxed sections for ease of reference.
 
 .. note::
 
@@ -127,7 +127,7 @@ Formulating a user-defined Python function follows steps as below:
 *************
 3.1 Conditional Statements
 ===========================
-You can introduce nested 'if' statements as below to improve readibility of code [[#PyIfs]_]:
+You can introduce nested 'if' statements as below to improve readability of code [[#PyIfs]_]:
 
 .. note::
 

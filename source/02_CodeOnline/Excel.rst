@@ -15,7 +15,7 @@ VBA Terminal
 
 Conventions Used
 ================
-It is conventional for code snippets to be displayed in boxed section for ease of reference.
+It is conventional for code snippets to be displayed in boxed sections for ease of reference.
 
 .. note::
 
@@ -114,7 +114,7 @@ Declaring an input or variable can be done in the VBA terminal as such:
 
       .. code-block:: 
 
-         ' Declaring Pile_Diameter as an interger
+         ' Declaring Pile_Diameter as an integer
          Dim Pile_Diameter as Integer                   
 
 2.2 Functions
@@ -154,7 +154,7 @@ Formulating a user-defined VBA function follows steps as below:
 *************
 3.1 Conditional Statements
 ===========================
-You can introduce nested 'if' statements as below to improve readibility of code [[#Ifs]_]: 
+You can introduce nested 'if' statements as below to improve readability of code [[#Ifs]_]: 
 
 .. note::
 
@@ -260,7 +260,7 @@ Automate your code with 'For...Next' statements. [[#Fors]_]
 
    Avoid preventable bug such as **overflow** during variable declaration.
       
-   Overflow occurs when the variables that are explicitly declared have greater value than that can be stored by the data type.
+   Overflow occurs when the variables that are explicitly declared have greater value than can be stored by the data type.
 
       .. code-block:: 
 

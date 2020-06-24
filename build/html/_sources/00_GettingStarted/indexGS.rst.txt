@@ -7,9 +7,9 @@ Foreword
 *************
 
 It is our strong belief that **meaningful engagements spark great ideas** and, thus, this platform was designed with a clear aim in mind - 
-to foster a community with shared passion for technology.
+to foster a community with a shared passion for technology.
 
-As such, apart from outlining main concepts to incorporate technology into our daily work assignments, this platform also serves to **build connection** and **bridge communication**.
+Therefore, apart from outlining main concepts to incorporate technology into our daily work assignments, this platform also serves to **build connection** and **bridge communication**.
 
 Workshop material is accessible through **Google Classroom** and references to external readings are also provided, where possible, to supplement each section.
 
