@@ -1,0 +1,5777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>2018.kml</name>
+	<Style id="s_ylw-pushpin16">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin020">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin302">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin442</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl022</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl44">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin230">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl052</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl02">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin101">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin400</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed">
+	</Style>
+	<Style id="s_ylw-pushpin_hl11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0051">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin14010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1600</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin031">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin502">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin02</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed03">
+	</Style>
+	<StyleMap id="m_ylw-pushpin0070">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0004</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin31">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0030">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin3001">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin442">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl040">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin14010">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin82">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin301">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl43</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00510">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1401</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl16001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin300">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin25</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl201</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin50">
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl001">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl16000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin140">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin231">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin81</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl040</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin17">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin23">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl022">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl052">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin3020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin44</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin2300">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin82</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl05</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0041">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin160</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1401">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin502</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl042</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl004">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00001">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl251">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin02">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0005">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1800</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin220">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin023</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl180</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin001">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin25">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl05">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin02</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin400">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin03">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl43">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin300">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl16001">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin02">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin52">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed03</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin06">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin160">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin40">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0071">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed030">
+	</Style>
+	<Style id="s_ylw-pushpin0011">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1600">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0110">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin00302">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl250</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin023">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl042">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0005</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl004</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1800">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin60">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin304">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin81">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin121">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed4">
+	</Style>
+	<Style id="s_ylw-pushpin_hl180">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin003020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin301</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl251</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00301">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin304</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin44">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl18">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl201">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0004">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl24">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl250">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin04">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin23</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl44</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin005">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl16000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin007">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0011</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl21">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl240">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin003">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl240</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin24">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>2018</name>
+		<Placemark>
+			<name>18E1419</name>
+			<description>A. Project Tittle
+DAM Safety Review of Semenyih DAM 2018
+
+B. Client
+Pengurusan Air Selangor Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Gramite
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Safety Review of Semenyih Dam&quot;</description>
+			<LookAt>
+				<longitude>80.73782727841578</longitude>
+				<latitude>12.02949098291407</latitude>
+				<altitude>0</altitude>
+				<heading>2.305902144061049e-14</heading>
+				<tilt>44.99999999999995</tilt>
+				<range>5966865.054234057</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin06</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.8824694444444,3.076919444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1441</name>
+			<description>A. Project Tittle
+Geotechnical Input for 845 Acres Mixed Industry &amp; Commercial Development at Bidor
+
+B. Client
+Premium Medical Product Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+-
+
+E. Land Area (acre)
+845
+
+F. How Many Blocks &amp; Storeys
+4 Storeys Hostel (13 Blks), 5 Storeys Industrial Block (5 Blks) &amp; 7 Storeys Industrial Block (8 Blks)
+
+G. Total Build-up Area (sq.m)
+498
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+-&quot;</description>
+			<Camera>
+				<longitude>101.5346093844223</longitude>
+				<latitude>3.269849217100436</latitude>
+				<altitude>118170.3656004569</altitude>
+				<heading>-89.79226899073254</heading>
+				<tilt>0.3197426902816279</tilt>
+				<roll>-90.21774979056688</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>108.3035,4.145825,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1439</name>
+			<description>A. Project Tittle
+L3A Bukit Jelutong, Shah Alam
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Residential
+
+D. Geology Formation
+Kenny Hill
+
+E. Land Area (acre)
+8.421
+
+F. How Many Blocks &amp; Storeys
+46 Units
+
+G. Total Build-up Area (sq.m)
+16000 to 17000
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Pile Design&quot;</description>
+			<LookAt>
+				<longitude>107.8758192706936</longitude>
+				<latitude>3.777669444444454</latitude>
+				<altitude>0</altitude>
+				<heading>7.732723569308174e-14</heading>
+				<tilt>45.00000000000001</tilt>
+				<range>1542128.000673075</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin21</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.5223277777778,3.116241666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1419</name>
+			<description>&quot;18E1419
+
+A. Project Tittle
+DAM Safety Review of Semenyih DAM 2018
+
+B. Client
+Pengurusan Air Selangor Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>101.8824680707073</longitude>
+				<latitude>3.076918100221167</latitude>
+				<altitude>0</altitude>
+				<heading>9.384966436361025e-07</heading>
+				<tilt>0</tilt>
+				<range>999.9294501935511</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin031</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.8824680707073,3.076918100221167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18P1415</name>
+			<description>A. Project Tittle
+Proposed Development at Lot 286, Opposite Tabung Haji, KL
+
+B. Client
+Build King Construction Limited
+
+C. Type of Development
+-
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>101.7216094466065</longitude>
+				<latitude>3.158012888988437</latitude>
+				<altitude>0</altitude>
+				<heading>9.579641424765137e-06</heading>
+				<tilt>25.02180240864558</tilt>
+				<range>223.6077991642341</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0030</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7213181732114,3.157925000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1414</name>
+			<description>A. Project Tittle
+Kepong Residence - Survey Plan &amp; KM Submission Layout
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Residential Condominium
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>101.644850595589</longitude>
+				<latitude>3.209582068686083</latitude>
+				<altitude>0</altitude>
+				<heading>0.01085891576368869</heading>
+				<tilt>6.572522011109406</tilt>
+				<range>4646.180706098303</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0030</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.6423888888889,3.210194444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1413</name>
+			<description>A. Project Tittle
+Proposed Commercial Development for Mercedes Benz at Lot 168853, Bandar Parklands, Klang, Selangor
+
+B. Client
+Hap Seng Land Development (Puchong) Sdn Bhd
+
+C. Type of Development
+Commercial Development
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>101.4603389948484</longitude>
+				<latitude>2.972299738374743</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005235132414913941</heading>
+				<tilt>3.211935582185751</tilt>
+				<range>1677.561211998254</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0030</styleUrl>
+			<Point>
+				<coordinates>101.4609908096969,2.97086438301468,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1412-Marina, Petak &apos;C&apos;</name>
+			<description>A. Project Tittle
+Marina, Lot 15739, Mukim 12, Daerah Barat Daya, Penang
+
+B. Client
+Ideal Gim Venture Sdn Bhd
+
+C. Type of Development
+Marina
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>100.3102606508891</longitude>
+				<latitude>5.330966050097723</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003358381533659583</heading>
+				<tilt>0</tilt>
+				<range>1142.411775697415</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0030</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.3107988820203,5.332105768190829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1411</name>
+			<description>A. Project Tittle
+Phase 8, Jade Hills 
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Kajang Formation 
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+9 Blocks 2 Storeys
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Detailed SI &amp; Foundation Design&quot;</description>
+			<LookAt>
+				<longitude>101.7542567411806</longitude>
+				<latitude>2.998077171524712</latitude>
+				<altitude>0</altitude>
+				<heading>-1.445728683550441</heading>
+				<tilt>0.8253300347719663</tilt>
+				<range>1527.224366037389</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin220</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7542218511068,2.998859911608631,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1407</name>
+			<description>A. Project Tittle
+Lot 30353, Jalan 34/26, Wangsa Maju, Setapak, KL - Full Geo
+
+B. Client
+Sunglobal Resources Sdn Bhd
+
+C. Type of Development
+Low Rise and High Rise
+
+D. Geology Formation
+Kenny Hill
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+2 Blocks  
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+37 Levels
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation and retaining wall&quot;</description>
+			<LookAt>
+				<longitude>101.7370438092621</longitude>
+				<latitude>3.193924061704427</latitude>
+				<altitude>0</altitude>
+				<heading>-0.008533710205635092</heading>
+				<tilt>15.80002550245072</tilt>
+				<range>907.7330517442585</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin3020</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7369061733874,3.192591666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1404</name>
+			<description>A. Project Tittle
+Jade Hills Highzone and Road to Taman Sutera
+
+B. Client
+Jade Homes Sdn Bhd
+
+C. Type of Development
+Residential
+
+D. Geology Formation
+-
+
+E. Land Area (acre)
+44
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+-&quot;</description>
+			<LookAt>
+				<longitude>101.7558737008313</longitude>
+				<latitude>2.996022200437186</latitude>
+				<altitude>0</altitude>
+				<heading>4.345273805815456e-11</heading>
+				<tilt>0</tilt>
+				<range>1853.338307152495</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0070</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7558737008313,2.996022200437186,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1405</name>
+			<description>A. Project Tittle
+TNB Reserve at Northern Boundary of Jade Hills
+
+B. Client
+Jade Homes Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Kajang Formation 
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Earthwork, CAT and FILL&quot;</description>
+			<LookAt>
+				<longitude>101.7561162483031</longitude>
+				<latitude>3.000419577208788</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001274120925995055</heading>
+				<tilt>18.97614270816697</tilt>
+				<range>1298.413514979357</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0070</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7558164147709,3.001763888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1406</name>
+			<description>A. Project Tittle
+Setia Alam Sari Phase 9P1, 9P2, 9P4
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Housing Development
+
+D. Geology Formation
+Kajang Formation 
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+2 Storeys
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Driven RC / Spun Piles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation Design (RC Pile 150mm x 150m) pile length:12m @ 15m&quot;</description>
+			<Camera>
+				<longitude>101.8023327295387</longitude>
+				<latitude>2.90885289929987</latitude>
+				<altitude>2412.107527594501</altitude>
+				<heading>0.07831200595378773</heading>
+				<tilt>34.62363123719331</tilt>
+				<roll>-0.924149124069262</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin0071</styleUrl>
+			<Point>
+				<coordinates>101.7973416666667,2.921155555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1396-LPT, OKP, JGB</name>
+			<description>A. Project Tittle
+Proposed Butterworth Port, Penang 
+
+B. Client
+Ideal Gim Venture Sdn Bhd
+
+C. Type of Development
+Reclamation
+
+D. Geology Formation
+-
+
+E. Land Area (acre)
+217
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Prefabricated Veritical Drains (PVD), Surcharge, Embankments&quot;</description>
+			<LookAt>
+				<longitude>100.3738436641912</longitude>
+				<latitude>5.435452812043968</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003769611189386715</heading>
+				<tilt>44.16484188982155</tilt>
+				<range>6609.460444044488</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin005</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.3713929523731,5.431263333309302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1391</name>
+			<description>A. Project Tittle
+Sabah Sarawak Gas Pipeline - Gas Leak
+
+B. Client
+Petroliam Nasional Berhad (PETRONAS)
+
+C. Type of Development
+Forensil Investigation
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<Camera>
+				<longitude>115.5402984426194</longitude>
+				<latitude>4.576240491620461</latitude>
+				<altitude>228508.0131151759</altitude>
+				<heading>45.61260706645155</heading>
+				<tilt>0.01223778729067734</tilt>
+				<roll>44.17173501462896</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin101</styleUrl>
+			<Point>
+				<coordinates>115.4951666666667,4.285083333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1398</name>
+			<description>A. Project Tittle
+Bandar Bukit Raja 2, R12A, R12B, R11A
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Low Rise
+
+D. Geology Formation
+Alluvium
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Pile Strip Raft&quot;</description>
+			<LookAt>
+				<longitude>101.4144617476511</longitude>
+				<latitude>3.102232884664515</latitude>
+				<altitude>0</altitude>
+				<heading>0.5506842294885657</heading>
+				<tilt>26.8126801827495</tilt>
+				<range>2301.355024242008</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin005</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.4135800068534,3.102734907592707,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1403</name>
+			<description>A. Project Tittle
+Melaka Refinery Diesel Euro 5 (MRDE5)
+
+B. Client
+Geolab (M) Sdn Bhd
+
+C. Type of Development
+Oil &amp; Gas
+
+D. Geology Formation
+-
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Seismic Hazard Assessment by NGI&quot;</description>
+			<LookAt>
+				<longitude>102.1374928069713</longitude>
+				<latitude>2.275540217480585</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002421298494366891</heading>
+				<tilt>20.08732744379833</tilt>
+				<range>1596.222279087774</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin005</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>102.1351755995159,2.27538547749551,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1395</name>
+			<description>A. Project Tittle
+Proposed Autohaus on Lot PT26923 (HS(D).283015), Mukim Bukit Raja
+
+B. Client
+Hap Seng Land Development (Puchong) Sdn Bhd
+
+C. Type of Development
+Commercial
+
+D. Geology Formation
+Kenny Hill
+
+E. Land Area (acre)
+1.8
+
+F. How Many Blocks &amp; Storeys
+10 Storeys
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation (Piling)&quot;</description>
+			<LookAt>
+				<longitude>101.4521627383224</longitude>
+				<latitude>3.110955828238145</latitude>
+				<altitude>0</altitude>
+				<heading>8.900232171858214</heading>
+				<tilt>20.38125619976493</tilt>
+				<range>1369.891540645398</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.4487105295662,3.109476683675103,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1402</name>
+			<description>A. Project Tittle
+Knowledge Centre, Elmina West
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Kenny Hill Foundation
+
+E. Land Area (acre)
+1.1
+
+F. How Many Blocks &amp; Storeys
+1 Block 1 Storey
+
+G. Total Build-up Area (sq.m)
+562m²
+
+H. Foundation System used
+Pad Footing
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Shallow Foundation&quot;</description>
+			<LookAt>
+				<longitude>101.5008959984553</longitude>
+				<latitude>3.170731850578831</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0005804352709304877</heading>
+				<tilt>0</tilt>
+				<range>1076.498484674482</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin005</styleUrl>
+			<Point>
+				<coordinates>101.5005535405451,3.17116281998869,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1400</name>
+			<description>A. Project Tittle
+Double Track Railway Project - Gemas to Kluang
+
+B. Client
+Sykt. Pemb. Yeoh Tiong Lay Sdn Bhd
+
+C. Type of Development
+Rail
+
+D. Geology Formation
+Alluvium &amp; Gemas / Semantan Foundation &amp; Segamat Basalt
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Bored Piles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+-&quot;</description>
+			<LookAt>
+				<longitude>103.0663488679396</longitude>
+				<latitude>2.429358240513954</latitude>
+				<altitude>0</altitude>
+				<heading>0.009279114505822191</heading>
+				<tilt>0</tilt>
+				<range>179043.8852494176</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin005</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>103.318475,2.030002777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1399</name>
+			<description>A. Project Tittle
+Brogaville, Semenyih
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Low Rise
+
+D. Geology Formation
+Granite
+
+E. Land Area (acre)
+209
+
+F. How Many Blocks &amp; Storeys
+3 Blk Shoplot w 2 storeys, Bungalow &amp; Semi-D
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Jack-in RC/Spun Piles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+RC Pile : (150mm SQ, 21m, 250kN), (200mm SQ, 21m, 450kN), (200mm Sq, 18m,450kN), (300mm SQ, 21m, 1000kN), (300mm SQ, 21m, 1000kN), RCW, RSW&quot;</description>
+			<LookAt>
+				<longitude>101.8722409736231</longitude>
+				<latitude>2.942065009897172</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4800186164634925</heading>
+				<tilt>13.18812305211006</tilt>
+				<range>1533.956623285505</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.8700560946968,2.943108830161485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1389</name>
+			<description>A. Project Tittle
+Smart Tunnel Maintenance Depot Office at Tun Razak Exchange
+
+B. Client
+TRX City Sdn Bhd
+
+C. Type of Development
+Low Rise Building
+
+D. Geology Formation
+KL Limestone
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+3 Storeys
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Micropiles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation &amp; Pile Load Test Review&quot;</description>
+			<LookAt>
+				<longitude>101.7186200000062</longitude>
+				<latitude>3.140079999993755</latitude>
+				<altitude>0</altitude>
+				<heading>3.490658762906209e-13</heading>
+				<tilt>0</tilt>
+				<range>1000.000144857647</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin13</styleUrl>
+			<Point>
+				<coordinates>101.7186200000062,3.140079999993755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1401</name>
+			<description>A. Project Tittle
+Glengowrie, Semenyih
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Hill Slope Development
+
+D. Geology Formation
+Granite
+
+E. Land Area (acre)
+800
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Retaining Wall System, Slope Strengthening System&quot;</description>
+			<LookAt>
+				<longitude>101.8853918041304</longitude>
+				<latitude>2.915554639040896</latitude>
+				<altitude>0</altitude>
+				<heading>0.0108628991173525</heading>
+				<tilt>22.08506122692059</tilt>
+				<range>2682.938292309326</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin005</styleUrl>
+			<Point>
+				<coordinates>101.8835472222222,2.909991666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1392 Site Location</name>
+			<description>A. Project Tittle
+Geotechnical and Traffic at San Peng Lot PT1052 (HSD115367) Seksyen 54, Kuala Lumpur
+
+B. Client
+LTS Skyline Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Bored Piles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation and Retaining Wall&quot;</description>
+			<LookAt>
+				<longitude>101.7132535145429</longitude>
+				<latitude>3.134037657278442</latitude>
+				<altitude>0</altitude>
+				<heading>3.725989344332121e-05</heading>
+				<tilt>16.30613888661032</tilt>
+				<range>546.1939883412359</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1210</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7122358039944,3.133968944185763,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1393</name>
+			<description>A. Project Tittle
+Proposed Bridge at One Foresta Development, Bayan Lepas, Penang
+
+B. Client
+Ideal Property Development Sdn Bhd
+
+C. Type of Development
+Mix Development
+
+D. Geology Formation
+Tanjung Bunga Granite
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Soil Nail (32mm diameter &amp; 15m length)&quot;</description>
+			<LookAt>
+				<longitude>100.257148396419</longitude>
+				<latitude>5.300332541700096</latitude>
+				<altitude>0</altitude>
+				<heading>1.033539708326755</heading>
+				<tilt>20.20785246846533</tilt>
+				<range>572.8857492672535</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1210</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.2564718747206,5.300154976256124,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1394</name>
+			<description>A. Project Tittle
+Tapah Plant, Perak
+
+B. Client
+Lhoist (Malaysia) Sdn Bhd
+
+C. Type of Development
+Quarry
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Expert Review&quot;</description>
+			<LookAt>
+				<longitude>101.2005653555456</longitude>
+				<latitude>4.203357655606666</latitude>
+				<altitude>0</altitude>
+				<heading>0.4277079332492988</heading>
+				<tilt>9.385932156468</tilt>
+				<range>2233.534975055112</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1210</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.1964754313746,4.205331688002029,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18F1390-Pejabat Pentadbiran SKVE</name>
+			<description>A. Project Tittle
+South Klang Valley Expressway (SKVE)
+
+B. Client
+PLUS Malaysia Berhad
+
+C. Type of Development
+-
+
+D. Geology Formation
+Alluvium
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Driven RC / Spun Piles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+-&quot;</description>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<Point>
+				<coordinates>101.523947,2.914018,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1397</name>
+			<description>A. Project Tittle
+New Mine Pit Design, Pengkalan Hulu, Perak
+
+B. Client
+Rahman Hydraulic Tin Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Sedimentosy - pyrodastic Sequence
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Design of soil &amp; rod slope for about 200m deep open excavation for mining &quot;</description>
+			<LookAt>
+				<longitude>101.0607653584387</longitude>
+				<latitude>5.501769433238946</latitude>
+				<altitude>0</altitude>
+				<heading>0.7039177604039498</heading>
+				<tilt>0</tilt>
+				<range>22385.44390208088</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin005</styleUrl>
+			<Point>
+				<coordinates>101.0359222222222,5.525336111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18A1410</name>
+			<description>A. Project Tittle
+Warehouse for IKEA, Pulau Indah
+
+B. Client
+Keller (M) Sdn Bhd
+
+C. Type of Development
+Commercial
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>101.3945770525267</longitude>
+				<latitude>3.016790969831643</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1033170698403627</heading>
+				<tilt>0</tilt>
+				<range>25786.8881142873</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin220</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.3627027777778,2.9743,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1409</name>
+			<description>A. Project Tittle
+Culvert Crossing at Lingkaran Cassia Barat, Batu Kawan, Pulau Pinang
+
+B. Client
+Penang Development Corporation
+
+C. Type of Development
+Infrastructure (Foundation of Culvert)
+
+D. Geology Formation
+Alluvium
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Culvert&apos;s Foundation &amp; Structure Design
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation &amp; Structure design for culvert on trated area&quot;</description>
+			<LookAt>
+				<longitude>100.4493972220371</longitude>
+				<latitude>5.250702588826756</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1746457559807765</heading>
+				<tilt>3.01824607302112</tilt>
+				<range>12753.10492921337</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin220</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.4318111111111,5.238611111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1408</name>
+			<description>A. Project Tittle
+EDIS Earth Work with Soil Treatment at Batu Kawan, Pulau Pinang (PITP) (16.72 acres)
+
+B. Client
+Penang Development Corporation
+
+C. Type of Development
+Highrise Building
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+4.4
+
+F. How Many Blocks &amp; Storeys
+2 Blocks 45 Storeys
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+1 Sub Basement
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation &amp; Cavity Treatment&quot;
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>101.6605230436753</longitude>
+				<latitude>3.232724824849279</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01301251586755608</heading>
+				<tilt>18.17608869781351</tilt>
+				<range>3160.156711637564</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin220</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.6541805555556,3.224455555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1416</name>
+			<description>A. Project Tittle
+Proposed Industrial Development at Shah Alam
+
+B. Client
+Nakano Construction Sdn Bhd
+
+C. Type of Development
+Industrial Development
+
+D. Geology Formation
+Kenny Hill Formation
+
+E. Land Area (acre)
+20.2
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+12.5
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+1 Basement 6m depth
+
+J. Estimated Total Project Cost
+400 million
+
+K. Project Details
+Piles Issues during Construction Period&quot;</description>
+			<LookAt>
+				<longitude>101.5423252789918</longitude>
+				<latitude>3.066783546565044</latitude>
+				<altitude>0</altitude>
+				<heading>-0.00989484366377087</heading>
+				<tilt>25.02638431464118</tilt>
+				<range>1429.570276777766</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00302</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.5422666666667,3.050997222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1417</name>
+			<description>A. Project Tittle
+Setia Ecohill 2
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Mixed Housing Development &amp; Business
+
+D. Geology Formation
+Jelebu Schist Formation and at Contact Boundary of Granite Formatic
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Detailed SI Subsurface Investigation&quot;</description>
+			<LookAt>
+				<longitude>101.8466464115717</longitude>
+				<latitude>2.884816962534297</latitude>
+				<altitude>0</altitude>
+				<heading>0.005458403930896241</heading>
+				<tilt>25.0714850569583</tilt>
+				<range>13300.09131634905</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00302</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.8499527777778,2.893222222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18F1438</name>
+			<description>A. Project Tittle
+Proposed Industrial Developments At Ipark, Sac, Mukim Terbau, Daerah Johor Bahru
+
+B. Client
+Senai Airport City Sdn Bhd
+
+C. Type of Development
+Industrial
+
+D. Geology Formation
+Granite Formation
+
+E. Land Area (acre)
+140
+
+F. How Many Blocks &amp; Storeys
+2 Storeys Factories
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Forensic SI, electrical resistivity survey&quot;</description>
+			<LookAt>
+				<longitude>107.8758192706936</longitude>
+				<latitude>3.777669444444454</latitude>
+				<altitude>0</altitude>
+				<heading>7.732723569308174e-14</heading>
+				<tilt>45.00000000000001</tilt>
+				<range>1542128.000673075</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin20</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>103.6801833333333,1.59805,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1437</name>
+			<description>A. Project Tittle
+Proposed 20MW Solar PV Project At Plot 11, A Portion of Lot 5 (Approx 72 Acres), Pekan Bukit Selambau, Daerah Kuala Muda, Kedah
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>103.9722093741364</longitude>
+				<latitude>5.270029152388542</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2184073129858116</heading>
+				<tilt>44.99999999999999</tilt>
+				<range>1542128.000673075</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin231</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.6136166666667,5.659605555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1436</name>
+			<description>A. Project Tittle
+Proposed Development At Bandar Sri Ehsan (1200 Acres), Sepang, Selangor
+
+B. Client
+Brunsfield Engineering Sdn Bhd
+
+C. Type of Development
+
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>103.9722093741364</longitude>
+				<latitude>5.270029152388542</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2184073129858116</heading>
+				<tilt>44.99999999999999</tilt>
+				<range>1542128.000673075</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin231</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.6252444444444,2.769791666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1427</name>
+			<description>A. Project Tittle
+Earthwork Planning for Access Road Construction Point D for Hyper Act Marketing
+
+B. Client
+Hyper Act Marketing Sdn Bhd
+
+C. Type of Development
+Quarry Site
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+103.02
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+39696268.8
+
+K. Project Details
+Earthwork Planning&quot;</description>
+			<Camera>
+				<longitude>102.614575665643</longitude>
+				<latitude>1.125853979241972</latitude>
+				<altitude>1077183.682234117</altitude>
+				<heading>-1.744226322191281</heading>
+				<tilt>23.28907923881951</tilt>
+				<roll>-0.7515474721302103</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin00302</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.1540166666667,4.528980555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1428</name>
+			<description>A. Project Tittle
+Proposed Design &amp; Build for Jalan Tg Kupang, Gerbang Nusajaya and New Interghange including New Slip Road from PLUS Second Link Highway
+
+B. Client
+Nusajaya Rise Sdn Bhd
+
+C. Type of Development
+Infrastructure
+
+D. Geology Formation
+Jurong Formation
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+-&quot;</description>
+			<Camera>
+				<longitude>104.6396689406269</longitude>
+				<latitude>3.238777213375882</latitude>
+				<altitude>457019.8847350124</altitude>
+				<heading>0.03614102489337125</heading>
+				<tilt>23.24657499565964</tilt>
+				<roll>1.166993140096957</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin04</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>103.5908583333333,1.431666666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18M1429</name>
+			<description>A. Project Tittle
+In The Matter Of Arbitration Between UEM Builders &amp; Edgenta Propel (Claimants) And Ocned Water Technology (Respondent)
+
+B. Client
+Ocned Water Technolgy Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+-
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+25300000
+
+K. Project Details
+-&quot;</description>
+			<Camera>
+				<longitude>103.2332361760123</longitude>
+				<latitude>5.733358724440184</latitude>
+				<altitude>1655215.688642784</altitude>
+				<heading>10.92312786226385</heading>
+				<tilt>3.15410443798673</tilt>
+				<roll>13.07723226001087</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin04</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>104.1111111111111,1.364702777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18P1430</name>
+			<description>A. Project Tittle
+Wind Farm In India 
+
+B. Client
+Adani Wind Energy Guj Pvt Ltd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Alluvium, Rann Sand (Quarternary Deposits)
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+1 Wind Turbine At 2 Borehole Location&quot;</description>
+			<Camera>
+				<longitude>102.7714479139291</longitude>
+				<latitude>3.757430711364523</latitude>
+				<altitude>925041.9714846623</altitude>
+				<heading>19.87033545236682</heading>
+				<tilt>1.898318939081207</tilt>
+				<roll>22.03756409522533</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin04</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>69.56910555555555,24.02904166666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1418</name>
+			<description>A. Project Tittle
+Inspection of Swimming Pool at PV10 Platinum Lake Condominium, Setapak, Kuala Lumpur
+
+B. Client
+PV10 Management Corporation
+
+C. Type of Development
+-
+
+D. Geology Formation
+-
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Swimming Pool Imspection&quot;</description>
+			<LookAt>
+				<longitude>80.73782727841578</longitude>
+				<latitude>12.02949098291407</latitude>
+				<altitude>0</altitude>
+				<heading>2.305902144061049e-14</heading>
+				<tilt>44.99999999999995</tilt>
+				<range>5966865.054234057</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00302</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7153638888889,3.203308333333335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1423</name>
+			<description>A. Project Tittle
+Sunway Medical Centre, Seberang Jaya, Pulau Pinang
+
+B. Client
+Alliance Parade Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Clay / Silt
+
+E. Land Area (acre)
+11.13
+
+F. How Many Blocks &amp; Storeys
+1 Block &amp; 9 Storeys
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+1 basement 6.8m depth
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Jack In Pile - 48m to 60m length, 500mm Dia spun pile&quot;</description>
+			<Camera>
+				<longitude>102.614575665643</longitude>
+				<latitude>1.125853979241972</latitude>
+				<altitude>1077183.682234117</altitude>
+				<heading>-1.744226322191281</heading>
+				<tilt>23.28907923881951</tilt>
+				<roll>-0.7515474721302103</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin00302</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.3969166666667,5.395352777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18F1424</name>
+			<description>A. Project Tittle
+Hyper Act Marketing (akta HAM) Blasting Incident
+
+B. Client
+Hyper Act Marketing Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+103.02
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Forensic Investigation&quot;</description>
+			<Camera>
+				<longitude>102.614575665643</longitude>
+				<latitude>1.125853979241972</latitude>
+				<altitude>1077183.682234117</altitude>
+				<heading>-1.744226322191281</heading>
+				<tilt>23.28907923881951</tilt>
+				<roll>-0.7515474721302103</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin003020</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.1540166666667,4.528980555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18M1425</name>
+			<description>A. Project Tittle
+Tilted House at No.6 Jln Impian 10B/KS7, Bdr Botanic, Klang (PH30)
+
+B. Client
+Gamuda Land (Botanic) Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Soft Clay
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Arbitration &amp; Mediation&quot;</description>
+			<Camera>
+				<longitude>102.614575665643</longitude>
+				<latitude>1.125853979241972</latitude>
+				<altitude>1077183.682234117</altitude>
+				<heading>-1.744226322191281</heading>
+				<tilt>23.28907923881951</tilt>
+				<roll>-0.7515474721302103</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin00302</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.4612527777778,2.994630555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1421</name>
+			<description>A. Project Tittle
+Proposed Development Site 2 - Extension Of 3S CV &amp; 1S PC Facilities Including Carparks  To Existing Ccb Mercedes Benz Showroom At Jalan Perusahaan Satu/Dua, Batu Cave, Kuala Lumpur
+
+B. Client
+Savills (Project Management) Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+1 Carpark
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Piling    &quot;</description>
+			<Camera>
+				<longitude>102.1374643172072</longitude>
+				<latitude>4.015840920814043</latitude>
+				<altitude>938735.3936153757</altitude>
+				<heading>-85.59241893615551</heading>
+				<tilt>0.9549407334024849</tilt>
+				<roll>-91.22831235727625</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.6822083333333,3.231883333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18P1422</name>
+			<description>A. Project Tittle
+Puncak Alam (MKH)
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Kenny Hill
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+-&quot;</description>
+			<Camera>
+				<longitude>102.1374643172072</longitude>
+				<latitude>4.015840920814043</latitude>
+				<altitude>938735.3936153757</altitude>
+				<heading>-85.59241893615551</heading>
+				<tilt>0.9549407334024849</tilt>
+				<roll>-91.22831235727625</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.4363333333333,3.235497222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18P1431</name>
+			<description>A. Project Tittle
+Hyper Act Marketing (akta HAM) Blasting Incident
+
+B. Client
+Hyper Act Marketing Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+103.02
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+1617768.1
+
+K. Project Details
+-&quot;</description>
+			<Camera>
+				<longitude>101.6907280383313</longitude>
+				<latitude>3.747305254539205</latitude>
+				<altitude>790737.6072959944</altitude>
+				<heading>-40.00652049656996</heading>
+				<tilt>1.335788842565896</tilt>
+				<roll>-45.64074779689919</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin003020</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.1540166666667,4.528980555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1432</name>
+			<description>A. Project Tittle
+Sunway Medical Centre @ Damansara
+
+B. Client
+Sunway Integrated Properties Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Granite
+
+E. Land Area (acre)
+2.33
+
+F. How Many Blocks &amp; Storeys
+1 Block 13 Levels
+
+G. Total Build-up Area (sq.m)
+88558
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+2 Basements
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation &amp; Temporary Sheatpile Wall&quot;</description>
+			<Camera>
+				<longitude>101.6907280383313</longitude>
+				<latitude>3.747305254539205</latitude>
+				<altitude>790737.6072959944</altitude>
+				<heading>-40.00652049656996</heading>
+				<tilt>1.335788842565896</tilt>
+				<roll>-45.64074779689919</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin003020</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.5965583333333,3.150102777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1433</name>
+			<description>A. Project Tittle
+Foundation Review at Taman Kuchai Jaya
+
+B. Client
+Menta Land Sdn Bhd
+
+C. Type of Development
+Highrise, Residential Develpoment &amp; Commercial
+
+D. Geology Formation
+Granitic, contact boundary with Kenny Hill
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation Review at Taman Kuchai Jaya&quot;</description>
+			<Camera>
+				<longitude>101.6907280383313</longitude>
+				<latitude>3.747305254539205</latitude>
+				<altitude>790737.6072959944</altitude>
+				<heading>-40.00652049656996</heading>
+				<tilt>1.335788842565896</tilt>
+				<roll>-45.64074779689919</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin003020</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.68445,3.089605555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18F1434</name>
+			<description>A. Project Tittle
+Ground Settlement Around 19 Units Of Terrace Houses At Bandar Bukit Raja I, Phase 15 (Nahara)
+
+B. Client
+Sime Darby USJ Development Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Clay 
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Investigate on ground settlement&quot;</description>
+			<Camera>
+				<longitude>101.6907280383313</longitude>
+				<latitude>3.747305254539205</latitude>
+				<altitude>790737.6072959944</altitude>
+				<heading>-40.00652049656996</heading>
+				<tilt>1.335788842565896</tilt>
+				<roll>-45.64074779689919</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin003020</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.4590638888889,3.0924,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1435</name>
+			<open>1</open>
+			<description>A. Project Tittle
+Solaris PARQ Plot B
+
+B. Client
+UEM Sunrise Berhad
+
+C. Type of Development
+Mixed
+
+D. Geology Formation
+Metasedimentary
+
+E. Land Area (acre)
+12.56
+
+F. How Many Blocks &amp; Storeys
+50 storeys
+
+G. Total Build-up Area (sq.m)
+50823
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+9 Sub Basement, 31.2m (max)
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Retaining System &amp; Foundation&quot;</description>
+			<LookAt>
+				<longitude>80.73782727841578</longitude>
+				<latitude>12.02949098291407</latitude>
+				<altitude>0</altitude>
+				<heading>2.305902144061049e-14</heading>
+				<tilt>44.99999999999995</tilt>
+				<range>5966865.054234057</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.6686805555556,3.171572222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18P1440</name>
+			<description>A. Project Tittle
+Mixed Development on 3 acres on Lot 20087 at Ujung Batu, Jalan Bagan Dalam, Seksyen 4, Seberang Perai Utara, Pulau Pinang
+
+B. Client
+Perbadanan Pembangunan Pulau Pinang (Penang Dev. Corp)
+
+C. Type of Development
+
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>80.73782727841575</longitude>
+				<latitude>12.02949098291408</latitude>
+				<altitude>0</altitude>
+				<heading>-6.361109362927034e-15</heading>
+				<tilt>44.99999999999999</tilt>
+				<range>5966865.054234057</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0041</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.3747916666667,5.389477777777779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1439</name>
+			<description>A. Project Tittle
+L3A Bukit Jelutong, Shah Alam
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>107.8758192706936</longitude>
+				<latitude>3.777669444444454</latitude>
+				<altitude>0</altitude>
+				<heading>7.732723569308174e-14</heading>
+				<tilt>45.00000000000001</tilt>
+				<range>1542128.000673075</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2300</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.5223277777778,3.116241666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18P1415</name>
+			<description>A. Project Tittle
+Proposed Development at Lot 286, Opposite Tabung Haji, KL
+
+B. Client
+Build King Construction Limited
+
+C. Type of Development
+-
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>101.7216094466065</longitude>
+				<latitude>3.158012888988437</latitude>
+				<altitude>0</altitude>
+				<heading>9.579641424765137e-06</heading>
+				<tilt>25.02180240864558</tilt>
+				<range>223.6077991642341</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin003</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7213181732114,3.157925000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1414</name>
+			<description>A. Project Tittle
+Kepong Residence - Survey Plan &amp; KM Submission Layout
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Residential Condominium
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>101.644850595589</longitude>
+				<latitude>3.209582068686083</latitude>
+				<altitude>0</altitude>
+				<heading>0.01085891576368869</heading>
+				<tilt>6.572522011109406</tilt>
+				<range>4646.180706098303</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin003</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.6423888888889,3.210194444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1413</name>
+			<description>A. Project Tittle
+Proposed Commercial Development for Mercedes Benz at Lot 168853, Bandar Parklands, Klang, Selangor
+
+B. Client
+Hap Seng Land Development (Puchong) Sdn Bhd
+
+C. Type of Development
+Commercial Development
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>101.4603389948484</longitude>
+				<latitude>2.972299738374743</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005235132414913941</heading>
+				<tilt>3.211935582185751</tilt>
+				<range>1677.561211998254</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin003</styleUrl>
+			<Point>
+				<coordinates>101.4609908096969,2.97086438301468,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1412-Marina, Petak &apos;C&apos;</name>
+			<description>A. Project Tittle
+Marina, Lot 15739, Mukim 12, Daerah Barat Daya, Penang
+
+B. Client
+Ideal Gim Venture Sdn Bhd
+
+C. Type of Development
+Marina
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>100.3102606508891</longitude>
+				<latitude>5.330966050097723</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003358381533659583</heading>
+				<tilt>0</tilt>
+				<range>1142.411775697415</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin003</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.3107988820203,5.332105768190829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1411</name>
+			<description>A. Project Tittle
+Phase 8, Jade Hills 
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Kajang Formation 
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+9 Blocks 2 Storeys
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Detailed SI &amp; Foundation Design&quot;</description>
+			<LookAt>
+				<longitude>101.7542567411806</longitude>
+				<latitude>2.998077171524712</latitude>
+				<altitude>0</altitude>
+				<heading>-1.445728683550441</heading>
+				<tilt>0.8253300347719663</tilt>
+				<range>1527.224366037389</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin22</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7542218511068,2.998859911608631,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1407</name>
+			<description>&quot;18G1407
+
+A. Project Tittle
+Lot 30353, Jalan 34/26, Wangsa Maju, Setapak, KL - Full Geo
+
+B. Client
+Sunglobal Resources Sdn Bhd
+
+C. Type of Development
+Low Rise and High Rise
+
+D. Geology Formation
+Kenny Hill
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation and retaining wall&quot;</description>
+			<LookAt>
+				<longitude>101.7370438092621</longitude>
+				<latitude>3.193924061704427</latitude>
+				<altitude>0</altitude>
+				<heading>-0.008533710205635092</heading>
+				<tilt>15.80002550245072</tilt>
+				<range>907.7330517442585</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin302</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7369061733874,3.192591666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1404</name>
+			<description>A. Project Tittle
+Jade Hills Highzone and Road to Taman Sutera
+
+B. Client
+Jade Homes Sdn Bhd
+
+C. Type of Development
+Residential
+
+D. Geology Formation
+Kajang Formation 
+
+E. Land Area (acre)
+44
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+-&quot;</description>
+			<LookAt>
+				<longitude>101.7558737008313</longitude>
+				<latitude>2.996022200437186</latitude>
+				<altitude>0</altitude>
+				<heading>4.345273805815456e-11</heading>
+				<tilt>0</tilt>
+				<range>1853.338307152495</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0071</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7558737008313,2.996022200437186,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1405</name>
+			<description>A. Project Tittle
+TNB Reserve at Northern Boundary of Jade Hills
+
+B. Client
+Jade Homes Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Kajang Formation 
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Earthwork, CAT and FILL&quot;</description>
+			<LookAt>
+				<longitude>101.7561162483031</longitude>
+				<latitude>3.000419577208788</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001274120925995055</heading>
+				<tilt>18.97614270816697</tilt>
+				<range>1298.413514979357</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin007</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7558164147709,3.001763888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1406</name>
+			<description>A. Project Tittle
+Setia Alam Sari Phase 9P1, 9P2, 9P4
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Housing Development
+
+D. Geology Formation
+Kajang Formation 
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+2 Storeys
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Driven RC / Spun Piles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation Design (RC Pile 175mm x 175m) pile length:15m&quot;</description>
+			<Camera>
+				<longitude>101.8023327295387</longitude>
+				<latitude>2.90885289929987</latitude>
+				<altitude>2412.107527594501</altitude>
+				<heading>0.07831200595378773</heading>
+				<tilt>34.62363123719331</tilt>
+				<roll>-0.924149124069262</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin007</styleUrl>
+			<Point>
+				<coordinates>101.7973416666667,2.921155555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1396-LPT, OKP, JGB</name>
+			<description>A. Project Tittle
+Proposed Butterworth Port, Penang 
+
+B. Client
+Ideal Gim Venture Sdn Bhd
+
+C. Type of Development
+Reclamation
+
+D. Geology Formation
+-
+
+E. Land Area (acre)
+217
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Prefabricated Veritical Drains (PVD), Surcharge, Embankments&quot;</description>
+			<LookAt>
+				<longitude>100.3738436641912</longitude>
+				<latitude>5.435452812043968</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003769611189386715</heading>
+				<tilt>44.16484188982155</tilt>
+				<range>6609.460444044488</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00510</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.3713929523731,5.431263333309302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1391</name>
+			<description>A. Project Tittle
+Sabah Sarawak Gas Pipeline - Gas Leak
+
+B. Client
+Petroliam Nasional Berhad (PETRONAS)
+
+C. Type of Development
+Forensil Investigation
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<Camera>
+				<longitude>115.5402984426194</longitude>
+				<latitude>4.576240491620461</latitude>
+				<altitude>228508.0131151759</altitude>
+				<heading>45.61260706645155</heading>
+				<tilt>0.01223778729067734</tilt>
+				<roll>44.17173501462896</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<Point>
+				<coordinates>115.4951666666667,4.285083333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1398</name>
+			<description>A. Project Tittle
+Bandar Bukit Raja 2, R12A, R12B, R11A
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Low Rise
+
+D. Geology Formation
+Alluvium
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Pile Strip Raft&quot;</description>
+			<LookAt>
+				<longitude>101.4144617476511</longitude>
+				<latitude>3.102232884664515</latitude>
+				<altitude>0</altitude>
+				<heading>0.5506842294885657</heading>
+				<tilt>26.8126801827495</tilt>
+				<range>2301.355024242008</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00510</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.4135800068534,3.102734907592707,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1403</name>
+			<description>A. Project Tittle
+Melaka Refinery Diesel Euro 5 (MRDE5)
+
+B. Client
+Geolab (M) Sdn Bhd
+
+C. Type of Development
+Oil &amp; Gas
+
+D. Geology Formation
+-
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Seismic Hazard Assessment by NGI&quot;</description>
+			<LookAt>
+				<longitude>102.1374928069713</longitude>
+				<latitude>2.275540217480585</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002421298494366891</heading>
+				<tilt>20.08732744379833</tilt>
+				<range>1596.222279087774</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00510</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>102.1351755995159,2.27538547749551,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1395</name>
+			<description>A. Project Tittle
+Proposed Autohaus on Lot PT26923 (HS(D).283015), Mukim Bukit Raja
+
+B. Client
+Hap Seng Land Development (Puchong) Sdn Bhd
+
+C. Type of Development
+Commercial
+
+D. Geology Formation
+Kenny Hill
+
+E. Land Area (acre)
+1.8
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation (Piling)&quot;</description>
+			<LookAt>
+				<longitude>101.4521627383224</longitude>
+				<latitude>3.110955828238145</latitude>
+				<altitude>0</altitude>
+				<heading>8.900232171858214</heading>
+				<tilt>20.38125619976493</tilt>
+				<range>1369.891540645398</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin52</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.4487105295662,3.109476683675103,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1402</name>
+			<description>A. Project Tittle
+Knowledge Centre, Elmina West
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Kenny Hill Foundation
+
+E. Land Area (acre)
+1.1
+
+F. How Many Blocks &amp; Storeys
+1 Block 1 Storey
+
+G. Total Build-up Area (sq.m)
+562m²
+
+H. Foundation System used
+Pad Footing
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Shallow Foundation&quot;</description>
+			<LookAt>
+				<longitude>101.5008959984553</longitude>
+				<latitude>3.170731850578831</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0005804352709304877</heading>
+				<tilt>0</tilt>
+				<range>1076.498484674482</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00510</styleUrl>
+			<Point>
+				<coordinates>101.5005535405451,3.17116281998869,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1400</name>
+			<description>A. Project Tittle
+Double Track Railway Project - Gemas to Kluang
+
+B. Client
+Sykt. Pemb. Yeoh Tiong Lay Sdn Bhd
+
+C. Type of Development
+Rail
+
+D. Geology Formation
+Alluvium &amp; Gemas / Semantan Foundation &amp; Segamat Basalt
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Bored Piles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+-&quot;</description>
+			<LookAt>
+				<longitude>103.0663488679396</longitude>
+				<latitude>2.429358240513954</latitude>
+				<altitude>0</altitude>
+				<heading>0.009279114505822191</heading>
+				<tilt>0</tilt>
+				<range>179043.8852494176</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00510</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>103.318475,2.030002777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1399</name>
+			<description>A. Project Tittle
+Brogaville, Semenyih
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Low Rise
+
+D. Geology Formation
+Granite
+
+E. Land Area (acre)
+209
+
+F. How Many Blocks &amp; Storeys
+3 Blk Shoplot w 2 storeys, Bungalow &amp; Semi-D
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Jack-in RC/Spun Piles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Spun Pile &amp; Retaining Wall&quot;</description>
+			<LookAt>
+				<longitude>101.8722409736231</longitude>
+				<latitude>2.942065009897172</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4800186164634925</heading>
+				<tilt>13.18812305211006</tilt>
+				<range>1533.956623285505</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0051</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.8700560946968,2.943108830161485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1389</name>
+			<description>A. Project Tittle
+Smart Tunnel Maintenance Depot Office at Tun Razak Exchange
+
+B. Client
+TRX City Sdn Bhd
+
+C. Type of Development
+Low Rise Building
+
+D. Geology Formation
+KL Limestone
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+3 Storeys
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Micropiles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation &amp; Pile Load Test Review&quot;</description>
+			<LookAt>
+				<longitude>101.7186200000062</longitude>
+				<latitude>3.140079999993755</latitude>
+				<altitude>0</altitude>
+				<heading>3.490658762906209e-13</heading>
+				<tilt>0</tilt>
+				<range>1000.000144857647</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin11</styleUrl>
+			<Point>
+				<coordinates>101.7186200000062,3.140079999993755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1401</name>
+			<description>A. Project Tittle
+Glengowrie, Semenyih
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Hill Slope Development
+
+D. Geology Formation
+Granite
+
+E. Land Area (acre)
+800
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Retaining Wall System, Slope Strengthening System&quot;</description>
+			<LookAt>
+				<longitude>101.8853918041304</longitude>
+				<latitude>2.915554639040896</latitude>
+				<altitude>0</altitude>
+				<heading>0.0108628991173525</heading>
+				<tilt>22.08506122692059</tilt>
+				<range>2682.938292309326</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00510</styleUrl>
+			<Point>
+				<coordinates>101.8835472222222,2.909991666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1392 Site Location</name>
+			<description>A. Project Tittle
+Geotechnical and Traffic at San Peng Lot PT1052 (HSD115367) Seksyen 54, Kuala Lumpur
+
+B. Client
+LTS Skyline Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Bored Piles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation and Retaining Wall&quot;</description>
+			<LookAt>
+				<longitude>101.7132535145429</longitude>
+				<latitude>3.134037657278442</latitude>
+				<altitude>0</altitude>
+				<heading>3.725989344332121e-05</heading>
+				<tilt>16.30613888661032</tilt>
+				<range>546.1939883412359</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin121</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7122358039944,3.133968944185763,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1393</name>
+			<description>A. Project Tittle
+Proposed Bridge at One Foresta Development, Bayan Lepas, Penang
+
+B. Client
+Ideal Property Development Sdn Bhd
+
+C. Type of Development
+Mix Development
+
+D. Geology Formation
+Tanjung Bunga Granite
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Soil Nail (32mm diameter &amp; 15m length)&quot;</description>
+			<LookAt>
+				<longitude>100.257148396419</longitude>
+				<latitude>5.300332541700096</latitude>
+				<altitude>0</altitude>
+				<heading>1.033539708326755</heading>
+				<tilt>20.20785246846533</tilt>
+				<range>572.8857492672535</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin121</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.2564718747206,5.300154976256124,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1394</name>
+			<description>A. Project Tittle
+Tapah Plant, Perak
+
+B. Client
+Lhoist (Malaysia) Sdn Bhd
+
+C. Type of Development
+Quarry
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Expert Review&quot;</description>
+			<LookAt>
+				<longitude>101.2005653555456</longitude>
+				<latitude>4.203357655606666</latitude>
+				<altitude>0</altitude>
+				<heading>0.4277079332492988</heading>
+				<tilt>9.385932156468</tilt>
+				<range>2233.534975055112</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin121</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.1964754313746,4.205331688002029,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18F1390-Pejabat Pentadbiran SKVE</name>
+			<description>A. Project Tittle
+South Klang Valley Expressway (SKVE)
+
+B. Client
+PLUS Malaysia Berhad
+
+C. Type of Development
+-
+
+D. Geology Formation
+Alluvium
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Driven RC / Spun Piles
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+-&quot;</description>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Point>
+				<coordinates>101.523947,2.914018,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1397</name>
+			<description>A. Project Tittle
+New Mine Pit Design, Pengkalan Hulu, Perak
+
+B. Client
+Rahman Hydraulic Tin Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Sedimentosy - pyrodastic Sequence
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Design of soil &amp; rod slope for about 200m deep open excavation for mining &quot;</description>
+			<LookAt>
+				<longitude>101.0607653584387</longitude>
+				<latitude>5.501769433238946</latitude>
+				<altitude>0</altitude>
+				<heading>0.7039177604039498</heading>
+				<tilt>0</tilt>
+				<range>22385.44390208088</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00510</styleUrl>
+			<Point>
+				<coordinates>101.0359222222222,5.525336111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18A1410</name>
+			<description>A. Project Tittle
+Warehouse for IKEA, Pulau Indah
+
+B. Client
+Keller (M) Sdn Bhd
+
+C. Type of Development
+Commercial
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>101.3945770525267</longitude>
+				<latitude>3.016790969831643</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1033170698403627</heading>
+				<tilt>0</tilt>
+				<range>25786.8881142873</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin22</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.3627027777778,2.9743,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1409</name>
+			<description>A. Project Tittle
+Culvert Crossing at Lingkaran Cassia Barat, Batu Kawan, Pulau Pinang
+
+B. Client
+Penang Development Corporation
+
+C. Type of Development
+Infrastructure (Foundation of Culvert)
+
+D. Geology Formation
+Alluvium
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+Culvert&apos;s Foundation &amp; Structure Design
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation &amp; Structure design for culvert on trated area&quot;</description>
+			<LookAt>
+				<longitude>100.4493972220371</longitude>
+				<latitude>5.250702588826756</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1746457559807765</heading>
+				<tilt>3.01824607302112</tilt>
+				<range>12753.10492921337</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin22</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.4318111111111,5.238611111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1408</name>
+			<description>A. Project Tittle
+EDIS Earth Work with Soil Treatment at Batu Kawan, Pulau Pinang (PITP) (16.72 acres)
+
+B. Client
+Penang Development Corporation
+
+C. Type of Development
+Highrise Building
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+4.4
+
+F. How Many Blocks &amp; Storeys
+2 Blocks 45 Storeys
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+1 Sub Basement
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Foundation &amp; Cavity Treatment&quot;
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>101.6605230436753</longitude>
+				<latitude>3.232724824849279</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01301251586755608</heading>
+				<tilt>18.17608869781351</tilt>
+				<range>3160.156711637564</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin22</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.6541805555556,3.224455555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1416</name>
+			<description>A. Project Tittle
+Proposed Industrial Development at Shah Alam
+
+B. Client
+Nakano Construction Sdn Bhd
+
+C. Type of Development
+Industrial Development
+
+D. Geology Formation
+Kenny Hill Formation
+
+E. Land Area (acre)
+20.2
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+12.5
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+1 Basement 6m depth
+
+J. Estimated Total Project Cost
+400 million
+
+K. Project Details
+Piles Issues during Construction Period&quot;</description>
+			<LookAt>
+				<longitude>101.5423252789918</longitude>
+				<latitude>3.066783546565044</latitude>
+				<altitude>0</altitude>
+				<heading>-0.00989484366377087</heading>
+				<tilt>25.02638431464118</tilt>
+				<range>1429.570276777766</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00301</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.5422666666667,3.050997222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1417</name>
+			<description>A. Project Tittle
+Setia Ecohill 2
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Mixed Housing Development &amp; Business
+
+D. Geology Formation
+Jelebu Schist Formation and at Contact Boundary of Granite Formatic
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Detailed SI Subsurface Investigation&quot;</description>
+			<LookAt>
+				<longitude>101.8466464115717</longitude>
+				<latitude>2.884816962534297</latitude>
+				<altitude>0</altitude>
+				<heading>0.005458403930896241</heading>
+				<tilt>25.0714850569583</tilt>
+				<range>13300.09131634905</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00301</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.8499527777778,2.893222222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18F1438</name>
+			<description>A. Project Tittle
+Proposed Industrial Developments At Ipark, Sac, Mukim Terbau, Daerah Johor Bahru
+
+B. Client
+Senai Airport City Sdn Bhd
+
+C. Type of Development
+Industrial
+
+D. Geology Formation
+Granite Formation
+
+E. Land Area (acre)
+Approx 140
+
+F. How Many Blocks &amp; Storeys
+2 Storeys Factories
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Forensic SI, resistivity&quot;</description>
+			<LookAt>
+				<longitude>107.8758192706936</longitude>
+				<latitude>3.777669444444454</latitude>
+				<altitude>0</altitude>
+				<heading>7.732723569308174e-14</heading>
+				<tilt>45.00000000000001</tilt>
+				<range>1542128.000673075</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin230</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>103.6801833333333,1.59805,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1437</name>
+			<description>A. Project Tittle
+Proposed 20MW Solar PV Project At Plot 11, A Portion of Lot 5 (Approx 72 Acres), Pekan Bukit Selambau, Daerah Kuala Muda, Kedah
+
+B. Client
+G&amp;P Infra Sdn Bhd
+
+C. Type of Development
+Industrial
+
+D. Geology Formation
+-
+
+E. Land Area (acre)
+72
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Retaining Wall and Formation&quot;</description>
+			<LookAt>
+				<longitude>103.9722093741364</longitude>
+				<latitude>5.270029152388542</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2184073129858116</heading>
+				<tilt>44.99999999999999</tilt>
+				<range>1542128.000673075</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin230</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.6136166666667,5.659605555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1436</name>
+			<description>A. Project Tittle
+Proposed Development At Bandar Sri Ehsan (1200 Acres), Sepang, Selangor
+
+B. Client
+Brunsfield Engineering Sdn Bhd
+
+C. Type of Development
+
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>103.9722093741364</longitude>
+				<latitude>5.270029152388542</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2184073129858116</heading>
+				<tilt>44.99999999999999</tilt>
+				<range>1542128.000673075</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2300</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.6252444444444,2.769791666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1427</name>
+			<description>A. Project Tittle
+Earthwork Planning for Access Road Construction Point D for Hyper Act Marketing
+
+B. Client
+Hyper Act Marketing Sdn Bhd
+
+C. Type of Development
+Quarry Site
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+103.02
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+39696268.8
+
+K. Project Details
+Earthwork Planning&quot;</description>
+			<Camera>
+				<longitude>102.614575665643</longitude>
+				<latitude>1.125853979241972</latitude>
+				<altitude>1077183.682234117</altitude>
+				<heading>-1.744226322191281</heading>
+				<tilt>23.28907923881951</tilt>
+				<roll>-0.7515474721302103</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin00301</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.1540166666667,4.528980555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1428</name>
+			<description>A. Project Tittle
+Proposed Design &amp; Build for Jalan Tg Kupang, Gerbang Nusajaya and New Interghange including New Slip Road from PLUS Second Link Highway
+
+B. Client
+Nusajaya Rise Sdn Bhd
+
+C. Type of Development
+Infrastructure
+
+D. Geology Formation
+Jurong Formation
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+-&quot;</description>
+			<Camera>
+				<longitude>104.6396689406269</longitude>
+				<latitude>3.238777213375882</latitude>
+				<altitude>457019.8847350124</altitude>
+				<heading>0.03614102489337125</heading>
+				<tilt>23.24657499565964</tilt>
+				<roll>1.166993140096957</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>103.5908583333333,1.431666666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18M1429</name>
+			<description>A. Project Tittle
+In The Matter Of Arbitration Between UEM Builders &amp; Edgenta Propel (Claimants) And Ocned Water Technology (Respondent)
+
+B. Client
+Ocned Water Technolgy Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+-
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+25300000
+
+K. Project Details
+-&quot;</description>
+			<Camera>
+				<longitude>103.2332361760123</longitude>
+				<latitude>5.733358724440184</latitude>
+				<altitude>1655215.688642784</altitude>
+				<heading>10.92312786226385</heading>
+				<tilt>3.15410443798673</tilt>
+				<roll>13.07723226001087</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>104.1111111111111,1.364702777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18P1430</name>
+			<description>A. Project Tittle
+Wind Farm In India 
+
+B. Client
+Adani Wind Energy Guj Pvt Ltd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Alluvium, Rann Sand (Quarternary Deposits)
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+1 Wind Turbine At 2 Borehole Location&quot;</description>
+			<Camera>
+				<longitude>102.7714479139291</longitude>
+				<latitude>3.757430711364523</latitude>
+				<altitude>925041.9714846623</altitude>
+				<heading>19.87033545236682</heading>
+				<tilt>1.898318939081207</tilt>
+				<roll>22.03756409522533</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>69.56910555555555,24.02904166666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1418</name>
+			<description>A. Project Tittle
+Inspection of Swimming Pool at PV10 Platinum Lake Condominium, Setapak, Kuala Lumpur
+
+B. Client
+PV10 Management Corporation
+
+C. Type of Development
+-
+
+D. Geology Formation
+-
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Swimming Pool Imspection&quot;</description>
+			<LookAt>
+				<longitude>80.73782727841578</longitude>
+				<latitude>12.02949098291407</latitude>
+				<altitude>0</altitude>
+				<heading>2.305902144061049e-14</heading>
+				<tilt>44.99999999999995</tilt>
+				<range>5966865.054234057</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00301</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7153638888889,3.203308333333335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18E1423</name>
+			<description>A. Project Tittle
+Sunway Medical Centre, Seberang Jaya, Pulau Pinang
+
+B. Client
+Alliance Parade Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Clay / Silt
+
+E. Land Area (acre)
+11.13
+
+F. How Many Blocks &amp; Storeys
+1 Block &amp; 9 Storeys
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+1 basement 6.8m depth
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Jack In Pile - 48m to 60m length, 500mm Dia spun pile&quot;</description>
+			<Camera>
+				<longitude>102.614575665643</longitude>
+				<latitude>1.125853979241972</latitude>
+				<altitude>1077183.682234117</altitude>
+				<heading>-1.744226322191281</heading>
+				<tilt>23.28907923881951</tilt>
+				<roll>-0.7515474721302103</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin00301</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.3969166666667,5.395352777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18F1424</name>
+			<description>A. Project Tittle
+Hyper Act Marketing (akta HAM) Blasting Incident
+
+B. Client
+Hyper Act Marketing Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Forensic Investigation&quot;</description>
+			<Camera>
+				<longitude>102.614575665643</longitude>
+				<latitude>1.125853979241972</latitude>
+				<altitude>1077183.682234117</altitude>
+				<heading>-1.744226322191281</heading>
+				<tilt>23.28907923881951</tilt>
+				<roll>-0.7515474721302103</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin00301</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.1540166666667,4.528980555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18M1425</name>
+			<description>A. Project Tittle
+Tilted House at No.6 Jln Impian 10B/KS7, Bdr Botanic, Klang (PH30)
+
+B. Client
+Gamuda Land (Botanic) Sdn Bhd
+
+C. Type of Development
+-
+
+D. Geology Formation
+Soft Clay
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Arbitration &amp; Mediation&quot;</description>
+			<Camera>
+				<longitude>102.614575665643</longitude>
+				<latitude>1.125853979241972</latitude>
+				<altitude>1077183.682234117</altitude>
+				<heading>-1.744226322191281</heading>
+				<tilt>23.28907923881951</tilt>
+				<roll>-0.7515474721302103</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin00301</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.4612527777778,2.994630555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1420</name>
+			<description>A. Project Tittle
+Proposed Development On Site 1 - Ccb Mercedes Benz 3-S Showroom &amp; Facilities At Lot 338, Jalan Sungai Besi 
+
+
+B. Client
+Savills (Project Management) Sdn Bhd
+
+C. Type of Development
+Commercial
+
+D. Geology Formation
+Limestone
+
+E. Land Area (acre)
+1.05
+
+F. How Many Blocks &amp; Storeys
+1 block &amp; 9 storey
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Bored pile (BP 1000, 1350, 1200, 1500, 2000). Ave pile length 5m + rock socket&quot;</description>
+			<LookAt>
+				<longitude>103.3556063988104</longitude>
+				<latitude>5.302789898936427</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3779966280942525</heading>
+				<tilt>0</tilt>
+				<range>1286083.004340595</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0051</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.7086527777778,3.116902777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18P1440</name>
+			<description>A. Project Tittle
+Mixed Development on 3 acres on Lot 20087 at Ujung Batu, Jalan Bagan Dalam, Seksyen 4, Seberang Perai Utara, Pulau Pinang
+
+B. Client
+Perbadanan Pembangunan Pulau Pinang (Penang Dev. Corp)
+
+C. Type of Development
+-
+
+D. Geology Formation
+Alluvium Formation
+
+E. Land Area (acre)
+-
+
+F. How Many Blocks &amp; Storeys
+-
+
+G. Total Build-up Area (sq.m)
+-
+
+H. Foundation System used
+-
+
+I. Basement Levels &amp; Depth
+-
+
+J. Estimated Total Project Cost
+-
+
+K. Project Details
+Soft Ground Engineering and Ground Treatment&quot;</description>
+			<LookAt>
+				<longitude>80.73782727841575</longitude>
+				<latitude>12.02949098291408</latitude>
+				<altitude>0</altitude>
+				<heading>-6.361109362927034e-15</heading>
+				<tilt>44.99999999999999</tilt>
+				<range>5966865.054234057</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>100.3747916666667,5.389477777777779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18G1435</name>
+			<description>A. Project Tittle
+Solaris PARQ Plot B
+
+B. Client
+UEM Sunrise Berhad
+
+C. Type of Development
+
+
+D. Geology Formation
+
+
+E. Land Area (acre)
+
+
+F. How Many Blocks &amp; Storeys
+
+
+G. Total Build-up Area (sq.m)
+
+
+H. Foundation System used
+
+
+I. Basement Levels &amp; Depth
+
+
+J. Estimated Total Project Cost
+
+
+K. Project Details
+&quot;</description>
+			<LookAt>
+				<longitude>80.73782727841578</longitude>
+				<latitude>12.02949098291407</latitude>
+				<altitude>0</altitude>
+				<heading>2.305902144061049e-14</heading>
+				<tilt>44.99999999999995</tilt>
+				<range>5966865.054234057</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin33</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>101.6686805555556,3.171572222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Folder>
+			<name>2018</name>
+			<open>1</open>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

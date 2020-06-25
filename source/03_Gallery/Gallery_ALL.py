@@ -16,7 +16,7 @@ m_tooltip = folium.Marker(Site_Coord,
                           tooltip = m_tooltip_label).add_to(m_folium)
 
 ''' *************************************** Adding FeatureGroup onto Folium Base Map **************************************'''
-
+'''
 # Calling the class folium.map.FeatureGroup to group the places of interest in the LayerControl panel
 feature_group = folium.FeatureGroup("Trailblazers")
 # Collecting in Python tuples the coordinates of places with historical significance to the development of computer science
@@ -35,7 +35,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_CS, long_CS, m_toolt
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group)
-
+'''
 ''' *************************************** Adding Minimap onto Folium Base Map **************************************'''
 
 # Activating the 'folium.plugins' to include a minimap at the bottomright of the main map
@@ -88,7 +88,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2008, lgn_2008, pgn_
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group_2008.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='green',icon='info-sign'),
+                                          icon = folium.Icon(color='black',icon='info-sign'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group_2008)
@@ -112,7 +112,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2009, lgn_2009, pgn_
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group_2009.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='green',icon='info-sign'),
+                                          icon = folium.Icon(color='black',icon='info-sign'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group_2009)
@@ -132,7 +132,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2010, lgn_2010, pgn_
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group_2010.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='purple',icon='info-sign'),
+                                          icon = folium.Icon(color='black',icon='info-sign'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group_2010)
@@ -170,7 +170,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2012, lgn_2012, pgn_
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group_2012.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='beige',icon='info-sign'),
+                                          icon = folium.Icon(color='orange',icon='info-sign'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group_2012)
@@ -189,7 +189,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2013, lgn_2013, pgn_
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group_2013.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='pink',icon='info-sign'),
+                                          icon = folium.Icon(color='orange',icon='info-sign'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group_2013)
@@ -208,7 +208,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2014, lgn_2014, pgn_
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group_2014.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='black',icon='info-sign'),
+                                          icon = folium.Icon(color='orange',icon='info-sign'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group_2014)
@@ -227,7 +227,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2015, lgn_2015, pgn_
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group_2015.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='white',icon='info-sign'),
+                                          icon = folium.Icon(color='orange',icon='info-sign'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group_2015)
@@ -248,7 +248,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2016, lgn_2016, pgn_
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group_2016.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='lightblue',icon='info-sign'),
+                                          icon = folium.Icon(color='red',icon='info-sign'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group_2016)
@@ -269,21 +269,30 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2017, lgn_2017, pgn_
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group_2017.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='lightgreen',icon='info-sign'),
+                                          icon = folium.Icon(color='red',icon='info-sign'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group_2017)
 
 
 ''' ******************************************** 2018  **************************************************************'''
-
-
 # Data extraction for projects secured in year 2018
 DATA_2018 = np.array(DATA.sheet_by_name('2018'))
 lat_2018 = np.ndarray.tolist(DATA_2018[1:,1])
 lgn_2018 = np.ndarray.tolist(DATA_2018[1:,0])
 pgn_2018 = np.ndarray.tolist(DATA_2018[1:,3])
 
+# Calling the class folium.map.FeatureGroup to group the places of interest in the LayerControl panel
+feature_group_2018 = folium.FeatureGroup("2018 Projects")
+
+for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2018, lgn_2018, pgn_2018):
+    
+    tooltip_Coord = [lat_tooltip, long_tooltip]
+    feature_group_2018.add_child(folium.Marker(location = tooltip_Coord,
+                                          icon = folium.Icon(color='red',icon='info-sign'),
+                                          popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
+
+m_folium.add_child(feature_group_2018)
 
 ''' ******************************************** 2019  **************************************************************'''
 
@@ -300,7 +309,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2019, lgn_2019, pgn_
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group_2019.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='lightred',icon='info-sign'),
+                                          icon = folium.Icon(color='red',icon='info-sign'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group_2019)
@@ -319,7 +328,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2020, lgn_2020, pgn_
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group_2020.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='lightgray',icon='info-sign'),
+                                          icon = folium.Icon(color='red',icon='info-sign'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group_2020)
@@ -333,4 +342,4 @@ folium.LayerControl().add_to(m_folium)
 ''' *************************************** Saving Folium Base Map as HTML **************************************'''
 
 # Saving the 'Leaflet' map generated in html format
-m_folium.save('Batu_Kawan.html')
+m_folium.save('G&P_ALL.html')

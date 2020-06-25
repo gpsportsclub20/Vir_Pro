@@ -16,7 +16,7 @@ m_tooltip = folium.Marker(Site_Coord,
                           tooltip = m_tooltip_label).add_to(m_folium)
 
 ''' *************************************** Adding FeatureGroup onto Folium Base Map **************************************'''
-
+'''
 # Calling the class folium.map.FeatureGroup to group the places of interest in the LayerControl panel
 feature_group = folium.FeatureGroup("Trailblazers")
 # Collecting in Python tuples the coordinates of places with historical significance to the development of computer science
@@ -36,6 +36,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_CS, long_CS, m_toolt
 
 m_folium.add_child(feature_group)
 
+'''
 ''' *************************************** Adding Minimap onto Folium Base Map **************************************'''
 
 # Activating the 'folium.plugins' to include a minimap at the bottomright of the main map
@@ -73,6 +74,24 @@ import numpy as np
 
 DATA = pyex.get_book(file_name = '2020_Gallery.xlsx')
 
+''' ******************************************** 2018  **************************************************************'''
+# Data extraction for projects secured in year 2018
+DATA_2018 = np.array(DATA.sheet_by_name('2018'))
+lat_2018 = np.ndarray.tolist(DATA_2018[1:,1])
+lgn_2018 = np.ndarray.tolist(DATA_2018[1:,0])
+pgn_2018 = np.ndarray.tolist(DATA_2018[1:,3])
+
+# Calling the class folium.map.FeatureGroup to group the places of interest in the LayerControl panel
+feature_group_2018 = folium.FeatureGroup("2018 Projects")
+
+for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_2018, lgn_2018, pgn_2018):
+    
+    tooltip_Coord = [lat_tooltip, long_tooltip]
+    feature_group_2018.add_child(folium.Marker(location = tooltip_Coord,
+                                          icon = folium.Icon(color='red',icon='info-sign'),
+                                          popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
+
+m_folium.add_child(feature_group_2018)
 
 ''' ******************************************** 2019  **************************************************************'''
 
