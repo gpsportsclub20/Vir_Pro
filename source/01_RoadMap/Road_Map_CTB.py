@@ -22,7 +22,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_CS, long_CS, m_toolt
     
     tooltip_Coord = [lat_tooltip, long_tooltip]
     feature_group.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='red',icon='info-sign'),
+                                          icon = folium.Icon(color='red',icon='user'),
                                           popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group)
