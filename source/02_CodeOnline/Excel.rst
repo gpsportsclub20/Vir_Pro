@@ -12,6 +12,19 @@ VBA Excel
 *************
 VBA Terminal
 *************
+VBA Excel has its own coding terminal and you may learn to initialise it in the **drop-down panel** below:
+
+.. dropdown:: Click me for Steps to Initialise the VBA Terminal!
+   :title: bg-light text-center text-secondary
+   :animate: fade-in-slide-down
+
+   You may click on the video clip to **enlarge** it.
+
+
+   .. figure:: DeveloperVBA.gif
+         :align: center
+         :width: 850 px
+         :height: 450 px
 
 Conventions Used
 ================
@@ -23,6 +36,9 @@ It is conventional for code snippets to be displayed in boxed sections for ease 
     
       MsgBox "Hello world"
       >>> Hello world
+
+
+   
 
 ******************
 1. Inputs
