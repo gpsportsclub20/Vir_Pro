@@ -475,18 +475,18 @@ Click Me for an Example!<div class="summary-down docutils">
 </div>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<p>Avoid preventable bug such as <strong>overflow</strong> during variable declaration.</p>
-<p>Overflow occurs when the variables that are explicitly declared have greater value than can be stored by the data type.</p>
+<p>Avoid preventable bug such as <strong>integer overflow</strong> during variable declaration.</p>
+<p>Integer overflow occurs when the variables that are explicitly declared have greater value than can be stored by the data type.</p>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Dim</span> <span class="o">&lt;</span><span class="n">Variable_Name</span><span class="o">&gt;</span> <span class="k">as</span> <span class="n">Integer</span>
 
 <span class="o">&lt;</span><span class="n">Variable_Name</span><span class="o">&gt;</span> <span class="o">=</span> <span class="mi">50</span><span class="p">,</span><span class="mi">000</span>
 
-<span class="o">&gt;&gt;&gt;</span> <span class="s2">&quot;Integer Overflow!!!&quot;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">Integer</span> <span class="n">Overflow</span>
 
 <span class="s1">&#39; Since the value of &lt;Variable_Name&gt; is greater than 32,767</span>
 <span class="s1">&#39; which is the maximum value that the Integer data type can hold,</span>
-<span class="s1">&#39; therefore, &quot;integer overflow&quot; occurs.</span>
+<span class="s1">&#39; therefore, &#39;</span><span class="n">integer</span> <span class="n">overflow</span><span class="s1">&#39; occurs.</span>
 
 <span class="s1">&#39; This error is preventable by assigning the &lt;Variable_Name&gt; to Long data type,</span>
 <span class="s1">&#39; as Long data type has a range of 2,147,483,647</span>
