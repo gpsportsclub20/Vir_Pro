@@ -20,10 +20,32 @@ m_tooltip_label = ["Alan Turing: Bletchley Park, England", "Margaret H. Hamilton
 
 for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_CS, long_CS, m_tooltip_label):
     
-    tooltip_Coord = [lat_tooltip, long_tooltip]
-    feature_group.add_child(folium.Marker(location = tooltip_Coord,
-                                          icon = folium.Icon(color='red',icon='user'),
-                                          popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
+    if lat_tooltip == lat_CS[0]:
+
+        color_tooltip = 'darkblue'
+
+        tooltip_Coord = [lat_tooltip, long_tooltip]
+        feature_group.add_child(folium.Marker(location = tooltip_Coord,
+                                            icon = folium.Icon(color=color_tooltip,icon='user'),
+                                            popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
+
+    elif lat_tooltip == lat_CS[2]:
+
+        color_tooltip = 'darkblue'
+
+        tooltip_Coord = [lat_tooltip, long_tooltip]
+        feature_group.add_child(folium.Marker(location = tooltip_Coord,
+                                            icon = folium.Icon(color=color_tooltip,icon='user'),
+                                            popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
+
+    else:
+
+        color_tooltip = 'red'
+
+        tooltip_Coord = [lat_tooltip, long_tooltip]
+        feature_group.add_child(folium.Marker(location = tooltip_Coord,
+                                            icon = folium.Icon(color=color_tooltip,icon='user'),
+                                            popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
 
 m_folium.add_child(feature_group)
 

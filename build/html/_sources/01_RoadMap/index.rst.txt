@@ -114,7 +114,7 @@ As the saying goes: **Stand on the shoulders of giants to see further!**
 
 .. panels::
 
-   .. figure:: ATr.png
+   .. figure:: ATr1.png
          :align: center 
          :height: 250 px
          :width:  200 px
@@ -142,7 +142,7 @@ As the saying goes: **Stand on the shoulders of giants to see further!**
    ``*`` Source: The New York Times [[#AT]_]
 
    ---
-   .. figure:: MHH1.png
+   .. figure:: MHH3.png
          :align: center 
          :height: 250 px
          :width:  200 px
@@ -198,7 +198,7 @@ As the saying goes: **Stand on the shoulders of giants to see further!**
    ``*`` Source: TED [[#LT]_]
 
    ---
-   .. figure:: XPS1.png
+   .. figure:: XPS2.png
          :align: center 
          :height: 270 px
          :width:  200 px
@@ -228,7 +228,7 @@ As the saying goes: **Stand on the shoulders of giants to see further!**
 *****************
 Flow Chart
 *****************
-For a close, see a common flow chart to encapsulate the coding process.
+For a close, see a common flow chart that encapsulates the coding process.
 
 .. figure:: /_images/Flow.png
       :align: center 

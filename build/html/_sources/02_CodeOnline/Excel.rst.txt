@@ -14,11 +14,17 @@ VBA Terminal
 *************
 VBA Excel has its own coding terminal and you may learn to initialise it in the **drop-down panel** below:
 
-.. dropdown:: Click me for Steps to Initialise the VBA Terminal!
+.. dropdown:: Click Me for Steps to Initialise the VBA Terminal!
    :title: bg-light text-center text-secondary
    :animate: fade-in-slide-down
 
-   You may click on the video clip to **enlarge** it.
+   **Step 1:**
+   Activate the **Developer** tab in the Excel toolbar.
+
+   **Step 2:**
+   Initialise **Visual Basic Terminal** from the Developer tab.
+
+   ``*`` *You may click on the video clip to enlarge it*.
 
 
    .. figure:: DeveloperVBA.gif

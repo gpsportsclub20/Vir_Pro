@@ -32,7 +32,7 @@ for (lat_tooltip, long_tooltip, m_tooltip_label) in zip(lat_CS, long_CS, m_toolt
     if lat_tooltip == 51.502738:
             tooltip_Coord = [lat_tooltip, long_tooltip]
             feature_group.add_child(folium.Marker(location = tooltip_Coord,
-                                                icon = folium.Icon(color='green',icon='ok'),
+                                                icon = folium.Icon(color='darkblue',icon='home'),
                                                 popup = folium.Popup(m_tooltip_label, max_width=200, min_width=200)))
     
     else:
