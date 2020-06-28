@@ -5,8 +5,8 @@
 
 Welcome to Virtual Programming Workshop
 ========================================
-A 2019/2020 Sports Club Initative
----------------------------------
+A 2019/2020 Sports Club Initiative
+-----------------------------------
 
 .. panels::
 

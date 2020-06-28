@@ -205,7 +205,7 @@ Automate your code with 'for' statements. [[#PyFors]_]
 
       Code execution by Python stops at the designated breakpoints.
       
-      Therefore,you can examine your code if there is any obvious error such as syntactic mistakes.
+      Therefore, you can examine your code if there is any obvious error such as syntactic mistakes.
 
 
 

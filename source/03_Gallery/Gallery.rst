@@ -101,7 +101,7 @@ Key Observations from Python Data Visualisation
 * Internal pile clusters have lesser cumulative movements in the second joint-survey taken in June 2019.
       * Compared to the first survey taken 3 months prior. 
 
-* External pile clusters tend to have greater pile movements towards site boundary.
+* External pile clusters tend to have greater pile movements towards the site boundary.
       * While the pile movements for internal pile clusters are more restrained.
 
 Inferences from Python Data Visualisation
@@ -156,7 +156,7 @@ Recommendations
 ****************
 Facing an avalanche of piling data from over 6,000 piles, the use of Python assisted the project team greatly in 
       * Accelerating engineering analysis
-      * Automating data visualisation.
+      * Automating data visualisation
 
 However, it should be stressed that Python and any other programming languages should only be used as a 
       * **Complementary tool** to automate repetitive work flows.

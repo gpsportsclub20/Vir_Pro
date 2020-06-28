@@ -72,7 +72,7 @@ The following data types have been ranked according to the size of computer memo
    * - Integer
      - Integer
      - -32,768 to 32,767
-     - 1 byte
+     - 2 bytes
 
    * - Boolean
      - Integer
@@ -82,7 +82,7 @@ The following data types have been ranked according to the size of computer memo
    * - Long
      - Integer
      - -2,147,483,648 through 2,147,483,647
-     - 2 bytes
+     - 4 bytes
 
    * - Single
      - Real
