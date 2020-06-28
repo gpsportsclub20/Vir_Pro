@@ -290,10 +290,11 @@ Automate your code with 'For...Next' statements. [[#Fors]_]
 
          <Variable_Name> = 50,000
 
-         >>> "Overflow"
+         >>> "Integer Overflow!!!"
 
          ' Since the value of <Variable_Name> is greater than 32,767 
-         ' which is the maximum value that the Integer data type can hold, "overflow" occurs.
+         ' which is the maximum value that the Integer data type can hold, 
+         ' therefore, "integer overflow" occurs.
          
          ' This error is preventable by assigning the <Variable_Name> to Long data type,
          ' as Long data type has a range of 2,147,483,647 
