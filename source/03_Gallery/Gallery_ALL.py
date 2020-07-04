@@ -299,4 +299,4 @@ folium.LayerControl().add_to(m_folium)
 ''' *************************************** Saving Folium Base Map as HTML **************************************'''
 
 # Saving the 'Leaflet' map generated in html format
-m_folium.save('20200627_G&P_ALL.html')
+m_folium.save('20200629_G&P_ALL.html')
