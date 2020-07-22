@@ -18,7 +18,8 @@ extensions = [
 
     'sphinx_panels',
     'sphinx.ext.githubpages',
-    'sphinxcontrib.googleanalytics'
+    'sphinxcontrib.googleanalytics',
+    'nbsphinx'
 
 ]
 

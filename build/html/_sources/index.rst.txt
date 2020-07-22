@@ -67,4 +67,7 @@ Contents At a Glance
    ../01_RoadMap/index
    ../02_CodeOnline/indexCO
    ../03_Gallery/Gallery
+   ../05_Jupyter/Jupyter
    ../04_Contacts/Contact
+
+
