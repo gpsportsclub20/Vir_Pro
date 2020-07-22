@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-169628776-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+      <title>Python Workbook</title>
+    
+      <link rel="stylesheet" href="../_static/pygments.css">
+      <link rel="stylesheet" href="../_static/theme.css">
+      <link rel="stylesheet" href="../_static/romnnn_sphinx_press_theme.css">
+          <link rel="stylesheet" href="../_static/sphinx-dropdown.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/panels-bootstrap.min.css" type="text/css" />
+      
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+
+      <!-- sphinx script_files -->
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
+
+      
+      <script src="../_static/theme-vendors.js"></script>
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="next" title="Contact" href="../04_Contacts/Contact.html" />
+  <link rel="prev" title="Project Gallery" href="../03_Gallery/Gallery.html" /> 
+  </head>
+
+  <body>
+    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <div class="home-link-container">
+      <router-link to="../index.html" class="home-link">
+      
+        <img class="logo" src="../_static/Home.svg" alt="logo"/>
+      
+        <span class="site-name">Workshop 2020</span>
+    </router-link>
+  </div>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Search</span>
+    <div class="searchformwrapper">
+      <form autocomplete="off" class="search" action="../search.html" method="get">
+        <input type="text" name="q" autocomplete="off" />
+        <input type="submit" value="Go" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#contents-at-a-glance">contents at a glance</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 "><a href="../00_GettingStarted/indexGS.html" class="reference internal ">Let’s Get Started!</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="../01_RoadMap/index.html" class="reference internal ">Road Map</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="../02_CodeOnline/indexCO.html" class="reference internal ">Code Online!</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="../03_Gallery/Gallery.html" class="reference internal ">Project Gallery</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current"><a href="#" class="reference internal current">Python Workbook</a>
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#python-terminal" class="reference internal">Python Terminal</a></li>
+                
+                  <li class="toctree-l2"><a href="#inputs-and-data-types" class="reference internal">Inputs and Data Types</a></li>
+                
+                  <li class="toctree-l2"><a href="#process-design" class="reference internal">Process Design</a></li>
+                
+                  <li class="toctree-l2"><a href="#decision-controls" class="reference internal">Decision Controls</a></li>
+                
+                  <li class="toctree-l2"><a href="#tutorial" class="reference internal">Tutorial</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="../04_Contacts/Contact.html" class="reference internal ">Contact</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+    <li>Python Workbook</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="../03_Gallery/Gallery.html"
+       title="previous chapter">← Project Gallery</a>
+  </li>
+  <li class="next">
+    <a href="../04_Contacts/Contact.html"
+       title="next chapter">Contact →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main">
+            
+  <div class="section" id="python-workbook">
+<h1>Python Workbook<a class="headerlink" href="#python-workbook" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="python-terminal">
+<h2>Python Terminal<a class="headerlink" href="#python-terminal" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="online-python-interpreter">
+<h3>Online Python Interpreter<a class="headerlink" href="#online-python-interpreter" title="Permalink to this headline">¶</a></h3>
+<p>Attempt on this workbook using the Python interpreter below:</p>
+<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/repls/CostlyMiserlyAssembler?lite=true">
+
+</iframe></div>
+</div>
+<div class="section" id="inputs-and-data-types">
+<h2>Inputs and Data Types<a class="headerlink" href="#inputs-and-data-types" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="text-type">
+<h3>Text Type<a class="headerlink" href="#text-type" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="string-str">
+<h4>String &lt;<em>str</em>&gt;<a class="headerlink" href="#string-str" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Declaring the pile type as &lt;str&gt;</span>
+<span class="n">Pile_type</span> <span class="o">=</span> <span class="s2">&quot;API RC Pile&quot;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="numeric-types">
+<h3>Numeric Types<a class="headerlink" href="#numeric-types" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="integer-int">
+<h4>Integer &lt;<em>int</em>&gt;<a class="headerlink" href="#integer-int" title="Permalink to this headline">¶</a></h4>
+<p>Assigning integer data type to Python variable</p>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Declaring the exposed height of retaining wall as &lt;int&gt;</span>
+<span class="n">H_exposed</span> <span class="o">=</span> <span class="mi">4</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="floating-points-float">
+<h4>Floating points &lt;<em>float</em>&gt;<a class="headerlink" href="#floating-points-float" title="Permalink to this headline">¶</a></h4>
+<p>Assigning floating point number to Python variable</p>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Declaring the pile length as &lt;float&gt;</span>
+<span class="n">L_pile</span> <span class="o">=</span> <span class="mf">23.5</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="sequence-type">
+<h3>Sequence Type<a class="headerlink" href="#sequence-type" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="list-list">
+<h4>List &lt;<em>list</em>&gt;<a class="headerlink" href="#list-list" title="Permalink to this headline">¶</a></h4>
+<p>Compiling data into a Python list which is - ordered - changeable</p>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Storing the diameter of piles as a &lt;list&gt;</span>
+<span class="n">Dia_pile</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.3</span><span class="p">,</span><span class="mf">0.45</span><span class="p">,</span><span class="mf">0.50</span><span class="p">,</span><span class="mf">1.00</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="mapping-type">
+<h3>Mapping Type<a class="headerlink" href="#mapping-type" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="dictionary-dict">
+<h4>Dictionary &lt;<em>dict</em>&gt;<a class="headerlink" href="#dictionary-dict" title="Permalink to this headline">¶</a></h4>
+<p>Stores a set of key-value pairs which is - unordered - changeable -
+indexed</p>
+<p>In the following example for piling catalogue, the key-value pair is as
+such - <strong>key</strong>: API RC 300 - <strong>value</strong>: 300mm</p>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Storing the pile types and their corresponding diameter as a &lt;dict&gt;</span>
+<span class="n">Pile_Catalogue</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;API RC300&quot;</span><span class="p">:</span> <span class="s2">&quot;300mm&quot;</span><span class="p">,</span>
+                  <span class="s2">&quot;API RC450&quot;</span><span class="p">:</span> <span class="s2">&quot;400mm&quot;</span><span class="p">,</span>
+                  <span class="s2">&quot;API RC450&quot;</span><span class="p">:</span> <span class="s2">&quot;600mm&quot;</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="process-design">
+<h2>Process Design<a class="headerlink" href="#process-design" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="user-defined-function">
+<h3>User-Defined Function<a class="headerlink" href="#user-defined-function" title="Permalink to this headline">¶</a></h3>
+<p>The following example illustrates how Python functions can be formulated
+to solve geotechnical engineering problems.</p>
+</div>
+<div class="section" id="rankine-theory-of-lateral-earth-pressure">
+<h3>Rankine Theory of Lateral Earth Pressure<a class="headerlink" href="#rankine-theory-of-lateral-earth-pressure" title="Permalink to this headline">¶</a></h3>
+<p>We will try to write a simple Python expression to calculate the active
+thrust on a retaining wall</p>
+<div class="math notranslate nohighlight">
+\[K_{a} = \frac{1 - sin (\phi)} {1 + sin (\phi)}\]</div>
+<p>where</p>
+<p><span class="math notranslate nohighlight">\(c'\)</span> = 0</p>
+<p><span class="math notranslate nohighlight">\(\phi'\)</span> = 37 <span class="math notranslate nohighlight">\(^o\)</span></p>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+
+<span class="n">phi</span> <span class="o">=</span> <span class="mi">37</span>
+<span class="n">theta_rad</span> <span class="o">=</span> <span class="n">phi</span><span class="o">/</span><span class="mi">180</span><span class="o">*</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span>
+<span class="n">sin_phi</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">theta_rad</span><span class="p">)</span>
+
+<span class="n">K_active</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">sin_phi</span><span class="p">)</span><span class="o">/</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">sin_phi</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="settlement-of-rigid-piles-randolph-wroth-method">
+<h3>Settlement of Rigid Piles - Randolph &amp; Wroth Method<a class="headerlink" href="#settlement-of-rigid-piles-randolph-wroth-method" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="soil-shaft-stiffness">
+<h3>Soil Shaft Stiffness<a class="headerlink" href="#soil-shaft-stiffness" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+
+<span class="k">def</span> <span class="nf">K_shaft</span><span class="p">(</span><span class="n">L_si_eff</span><span class="p">,</span> <span class="n">G_si_ave</span><span class="p">,</span> <span class="n">r_m</span><span class="p">,</span> <span class="n">D_0</span><span class="p">):</span>
+
+    <span class="n">K_si</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">L_si_eff</span><span class="o">*</span><span class="n">G_si_ave</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">r_m</span><span class="o">/</span><span class="n">D_0</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="n">K_si</span>
+
+<span class="n">k_shaft_Randolph</span> <span class="o">=</span> <span class="n">K_shaft</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span><span class="mf">9.25</span><span class="p">,</span><span class="mf">21.5</span><span class="p">,</span><span class="mf">1.5</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="soil-base-stiffness">
+<h3>Soil Base Stiffness<a class="headerlink" href="#soil-base-stiffness" title="Permalink to this headline">¶</a></h3>
+<div class="math notranslate nohighlight">
+\[K_{bi} = 2 \frac{D_{o} G}{1 - \nu}\]</div>
+<p>where,</p>
+<p><span class="math notranslate nohighlight">\(K_{bi}\)</span> = Soil base stiffness</p>
+<p><span class="math notranslate nohighlight">\(D_{o}\)</span> = Pile base diameter</p>
+<p><span class="math notranslate nohighlight">\(G\)</span> = Soil shear modulus at the bottom of the under-reamed pile</p>
+<p><span class="math notranslate nohighlight">\(\nu\)</span> = Poisson’s ratio of soil</p>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">K_base</span><span class="p">(</span><span class="n">D_base</span><span class="p">,</span> <span class="n">G_base</span><span class="p">,</span> <span class="n">v_nu</span><span class="p">):</span>
+
+    <span class="n">K_base</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="n">D_base</span><span class="o">*</span><span class="n">G_base</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">v_nu</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">K_base</span>
+
+<span class="n">k_bi_Randolph</span> <span class="o">=</span> <span class="n">K_base</span><span class="p">(</span><span class="mf">2.5</span><span class="p">,</span> <span class="mf">15.75</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="settlement-of-rigid-piles">
+<h3>Settlement of Rigid Piles<a class="headerlink" href="#settlement-of-rigid-piles" title="Permalink to this headline">¶</a></h3>
+<div class="math notranslate nohighlight">
+\[s_{r} = \frac{Q}{K_{bi} + K_{si}}\]</div>
+<p>where,</p>
+<p><span class="math notranslate nohighlight">\(s_{r}\)</span> = settlement of rigid pile</p>
+<p><span class="math notranslate nohighlight">\(K_{si}\)</span> = Soil shaft stiffness</p>
+<p><span class="math notranslate nohighlight">\(K_{bi}\)</span> = Soil base stiffness</p>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">s_rigid</span><span class="p">(</span><span class="n">Q_pile</span><span class="p">,</span> <span class="n">K_si_input</span><span class="p">,</span> <span class="n">K_bi_input</span><span class="p">):</span>
+
+    <span class="n">s_rigid</span> <span class="o">=</span> <span class="p">(</span><span class="n">Q_pile</span><span class="o">*</span><span class="mf">1e3</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">K_si_input</span> <span class="o">+</span> <span class="n">K_bi_input</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">s_rigid</span>
+
+<span class="n">s_rigid_Randolph</span> <span class="o">=</span> <span class="n">s_rigid</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="n">k_bi_Randolph</span><span class="p">,</span><span class="n">k_shaft_Randolph</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="decision-controls">
+<h2>Decision Controls<a class="headerlink" href="#decision-controls" title="Permalink to this headline">¶</a></h2>
+<p>The following section demonstrates the usage of ‘for’ loops to automate
+iterative calculations</p>
+<div class="section" id="fibonacci-sequence">
+<h3>Fibonacci Sequence<a class="headerlink" href="#fibonacci-sequence" title="Permalink to this headline">¶</a></h3>
+<div class="math notranslate nohighlight">
+\[F_{n} = 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144\]</div>
+<div class="section" id="user-defined-functions-for-fibonacci-series">
+<h4>User-defined functions for Fibonacci Series<a class="headerlink" href="#user-defined-functions-for-fibonacci-series" title="Permalink to this headline">¶</a></h4>
+<div class="math notranslate nohighlight">
+\[F_{n} = F_{n-2} + F_{n-1}\]</div>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">fib_N_function</span><span class="p">(</span><span class="n">f_N_2</span><span class="p">,</span> <span class="n">f_N_1</span><span class="p">):</span>
+
+    <span class="n">fib_N_function</span> <span class="o">=</span> <span class="n">f_N_2</span> <span class="o">+</span> <span class="n">f_N_1</span>
+
+    <span class="k">return</span> <span class="n">fib_N_function</span>
+
+<span class="n">fib_N_function_term</span> <span class="o">=</span> <span class="n">fib_N_function</span><span class="p">(</span><span class="mi">233</span><span class="p">,</span><span class="mi">377</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Using ‘for’ loop to automate the calculation of the recursive Fibonacci sequence</p>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">fib_N</span><span class="p">(</span><span class="n">n_fib</span><span class="p">):</span>
+
+    <span class="c1"># Defining the first 2 terms in the Fibonacci sequence</span>
+    <span class="n">fib_N_2</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">fib_N_1</span> <span class="o">=</span> <span class="mi">1</span>
+
+    <span class="c1"># Formulating the Fibonacci numbers</span>
+    <span class="n">fib_N</span> <span class="o">=</span> <span class="n">fib_N_2</span> <span class="o">+</span> <span class="n">fib_N_1</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">n_fib</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+
+        <span class="c1"># Formulating the Fibonacci numbers</span>
+        <span class="n">fib_N</span> <span class="o">=</span> <span class="n">fib_N_2</span> <span class="o">+</span> <span class="n">fib_N_1</span>
+
+        <span class="c1"># Updating the Fibonacci series</span>
+        <span class="n">fib_N_2</span> <span class="o">=</span> <span class="n">fib_N_1</span>
+        <span class="n">fib_N_1</span> <span class="o">=</span> <span class="n">fib_N</span>
+
+    <span class="k">return</span> <span class="n">fib_N</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="tutorial">
+<h2>Tutorial<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h2>
+<p>The tutorial involves using ‘for’ loop and ‘if’ statement to approximate
+the sine value of an angle using the MacLaurin series</p>
+<div class="section" id="maclaurin-sine-series-expansion">
+<h3>MacLaurin Sine Series Expansion<a class="headerlink" href="#maclaurin-sine-series-expansion" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+
+<span class="n">N_MacLaurin</span> <span class="o">=</span> <span class="mi">10</span>
+
+<span class="n">sin_MacLaurin</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">pi</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span>
+<span class="n">theta</span> <span class="o">=</span> <span class="mi">60</span>
+<span class="n">theta_rad</span> <span class="o">=</span> <span class="p">(</span><span class="n">theta</span><span class="o">/</span><span class="mi">180</span><span class="p">)</span><span class="o">*</span><span class="n">pi</span>
+
+<span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">N_MacLaurin</span><span class="p">):</span>
+
+    <span class="n">sin_MacLaurin</span> <span class="o">=</span> <span class="n">sin_MacLaurin</span> <span class="o">+</span> <span class="p">(((</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span><span class="o">**</span><span class="n">k</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">factorial</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">k</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span><span class="o">*</span><span class="p">(</span><span class="n">theta_rad</span><span class="o">**</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="../03_Gallery/Gallery.html"
+       title="previous chapter">← Project Gallery</a>
+  </li>
+  <li class="next">
+    <a href="../04_Contacts/Contact.html"
+       title="next chapter">Contact →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2020, Xiao Binn Neoh.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3 with <a href="https://github.com/romnnn/sphinx_press_theme">Press Theme</a>.
+</div>
+            </div>
+          </div>
+      </page>
+    </div>
+    
+    
+  </body>
+</html>
