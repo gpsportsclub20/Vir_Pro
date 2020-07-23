@@ -87,7 +87,7 @@ Assigning a data type for a variable can be done in the Python terminal as such:
 
       .. code-block:: Python
 
-         ' Assigning an integer value of 1.0 m to the variable Pile_Diameter
+         # Assigning an integer value of 1.0 m to the variable Pile_Diameter
          Pile_Diameter =  1.0 
 
 
@@ -115,9 +115,9 @@ Formulating a user-defined Python function follows steps as below:
 
          def R_Pile(Q_Base, Q_Shaft):
 
-            ' Expressing pile resistance as a function of
-            ' Base resistance, Q_Base
-            ' Shaft resistance, Q_Shaft
+            # Expressing pile resistance as a function of
+            # Base resistance, Q_Base
+            # Shaft resistance, Q_Shaft
 
             Pile_Resistance = Q_Base + Q_Shaft
          
@@ -156,17 +156,17 @@ You can introduce nested 'if' statements as below to improve readability of code
 
          if Pile_Diameter == 0.45:
 
-            ' If pile diameter is 0.45 m, then define pile working load as 1,900 kN
+            # If pile diameter is 0.45 m, then define pile working load as 1,900 kN
             PWL = 1900
 
          elif Pile_Diameter == 0.50:
 
-            ' Else if pile diameter is 0.50 m, then define pile working load as 2,300 kN     
+            # Else if pile diameter is 0.50 m, then define pile working load as 2,300 kN     
             PWL = 2300
 
          else:
 
-            ' Else, define pile working load as 3,000 kN
+            # Else, define pile working load as 3,000 kN
             PWL = 3000
       
 3.2 Looping Operations
@@ -190,11 +190,12 @@ Automate your code with 'for' statements. [[#PyFors]_]
 
       .. code-block:: 
 
-         'Setting up a `for` statement to count the number of piles
-         'in a piling log
+         # Setting up a `for` statement to count the number of piles
+         # in a piling log
+         
          for counter in Pile_Log                   
          
-            ' Adding 1 to Pile_Number for every iteration
+            # Adding 1 to Pile_Number for every iteration
             Pile_Number = Pile_Number + 1                      
 
 ******************

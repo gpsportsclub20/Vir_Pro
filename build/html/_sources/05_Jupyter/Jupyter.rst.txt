@@ -2,12 +2,9 @@
 Python Workbook
 ####################
 
-****************
-Python Terminal
-****************
-
+********************************
 Online Python Interpreter
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+********************************
 Attempt on this workbook using the Python interpreter below:
 
 .. raw:: html
@@ -27,9 +24,11 @@ Text Type
 String <*str*>
 ^^^^^^^^^^^^^^
 
+Naming a Python variable with string data type.
+
 .. code:: ipython3
 
-    # Declaring the pile type as <str>
+    # Declaring pile type as <str>
     Pile_type = "API RC Pile"    
 
 Numeric Types
@@ -38,17 +37,17 @@ Numeric Types
 Integer <*int*>
 ^^^^^^^^^^^^^^^
 
-Assigning integer data type to Python variable
+Assigning integer data type to a Python variable
 
 .. code:: ipython3
 
-    # Declaring the exposed height of retaining wall as <int>
+    # Declaring the exposed height of a retaining wall as <int>
     H_exposed = 4
 
 Floating points <*float*>
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Assigning floating point number to Python variable
+Assigning floating point number to a Python variable
 
 .. code:: ipython3
 
@@ -62,11 +61,11 @@ Sequence Type
 List <*list*>
 ^^^^^^^^^^^^^
 
-Compiling data into a Python list which is - ordered - changeable
+Compiling data into a Python list which is ordered and changeable
 
 .. code:: ipython3
 
-    # Storing the diameter of piles as a <list>
+    # Storing pile diameters as a <list>
     Dia_pile = [0.3,0.45,0.50,1.00]
 
 Mapping Type
@@ -75,15 +74,11 @@ Mapping Type
 Dictionary <*dict*>
 ^^^^^^^^^^^^^^^^^^^
 
-Stores a set of key-value pairs which is - unordered - changeable -
-indexed
-
-In the following example for piling catalogue, the key-value pair is as
-such - **key**: API RC 300 - **value**: 300mm
+Storing a set of key-value pairs which is unordered, changeable and indexed
 
 .. code:: ipython3
 
-    # Storing the pile types and their corresponding diameter as a <dict>
+    # Storing pile types and their corresponding diameter as a <dict>
     Pile_Catalogue = {"API RC300": "300mm",
                       "API RC450": "400mm",
                       "API RC450": "600mm"}
@@ -97,13 +92,13 @@ User-Defined Function
 ~~~~~~~~~~~~~~~~~~~~~
 
 The following example illustrates how Python functions can be formulated
-to solve geotechnical engineering problems.
+to compute geotechnics related parameters.
 
 Rankine Theory of Lateral Earth Pressure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We will try to write a simple Python expression to calculate the active
-thrust on a retaining wall
+earth pressure coefficient.
 
 
 .. math::
@@ -224,7 +219,9 @@ Settlement of Rigid Piles
 
 where,
 
-:math:`s_{r}` = settlement of rigid pile
+:math:`s_{r}` = Settlement of rigid pile
+
+:math:`Q` = Working load of rigid pile
 
 :math:`K_{si}` = Soil shaft stiffness
 
@@ -292,11 +289,11 @@ We will try to use a 'for' loop to automate the calculation of the recursive Fib
   
         def fib_N(n_fib):
             
-            'Defining the first 2 terms in the Fibonacci sequence
+            # Defining the first 2 terms in the Fibonacci sequence
             fib_N_2 = 0
             fib_N_1 = 1
             
-            'Formulating the Fibonacci numbers
+            # Formulating the Fibonacci numbers
             fib_N = fib_N_2 + fib_N_1
             
             for i in range(1,n_fib-1):
@@ -309,6 +306,8 @@ We will try to use a 'for' loop to automate the calculation of the recursive Fib
                 fib_N_1 = fib_N     
                 
             return fib_N
+
+        print(fib_N(4))
 
 
 **************************
@@ -340,23 +339,25 @@ MacLaurin Sine Series Expansion
 
         import math
     
-        'Setting the number of interation to 10
+        # Setting the number of interation to 10
         N_MacLaurin = 10
 
-        'Initialising the first term of MacLaurin series to be zero
+        # Initialising the first term of MacLaurin series to be zero
         sin_MacLaurin = 0
 
-        'Assigning the coefficient pi
+        # Assigning the coefficient pi
         pi = math.pi
 
-        'Setting the angle of interest to be 60 degrees
-        theta = 60
+        # Setting the angle of interest to be 30 degrees
+        theta = 30
 
-        'Calculating the radian of the angle of interest
+        # Calculating the radian of the angle of interest
         theta_rad = (theta/180)*pi
         
-        'Initialising the <for> loop
+        # Initialising the <for> loop
         for k in range(0,N_MacLaurin):
             
-            'Formulating the recursive equation of MacLaurin series
+            # Formulating the recursive equation of MacLaurin series
             sin_MacLaurin = sin_MacLaurin + (((-1))**k)/(math.factorial(2*k+1))*(theta_rad**(2*k+1)) 
+
+        print(sin_MacLaurin)
