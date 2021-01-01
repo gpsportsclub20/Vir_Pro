@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e364c5e5cb084aa6afc35368138d08ad {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e364c5e5cb084aa6afc35368138d08ad" ></div>
+        
+</body>
+<script>    
+    
+            var map_e364c5e5cb084aa6afc35368138d08ad = L.map(
+                "map_e364c5e5cb084aa6afc35368138d08ad",
+                {
+                    center: [5.21657, 100.435071],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_956fc515f5d049c7895bfe43e0802a12 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e364c5e5cb084aa6afc35368138d08ad);
+        
+    
+            var marker_1b07fd6ca6b247499682f6ecd77d1467 = L.marker(
+                [5.21657, 100.435071],
+                {}
+            ).addTo(map_e364c5e5cb084aa6afc35368138d08ad);
+        
+    
+            marker_1b07fd6ca6b247499682f6ecd77d1467.bindTooltip(
+                `<div>
+                     Site Location: Warehouse of Jabil Circuit Sdn. Bhd.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_aca11bba56d04a62954752b1f565c7bd = L.featureGroup(
+                {}
+            ).addTo(map_e364c5e5cb084aa6afc35368138d08ad);
+        
+    
+            var marker_d77b120cff9a4160ae74f843b493f340 = L.marker(
+                [51.997779, -0.740697],
+                {}
+            ).addTo(feature_group_aca11bba56d04a62954752b1f565c7bd);
+        
+    
+            var icon_8db539931dc04278838b323b5cf84f2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d77b120cff9a4160ae74f843b493f340.setIcon(icon_8db539931dc04278838b323b5cf84f2b);
+        
+    
+        var popup_30f112e2fc05440c886db618ce4b8db9 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_91c776fdb9bd4fc4bc22dc12d0971736 = $(`<div id="html_91c776fdb9bd4fc4bc22dc12d0971736" style="width: 100.0%; height: 100.0%;">Alan Turing: Bletchley Park, England</div>`)[0];
+            popup_30f112e2fc05440c886db618ce4b8db9.setContent(html_91c776fdb9bd4fc4bc22dc12d0971736);
+        
+
+        marker_d77b120cff9a4160ae74f843b493f340.bindPopup(popup_30f112e2fc05440c886db618ce4b8db9)
+        ;
+
+        
+    
+    
+            var marker_5a167316c24245fb8b1e3d8ed2ba377f = L.marker(
+                [28.606028, -80.653095],
+                {}
+            ).addTo(feature_group_aca11bba56d04a62954752b1f565c7bd);
+        
+    
+            var icon_1ec386ffc147474fb991956d6ee15943 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5a167316c24245fb8b1e3d8ed2ba377f.setIcon(icon_1ec386ffc147474fb991956d6ee15943);
+        
+    
+        var popup_e7a7beb165fd439db729ab7431f8a58b = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_8c79a6fce89545c6abd4e72b0551545f = $(`<div id="html_8c79a6fce89545c6abd4e72b0551545f" style="width: 100.0%; height: 100.0%;">Margaret H. Hamilton: Kennedy Space Centre, USA</div>`)[0];
+            popup_e7a7beb165fd439db729ab7431f8a58b.setContent(html_8c79a6fce89545c6abd4e72b0551545f);
+        
+
+        marker_5a167316c24245fb8b1e3d8ed2ba377f.bindPopup(popup_e7a7beb165fd439db729ab7431f8a58b)
+        ;
+
+        
+    
+    
+            var marker_eb67cd5d7d79451ca54f5e2c79bbd981 = L.marker(
+                [60.185062, 24.932134],
+                {}
+            ).addTo(feature_group_aca11bba56d04a62954752b1f565c7bd);
+        
+    
+            var icon_221a9cbbec69445581c13f86b3a74e5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb67cd5d7d79451ca54f5e2c79bbd981.setIcon(icon_221a9cbbec69445581c13f86b3a74e5a);
+        
+    
+        var popup_1dc8168c897240709d239f2ea0e0b792 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_072364a742c44d47a289505fa2e59658 = $(`<div id="html_072364a742c44d47a289505fa2e59658" style="width: 100.0%; height: 100.0%;">Linus Torvalds: Helsinki, Finland</div>`)[0];
+            popup_1dc8168c897240709d239f2ea0e0b792.setContent(html_072364a742c44d47a289505fa2e59658);
+        
+
+        marker_eb67cd5d7d79451ca54f5e2c79bbd981.bindPopup(popup_1dc8168c897240709d239f2ea0e0b792)
+        ;
+
+        
+    
+    
+            var marker_652c2019dfb74ce2a46393e986077746 = L.marker(
+                [33.321936, 44.347653],
+                {}
+            ).addTo(feature_group_aca11bba56d04a62954752b1f565c7bd);
+        
+    
+            var icon_4ab2ddb79bc243278cb492aac1d6dc39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_652c2019dfb74ce2a46393e986077746.setIcon(icon_4ab2ddb79bc243278cb492aac1d6dc39);
+        
+    
+        var popup_0dcc1a0c45f2442ab611d6b204670cc2 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_5e9d28e6678f4174801968ddadcb3c37 = $(`<div id="html_5e9d28e6678f4174801968ddadcb3c37" style="width: 100.0%; height: 100.0%;">Muhammad ibn Musa al-Khwarizmi: Baghdad, Iraq</div>`)[0];
+            popup_0dcc1a0c45f2442ab611d6b204670cc2.setContent(html_5e9d28e6678f4174801968ddadcb3c37);
+        
+
+        marker_652c2019dfb74ce2a46393e986077746.bindPopup(popup_0dcc1a0c45f2442ab611d6b204670cc2)
+        ;
+
+        
+    
+    
+            var marker_82904e6a6a6c4683b816cb4475d19cc0 = L.marker(
+                [32.064053, 118.792634],
+                {}
+            ).addTo(feature_group_aca11bba56d04a62954752b1f565c7bd);
+        
+    
+            var icon_2cc17cbff0594f2f804e6f494f61403a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_82904e6a6a6c4683b816cb4475d19cc0.setIcon(icon_2cc17cbff0594f2f804e6f494f61403a);
+        
+    
+        var popup_21c93728a53e46b6a196400c96008ed4 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_6e372d7ce8aa4672a70fe68649e1ffdb = $(`<div id="html_6e372d7ce8aa4672a70fe68649e1ffdb" style="width: 100.0%; height: 100.0%;">Zu Chongzhi: Nanjing, China</div>`)[0];
+            popup_21c93728a53e46b6a196400c96008ed4.setContent(html_6e372d7ce8aa4672a70fe68649e1ffdb);
+        
+
+        marker_82904e6a6a6c4683b816cb4475d19cc0.bindPopup(popup_21c93728a53e46b6a196400c96008ed4)
+        ;
+
+        
+    
+    
+            var marker_cff9c9e15df64951be3a35b4775fcb12 = L.marker(
+                [29.433293, 106.915184],
+                {}
+            ).addTo(feature_group_aca11bba56d04a62954752b1f565c7bd);
+        
+    
+            var icon_4dfee86687984f3bb12a2a78783625c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cff9c9e15df64951be3a35b4775fcb12.setIcon(icon_4dfee86687984f3bb12a2a78783625c2);
+        
+    
+        var popup_5be43128cf9c43dfaad927e7f94a315f = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_622703f85a1a46548aa0c38695af0c67 = $(`<div id="html_622703f85a1a46548aa0c38695af0c67" style="width: 100.0%; height: 100.0%;">Xia Peisu: Chongqing, China</div>`)[0];
+            popup_5be43128cf9c43dfaad927e7f94a315f.setContent(html_622703f85a1a46548aa0c38695af0c67);
+        
+
+        marker_cff9c9e15df64951be3a35b4775fcb12.bindPopup(popup_5be43128cf9c43dfaad927e7f94a315f)
+        ;
+
+        
+    
+    
+            var marker_4cb42d4c9bcc401497c56e043bd0245b = L.marker(
+                [59.857012, 30.254356],
+                {}
+            ).addTo(feature_group_aca11bba56d04a62954752b1f565c7bd);
+        
+    
+            var icon_d352619573ef4861841e0a205389fe99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4cb42d4c9bcc401497c56e043bd0245b.setIcon(icon_d352619573ef4861841e0a205389fe99);
+        
+    
+        var popup_c67f40fa94fb4da782baa1720d1094c0 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_3ffe1cf39311470e966375db114f466f = $(`<div id="html_3ffe1cf39311470e966375db114f466f" style="width: 100.0%; height: 100.0%;">Grigori Perelman: Leningrad, Russia</div>`)[0];
+            popup_c67f40fa94fb4da782baa1720d1094c0.setContent(html_3ffe1cf39311470e966375db114f466f);
+        
+
+        marker_4cb42d4c9bcc401497c56e043bd0245b.bindPopup(popup_c67f40fa94fb4da782baa1720d1094c0)
+        ;
+
+        
+    
+    
+            var marker_c444074d748842e8a20da9984115f049 = L.marker(
+                [51.502738, -0.177698],
+                {}
+            ).addTo(feature_group_aca11bba56d04a62954752b1f565c7bd);
+        
+    
+            var icon_eb2a6ccf22014d9e9888ca64a9a4686b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_c444074d748842e8a20da9984115f049.setIcon(icon_eb2a6ccf22014d9e9888ca64a9a4686b);
+        
+    
+        var popup_5f7214b2d6544f8c9ddd025a63fdc5dc = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_d57a9621f0e04690935da24cec70ed70 = $(`<div id="html_d57a9621f0e04690935da24cec70ed70" style="width: 100.0%; height: 100.0%;">Hyde Park, London, England</div>`)[0];
+            popup_5f7214b2d6544f8c9ddd025a63fdc5dc.setContent(html_d57a9621f0e04690935da24cec70ed70);
+        
+
+        marker_c444074d748842e8a20da9984115f049.bindPopup(popup_5f7214b2d6544f8c9ddd025a63fdc5dc)
+        ;
+
+        
+    
+    
+            var tile_layer_339e3f0b68ac41059a07cfc8ac3c8f87 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+            var mini_map_5d4ec4c14b2647ab8bbd85b5746243cb = new L.Control.MiniMap(
+                tile_layer_339e3f0b68ac41059a07cfc8ac3c8f87,
+                {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 200, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 200, "zoomAnimation": false, "zoomLevelOffset": -5}
+            );
+            map_e364c5e5cb084aa6afc35368138d08ad.addControl(mini_map_5d4ec4c14b2647ab8bbd85b5746243cb);
+        
+    
+        function geo_json_44819bab87914978b1226c44a6cbd8c5_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "#black"};
+            }
+        }
+        function geo_json_44819bab87914978b1226c44a6cbd8c5_onEachFeature(feature, layer) {
+            layer.on({
+                click: function(e) {
+                    map_e364c5e5cb084aa6afc35368138d08ad.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_44819bab87914978b1226c44a6cbd8c5 = L.geoJson(null, {
+                onEachFeature: geo_json_44819bab87914978b1226c44a6cbd8c5_onEachFeature,
+            
+                style: geo_json_44819bab87914978b1226c44a6cbd8c5_styler,
+        }).addTo(map_e364c5e5cb084aa6afc35368138d08ad);
+
+        function geo_json_44819bab87914978b1226c44a6cbd8c5_add (data) {
+            geo_json_44819bab87914978b1226c44a6cbd8c5.addData(data);
+        }
+            geo_json_44819bab87914978b1226c44a6cbd8c5_add({"features": [{"geometry": {"coordinates": [[100.43372869491577, 5.217657588688551], [100.43581008911133, 5.218106332499332], [100.43600857257843, 5.218031541886489], [100.43639481067657, 5.2173691103550155], [100.43677031993866, 5.2167066781241775], [100.43707072734831, 5.216268617716447], [100.43705463409424, 5.216124378247005], [100.43627142906189, 5.215579473285447], [100.43444752693176, 5.215194834204251], [100.43372869491577, 5.217636219927669]], "type": "LineString"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+            var layer_control_33682201d659422d883595c0888078f0 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_956fc515f5d049c7895bfe43e0802a12,
+                },
+                overlays :  {
+                    "Easter Eggs" : feature_group_aca11bba56d04a62954752b1f565c7bd,
+                    "Site Boundary" : geo_json_44819bab87914978b1226c44a6cbd8c5,
+                },
+            };
+            L.control.layers(
+                layer_control_33682201d659422d883595c0888078f0.base_layers,
+                layer_control_33682201d659422d883595c0888078f0.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_e364c5e5cb084aa6afc35368138d08ad);
+        
+</script>
