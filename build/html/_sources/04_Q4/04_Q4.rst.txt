@@ -1,0 +1,44 @@
+Question No. 4
+==============
+
+Find the value of :math:`x` 
+
+.. math::
+    \begin{align*} 
+    250_{6} &= x_{7}
+    \end{align*}`
+
+4.1 Sample Solution
+-------------------
+
+Converting :math:`250_{6}` into base 10, 
+
+.. math::
+    \begin{align*} 
+    250_{6} &= 2\ (6)^{2} + 5\ (6)^{1} + 0\ (6)^{0} \\
+    250_{6} &= 2\ (36) + 5\ (6) + 0\ (1) \\
+    250_{6} &= 102_{10}
+    \end{align*}
+
+Converting :math:`102_{10}` into base 7, 
+
+.. math::
+    \begin{align*} 
+    102_{10} &= 2\ (7)^{2} + 0\ (7)^{1} + 4\ (7)^{0} \\
+    102_{10} &= 204_{7}
+    \end{align*}
+
+From 
+
+.. math::
+    \begin{align*} 
+    250_{6} &= x_{7}\\
+    250_{6} &= 204_{7}
+    \end{align*}
+
+Therefore, 
+
+.. math::
+    \begin{align*} 
+    x &= 204\\
+    \end{align*}

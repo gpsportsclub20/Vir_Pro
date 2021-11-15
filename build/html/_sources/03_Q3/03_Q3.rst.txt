@@ -1,0 +1,118 @@
+Question No. 3
+==============
+
+In a football free kick, the height of the ball from the ground,
+:math:`h \ (x)` *m*, is given by the equation below, where :math:`x` is
+the horizontal distance of the ball from the player who takes the free
+kick.
+
+Find the possible horizontal distance, in *m*, when the height of the
+ball is 8 *m* from the ground.
+
+.. math::
+    \begin{align*} 
+    h\ (x) &= -x^{2} + 6x\\
+    \end{align*}
+
+3.1 Sample Solution
+-------------------
+When the height of the ball is 8 *m* from the ground,
+
+.. math::
+    \begin{align*} 
+    h\ (x) &= 8 \\
+    -x^{2} + 6x &= 8 \\
+    x^{2} - 6x + 8 &= 0 \\
+    (x - 2)(x - 4) &= 0 \\
+    x &= 2 \ or \ 4\\
+    \end{align*}
+
+1.2 Visualising the quadratic equation
+--------------------------------------
+.. math::
+    \begin{align*} 
+    h\ (x) &= -x^{2} + 6x\\
+    \end{align*}
+
+.. code:: ipython3
+
+    from IPython.display import HTML
+    
+    from IPython.core.display import HTML
+    HTML("""
+    <style>
+    .output_png {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    </style>
+    """)
+    
+    import matplotlib.pyplot as plt
+    import numpy as np
+    
+    x = np.linspace(0,6,50)
+    y = -x**2 + 6*x
+    
+    # Plotting the quadratic function
+    fig, ax = plt.subplots()
+    ax.plot(x,y,'r')
+    ax.set( xlabel='x', 
+            ylabel='y')
+    
+    plt.xticks(np.arange(min(x),
+                         max(x),
+                         0.5))
+    
+    plt.ylim([0,10])
+    plt.grid(axis='both',
+             linestyle = '--')
+    plt.rcParams['figure.figsize'] = [15, 5]
+    plt.annotate("x = 2",[1.7,8.1])
+    plt.annotate("x = 4",[4.1,8.1])
+    plt.show()
+    
+    
+    HTML('''<script>
+    code_show=true; 
+    function code_toggle() {
+     if (code_show){
+     $('div.input').hide();
+     } else {
+     $('div.input').show();
+     }
+     code_show = !code_show
+    } 
+    $( document ).ready(code_toggle);
+    </script>
+    The raw code for this IPython notebook is by default hidden for easier reading.
+    To toggle on/off the raw code, click <a href="javascript:code_toggle()">here</a>.
+    ''')
+
+
+
+.. image:: 03_Q3_files%5C03_Q3_5_0.png
+
+
+
+
+.. raw:: html
+
+    <script>
+    code_show=true; 
+    function code_toggle() {
+     if (code_show){
+     $('div.input').hide();
+     } else {
+     $('div.input').show();
+     }
+     code_show = !code_show
+    } 
+    $( document ).ready(code_toggle);
+    </script>
+    The raw code for this IPython notebook is by default hidden for easier reading.
+    To toggle on/off the raw code, click <a href="javascript:code_toggle()">here</a>.
+    
+
+

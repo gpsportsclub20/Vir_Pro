@@ -1,0 +1,44 @@
+Question No. 6
+==============
+
+What is the value of :math:`\mu \ `? 
+
+.. math::
+    \begin{align*} 
+    5310_{6} &= \mu_{9}
+    \end{align*}
+
+4.1 Sample Solution
+-------------------
+
+Converting :math:`5310_{6}` into base 10, 
+
+.. math::
+    \begin{align*} 
+    5310_{6} &= 5\ (6)^{3} + 3\ (6)^{2} + 1\ (6)^{1} + 0\ (6)^{0} \\
+    5310_{6} &= 5\ (216) + 3\ (36) + 1\ (6) + 0\ (1) \\
+    5310_{6} &= 1194_{10}
+    \end{align*}
+
+Converting :math:`1194_{10}` into base 9, 
+
+.. math::
+    \begin{align*} 
+    1194_{10} &= 1\ (9)^{3} + 1\ (9)^{2} + 9\ (9)^{1} + 4\ (9)^{0} \\
+    1194_{10} &= 1566_{9}
+    \end{align*}
+
+From 
+
+.. math::
+    \begin{align*} 
+    5310_{6} &= \mu_{9}\\
+    5310_{6} &= 1566_{9}
+    \end{align*}
+
+Therefore, 
+
+.. math::
+    \begin{align*} 
+    \mu &= 1566\\
+    \end{align*}

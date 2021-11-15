@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Virtual Programming Workshop
+Rakan Tutor
 ========================================
-A 2019/2020 Sports Club Initiative
+Diagnostic Test
 -----------------------------------
 
 .. panels::
@@ -63,11 +63,12 @@ Contents At a Glance
 .. toctree::
    :maxdepth: 2
 
-   ../00_GettingStarted/indexGS
-   ../01_RoadMap/index
-   ../02_CodeOnline/indexCO
-   ../03_Gallery/Gallery
-   ../05_Jupyter/Jupyter
-   ../04_Contacts/Contact
+   ../01_Q1/01_Q1
+   ../02_Q2/02_Q2
+   ../03_Q3/03_Q3
+   ../04_Q4/04_Q4
+   ../05_Q5/05_Q5
+   ../06_Q6/06_Q6
+   ../07_Q7/07_Q7
 
 

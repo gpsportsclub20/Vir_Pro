@@ -1,0 +1,16 @@
+Question No. 7
+==============
+
+Calculate :math:`750_{8}` + :math:`433_{8}`
+
+7.1 Sample Solution
+-------------------
+
+.. figure:: Addition.png
+    :align: center 
+    :width: 200 px
+    :height: 200 px
+    :class: no-scaled-link
+
+
+

@@ -1,0 +1,41 @@
+Question No. 2
+==============
+
+If the radius, r and the surface area, S of a handball are
+(:math:`\lambda` + 2) cm and 64\ :math:`\pi` :math:`cm^{2}`
+respectively, what is the value of :math:`\lambda`?
+
+2.1 Sample Solution
+-------------------
+
+Given that, 
+
+.. math::
+    \begin{align*} 
+    S &= 64\pi \ cm^{2}\\
+    r &= \lambda + 2
+    \end{align*}
+
+Since
+
+.. math::
+    \begin{align*}
+    S &= 4\pi r^{2}  \\
+    4\pi r^{2} &= 64\pi \ cm^{2}\\
+    \end{align*}
+
+Substituting r = :math:`\lambda` + 2, 
+
+.. math::
+    \begin{align*}
+    4\pi\ (\lambda + 2)^{2} &= 64\pi \\
+    (\lambda + 2)^{2} &= 16 \\
+    \end{align*}
+
+For :math:`\lambda > 0` 
+
+.. math::
+    \begin{align*}
+    \lambda + 2 &= 4 \\
+    \lambda &= 2 \\
+    \end{align*}

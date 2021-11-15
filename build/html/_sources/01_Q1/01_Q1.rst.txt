@@ -1,0 +1,67 @@
+Question No. 1
+==============
+
+Given that 1 is one of the roots of the quadratic equation below, where
+h is a constant, find the value of h.
+
+
+.. math::
+    \begin{equation}
+    2x^{2} + hx - 12 = 0
+    \end{equation}
+
+.. raw:: html
+
+   <hr>
+
+1.1 Sample Solution
+-------------------
+
+Let 
+
+.. math::
+    \begin{align*}
+    f(x) &= 2x^{2} + hx - 12
+    \end{align*}
+
+Given that 1.5 is one of the roots, therefore
+
+.. math::
+    \begin{align*}
+    f(x=1.5) &= 0 \\
+    \end{align*}
+
+Substituting x = 1.5 to solve for h,
+
+
+.. math::
+    \begin{align*}
+    2\ (1.5)^{2} + (1.5)\ h - 12 &= 0 \\
+    2\ (2.25)+1.5\ h-12 &= 0 \\
+    1.5\ h &= 7.5\\
+    h &= 5\\
+    \end{align*}
+
+.. raw:: html
+
+   <hr>
+
+1.2 Visualising the quadratic equation
+--------------------------------------
+
+Substituting the value of h = 5 into the quadratic equation:
+
+.. math::
+    \begin{equation}
+    f(x) = 2x^{2} + 5x - 12
+    \end{equation}
+
+.. figure:: Addition.png
+    :align: center 
+    :width: 200 px
+    :height: 200 px
+    :class: no-scaled-link
+
+
+
+
